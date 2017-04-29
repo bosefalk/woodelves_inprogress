@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="0f48c054-1399-d222-0570-b20c15442639" name="Wood Elves - Army Book (2014-5) -V8.8.0." revision="17" battleScribeVersion="2.00" authorName="Don Thorpe" authorContact="the.desperate.allies@gmail.com" authorUrl="http://battlescribedata.appspot.com/#/repo/whfb" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="0f48c054-1399-d222-0570-b20c15442639" name="Wood Elves - Army Book (2014-5) -V8.8.0." revision="18" battleScribeVersion="2.00" authorName="Don Thorpe" authorContact="the.desperate.allies@gmail.com" authorUrl="http://battlescribedata.appspot.com/#/repo/whfb" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -2465,45 +2465,22 @@ If miscast,  no roll on the table but 1d3 Wounds without save </description>
             <selectionEntry id="af789290-271b-9c8c-1a1e-2f19bfb2df88" name="Unicorn" page="0" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
               <profiles/>
               <rules/>
-              <infoLinks>
-                <infoLink id="070cd476-abd9-1f74-f533-f3c7d0e169c0" hidden="false" targetId="16e2f423-96cf-234c-e3d1-1f53f295c903" type="profile">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                </infoLink>
-                <infoLink id="9757b7fc-d7d2-2660-38e8-afe2fa180fc5" hidden="false" targetId="12162461-a875-2065-ba74-61274148b1d3" type="rule">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                </infoLink>
-                <infoLink id="df47e4e3-8504-dc3f-30b4-cd1d53fb60c1" hidden="false" targetId="e93ba593-97a7-170a-007e-352537bfd5e0" type="rule">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                </infoLink>
-                <infoLink id="41efc8b7-e195-36de-c190-f394be6a6701" hidden="false" targetId="460aa5be-ed77-898a-2d54-5c6bea7bc44a" type="rule">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                </infoLink>
-                <infoLink id="4f0ab115-c2b5-b4b0-7ede-01c2b2a77fb7" hidden="false" targetId="ced68ad4-128c-8737-8659-1b01f35fe33f" type="rule">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                </infoLink>
-              </infoLinks>
+              <infoLinks/>
               <modifiers/>
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
               </constraints>
               <selectionEntries/>
               <selectionEntryGroups/>
-              <entryLinks/>
+              <entryLinks>
+                <entryLink id="eb98-6468-6c84-3f4b" name="New EntryLink" hidden="false" targetId="768e-ab4c-7654-3584" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                </entryLink>
+              </entryLinks>
               <costs>
                 <cost name="pts" costTypeId="points" value="60.0"/>
               </costs>
@@ -2864,7 +2841,15 @@ If miscast,  no roll on the table but 1d3 Wounds without save </description>
               </constraints>
               <selectionEntries/>
               <selectionEntryGroups/>
-              <entryLinks/>
+              <entryLinks>
+                <entryLink id="e98c-45e4-15b9-cbf8" name="New EntryLink" hidden="false" targetId="768e-ab4c-7654-3584" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                </entryLink>
+              </entryLinks>
               <costs>
                 <cost name="pts" costTypeId="points" value="60.0"/>
               </costs>
@@ -5790,6 +5775,44 @@ If miscast,  no roll on the table but 1d3 Wounds without save </description>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1b65-4481-17e4-8fbc" type="min"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8c6c-f333-4e2e-333b" type="max"/>
+      </constraints>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="768e-ab4c-7654-3584" name="Unicorn" book="AB" page="90" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="4aaa-5cfe-0737-0dfa" name="Unicorn" book="AB" page="90" hidden="false" profileTypeId="4d6f64656c23232344415441232323" profileTypeName="Model">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="M" characteristicTypeId="4d23232344415441232323" value="20"/>
+            <characteristic name="WS" characteristicTypeId="575323232344415441232323" value="5"/>
+            <characteristic name="BS" characteristicTypeId="425323232344415441232323" value="0"/>
+            <characteristic name="S" characteristicTypeId="5323232344415441232323" value="4"/>
+            <characteristic name="T" characteristicTypeId="5423232344415441232323" value="4"/>
+            <characteristic name="W" characteristicTypeId="5723232344415441232323" value="3"/>
+            <characteristic name="I" characteristicTypeId="4923232344415441232323" value="5"/>
+            <characteristic name="A" characteristicTypeId="4123232344415441232323" value="2"/>
+            <characteristic name="LD" characteristicTypeId="4c4423232344415441232323" value="8"/>
+            <characteristic name="ArmourSave" characteristicTypeId="41726d6f75725361766523232344415441232323" value=""/>
+            <characteristic name="WardSave" characteristicTypeId="576172645361766523232344415441232323" value="6"/>
+            <characteristic name="MR" characteristicTypeId="4d5223232344415441232323" value="2"/>
+            <characteristic name="Type" characteristicTypeId="5479706523232344415441232323" value="Monstrous Beast"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="01e9-9fea-4ef3-0ea7" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="85bb-32cc-3ce1-c973" type="max"/>
       </constraints>
       <selectionEntries/>
       <selectionEntryGroups/>
