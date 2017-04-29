@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="0f48c054-1399-d222-0570-b20c15442639" name="Wood Elves - Army Book (2014-5) -V8.8.0." revision="26" battleScribeVersion="2.00" authorName="Don Thorpe" authorContact="the.desperate.allies@gmail.com" authorUrl="http://battlescribedata.appspot.com/#/repo/whfb" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="0f48c054-1399-d222-0570-b20c15442639" name="Wood Elves - Army Book (2014-5) -V8.8.0." revision="27" battleScribeVersion="2.00" authorName="Don Thorpe" authorContact="the.desperate.allies@gmail.com" authorUrl="http://battlescribedata.appspot.com/#/repo/whfb" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -68,8 +68,40 @@
           </characteristics>
         </profile>
       </profiles>
-      <rules/>
-      <infoLinks/>
+      <rules>
+        <rule id="d93e-dbac-58f7-3887" name="Level 1 Wizard (Lore of Life)" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="9244-3801-7588-90af" name="New InfoLink" hidden="false" targetId="691e38c3-3971-fccf-6307-dd1b13f8af00" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="7072-3bfc-2a01-5c02" name="New InfoLink" hidden="false" targetId="460aa5be-ed77-898a-2d54-5c6bea7bc44a" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="02cc-5c46-035a-ae06" name="New InfoLink" hidden="false" targetId="ced68ad4-128c-8737-8659-1b01f35fe33f" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="3739-5503-01f5-d693" name="New InfoLink" hidden="false" targetId="013e8a36-c898-87ff-b8fc-95517c79066b" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
       <modifiers/>
       <constraints/>
       <selectionEntries/>
@@ -9343,6 +9375,38 @@ If a Terror-causing creature declares a charge, the target unit must immediately
         <characteristic name="Range" characteristicTypeId="52616e676523232344415441232323" value="30&quot;"/>
         <characteristic name="Strength" characteristicTypeId="537472656e67746823232344415441232323" value="3"/>
         <characteristic name="Special Rules" characteristicTypeId="5370656369616c2052756c657323232344415441232323" value="Armour Piercing, Volley Fire, ignores To Hit penalties"/>
+      </characteristics>
+    </profile>
+    <profile id="1158-504c-9b7b-ed1c" name="Light Armour" hidden="false" profileTypeId="41726d6f757223232344415441232323" profileTypeName="Armour">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Saving Throw modifier" characteristicTypeId="536176696e67205468726f77206d6f64696669657223232344415441232323" value="6+"/>
+        <characteristic name="Special Rules" characteristicTypeId="5370656369616c2052756c657323232344415441232323" value=""/>
+      </characteristics>
+    </profile>
+    <profile id="6847-79fa-b8ec-8f24" name="Two Hand Weapons" hidden="false" profileTypeId="576561706f6e23232344415441232323" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="52616e676523232344415441232323" value="Combat"/>
+        <characteristic name="Strength" characteristicTypeId="537472656e67746823232344415441232323" value="As User"/>
+        <characteristic name="Special Rules" characteristicTypeId="5370656369616c2052756c657323232344415441232323" value="Extra Attack, Requires Two Hands"/>
+      </characteristics>
+    </profile>
+    <profile id="2528-4e4f-3e97-3098" name="Great Weapon" hidden="false" profileTypeId="576561706f6e23232344415441232323" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="52616e676523232344415441232323" value="Combat"/>
+        <characteristic name="Strength" characteristicTypeId="537472656e67746823232344415441232323" value="+2"/>
+        <characteristic name="Special Rules" characteristicTypeId="5370656369616c2052756c657323232344415441232323" value="Requires Two Hands, Always Strikes Last"/>
       </characteristics>
     </profile>
   </sharedProfiles>
