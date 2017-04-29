@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="0f48c054-1399-d222-0570-b20c15442639" name="Wood Elves - Army Book (2014-5) -V8.8.0." revision="33" battleScribeVersion="2.00" authorName="Don Thorpe" authorContact="the.desperate.allies@gmail.com" authorUrl="http://battlescribedata.appspot.com/#/repo/whfb" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="0f48c054-1399-d222-0570-b20c15442639" name="Wood Elves - Army Book (2014-5) -V8.8.0." revision="34" battleScribeVersion="2.00" authorName="Don Thorpe" authorContact="the.desperate.allies@gmail.com" authorUrl="http://battlescribedata.appspot.com/#/repo/whfb" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -149,7 +149,7 @@
             <modifier type="set" field="hidden" value="true">
               <repeats/>
               <conditions>
-                <condition field="selections" scope="b7bc0588-93bc-53a4-50ce-10b868c09bd0" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ebb87caa-86ef-65af-1a5a-3861a48589f6" type="atLeast"/>
+                <condition field="selections" scope="b7bc0588-93bc-53a4-50ce-10b868c09bd0" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ebb87caa-86ef-65af-1a5a-3861a48589f6" type="atLeast"/>
               </conditions>
               <conditionGroups/>
             </modifier>
@@ -571,7 +571,14 @@
             <selectionEntry id="cdd07f3f-d6ac-b5cb-f896-c2f4ef86442c" name="Shields" page="0" hidden="false" collective="true" categoryEntryId="(No Category)" type="upgrade">
               <profiles/>
               <rules/>
-              <infoLinks/>
+              <infoLinks>
+                <infoLink id="81d7-1329-eace-4a8e" name="New InfoLink" hidden="false" targetId="6c04-9c4f-d080-5d25" type="profile">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
               <modifiers/>
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
@@ -609,7 +616,7 @@
                     <modifier type="decrement" field="41726d6f75725361766523232344415441232323" value="1">
                       <repeats/>
                       <conditions>
-                        <condition field="selections" scope="752e8558-8451-85d4-6cdd-3bff3a97c699" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="cdd07f3f-d6ac-b5cb-f896-c2f4ef86442c" type="atLeast"/>
+                        <condition field="selections" scope="752e8558-8451-85d4-6cdd-3bff3a97c699" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="cdd07f3f-d6ac-b5cb-f896-c2f4ef86442c" type="atLeast"/>
                       </conditions>
                       <conditionGroups/>
                     </modifier>
@@ -9441,6 +9448,16 @@ If a Terror-causing creature declares a charge, the target unit must immediately
         <characteristic name="Range" characteristicTypeId="52616e676523232344415441232323" value="Combat"/>
         <characteristic name="Strength" characteristicTypeId="537472656e67746823232344415441232323" value="+2"/>
         <characteristic name="Special Rules" characteristicTypeId="5370656369616c2052756c657323232344415441232323" value="Requires Two Hands, Always Strikes Last"/>
+      </characteristics>
+    </profile>
+    <profile id="6c04-9c4f-d080-5d25" name="Shield" hidden="false" profileTypeId="41726d6f757223232344415441232323" profileTypeName="Armour">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Saving Throw modifier" characteristicTypeId="536176696e67205468726f77206d6f64696669657223232344415441232323" value="-1"/>
+        <characteristic name="Special Rules" characteristicTypeId="5370656369616c2052756c657323232344415441232323" value="6+ Ward Save against close combat attacks"/>
       </characteristics>
     </profile>
   </sharedProfiles>
