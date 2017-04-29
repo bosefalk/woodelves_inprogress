@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="0f48c054-1399-d222-0570-b20c15442639" name="Wood Elves - Army Book (2014-5) -V8.8.0." revision="21" battleScribeVersion="2.00" authorName="Don Thorpe" authorContact="the.desperate.allies@gmail.com" authorUrl="http://battlescribedata.appspot.com/#/repo/whfb" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="0f48c054-1399-d222-0570-b20c15442639" name="Wood Elves - Army Book (2014-5) -V8.8.0." revision="22" battleScribeVersion="2.00" authorName="Don Thorpe" authorContact="the.desperate.allies@gmail.com" authorUrl="http://battlescribedata.appspot.com/#/repo/whfb" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -4632,7 +4632,14 @@ lose his Frenzy"/>
         </profile>
       </profiles>
       <rules/>
-      <infoLinks/>
+      <infoLinks>
+        <infoLink id="492d-6ac8-816b-9ded" name="New InfoLink" hidden="false" targetId="05f89eed-e552-7c4b-552c-465e9045b3f6" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
       <modifiers/>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
@@ -4646,9 +4653,26 @@ lose his Frenzy"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="807b0267-cfa5-ce32-cd2b-2d41783d3e63" name="(BRB) Biting Blade" page="0" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
-      <profiles/>
+      <profiles>
+        <profile id="93cc-ca6c-95ac-727e" name="(BRB) Biting Blade" hidden="false" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" profileTypeName="Arcane and Enchanted Item">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Magic Property" characteristicTypeId="4d616769632050726f706572747923232344415441232323" value="Armour Piercing"/>
+          </characteristics>
+        </profile>
+      </profiles>
       <rules/>
-      <infoLinks/>
+      <infoLinks>
+        <infoLink id="6ab3-1895-5492-dabe" name="New InfoLink" hidden="false" targetId="4c942517-909f-599d-94b9-2de55569d2bd" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
       <modifiers/>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
@@ -4662,7 +4686,17 @@ lose his Frenzy"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="30300cf0-d0e3-adb9-e490-113653704d35" name="(BRB) Book of Ashur" book="BRB (8th Ed)" page="504" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
-      <profiles/>
+      <profiles>
+        <profile id="1083-0eb4-40f4-4362" name="(BRB) Book of Ashur" hidden="false" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" profileTypeName="Arcane and Enchanted Item">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Magic Property" characteristicTypeId="4d616769632050726f706572747923232344415441232323" value="Bearer receives a +1 bonus on attempts to cast and dispel"/>
+          </characteristics>
+        </profile>
+      </profiles>
       <rules/>
       <infoLinks/>
       <modifiers/>
@@ -4678,7 +4712,17 @@ lose his Frenzy"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="62971fb3-456f-db2e-8a52-cc33486d641e" name="(BRB) Channelling Staff" book="BRB (8th Ed)" page="504" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
-      <profiles/>
+      <profiles>
+        <profile id="c9f9-91ff-8141-bf85" name="(BRB) Channelling Staff" hidden="false" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" profileTypeName="Arcane and Enchanted Item">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Magic Property" characteristicTypeId="4d616769632050726f706572747923232344415441232323" value="Wizard adds +1 to his channelling attempts"/>
+          </characteristics>
+        </profile>
+      </profiles>
       <rules/>
       <infoLinks/>
       <modifiers/>
@@ -4694,7 +4738,19 @@ lose his Frenzy"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="fa1806d1-6899-f948-cd63-ef78346309d4" name="(BRB) Charmed Shield" page="0" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
-      <profiles/>
+      <profiles>
+        <profile id="8a96-f7c9-c0bb-505f" name="(BRB) Charmed Shield" hidden="false" profileTypeId="41726d6f757223232344415441232323" profileTypeName="Armour">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Saving Throw modifier" characteristicTypeId="536176696e67205468726f77206d6f64696669657223232344415441232323" value="-1"/>
+            <characteristic name="Special Rules" characteristicTypeId="5370656369616c2052756c657323232344415441232323" value="Shield. One Use Only. The first hit suffered by the
+bearer is discounted on a 2+"/>
+          </characteristics>
+        </profile>
+      </profiles>
       <rules/>
       <infoLinks/>
       <modifiers/>
@@ -4710,9 +4766,26 @@ lose his Frenzy"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="88055ebf-4a30-83a4-ab6c-ffecbcdacacc" name="(BRB) Crown of Command" book="BRB" page="505" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
-      <profiles/>
+      <profiles>
+        <profile id="b624-c790-0222-7f98" name="(BRB) Crown of Command" hidden="false" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" profileTypeName="Arcane and Enchanted Item">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Magic Property" characteristicTypeId="4d616769632050726f706572747923232344415441232323" value="Bearer has the Stubborn special rule"/>
+          </characteristics>
+        </profile>
+      </profiles>
       <rules/>
-      <infoLinks/>
+      <infoLinks>
+        <infoLink id="67ce-6500-a211-f8dc" name="New InfoLink" hidden="false" targetId="752544bd-09a2-fcf8-fae6-4f32b6deab44" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
       <modifiers/>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
@@ -4726,7 +4799,17 @@ lose his Frenzy"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="4ca0d85a-6ed8-4214-b9d5-980e525bca06" name="(BRB) Dawnstone" page="0" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
-      <profiles/>
+      <profiles>
+        <profile id="45fa-711f-0d81-3b06" name="(BRB) Dawnstone" hidden="false" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" profileTypeName="Arcane and Enchanted Item">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Magic Property" characteristicTypeId="4d616769632050726f706572747923232344415441232323" value="The bearer re-rolls failed armour saves"/>
+          </characteristics>
+        </profile>
+      </profiles>
       <rules/>
       <infoLinks/>
       <modifiers/>
@@ -4742,7 +4825,21 @@ lose his Frenzy"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="dba8f926-a55b-ee91-c5bd-59629c5e9860" name="(BRB) Dispel Scroll" book="BRB (8th Ed)" page="504" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
-      <profiles/>
+      <profiles>
+        <profile id="0aa3-f300-8981-8768" name="(BRB) Dispel Scroll" hidden="false" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" profileTypeName="Arcane and Enchanted Item">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Magic Property" characteristicTypeId="4d616769632050726f706572747923232344415441232323" value="One use only. When an enemy spell is cast, this scroll can
+be used instead of dispelling. Automatically dispels the
+enemy spell. May not be used to stop irresistible force or
+against a remains in play spell (other than the moment the
+remains in play spell is cast)"/>
+          </characteristics>
+        </profile>
+      </profiles>
       <rules/>
       <infoLinks/>
       <modifiers/>
@@ -4758,7 +4855,18 @@ lose his Frenzy"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="a2187c2d-a990-774b-6e12-7fd415ea33d7" name="(BRB) Dragonbane Gem" page="0" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
-      <profiles/>
+      <profiles>
+        <profile id="bff2-1c4e-0ee9-0ced" name="(BRB) Dragonbane Gem" hidden="false" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" profileTypeName="Arcane and Enchanted Item">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Magic Property" characteristicTypeId="4d616769632050726f706572747923232344415441232323" value="Grants the bearer a 2+ ward save against flaming
+attacks"/>
+          </characteristics>
+        </profile>
+      </profiles>
       <rules/>
       <infoLinks/>
       <modifiers/>
@@ -4774,7 +4882,20 @@ lose his Frenzy"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="4f4cd3d0-a1d1-e05e-4d9b-a736301f7b6b" name="(BRB) Dragonhelm" page="0" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
-      <profiles/>
+      <profiles>
+        <profile id="4e86-5d3e-98b4-8144" name="(BRB) Dragonhelm" hidden="false" profileTypeId="41726d6f757223232344415441232323" profileTypeName="Armour">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Saving Throw modifier" characteristicTypeId="536176696e67205468726f77206d6f64696669657223232344415441232323" value="-1"/>
+            <characteristic name="Special Rules" characteristicTypeId="5370656369616c2052756c657323232344415441232323" value="The wearer counts his armour save as being one
+point higher than normal. The wearer has a 2+ ward
+save versus flaming attacks"/>
+          </characteristics>
+        </profile>
+      </profiles>
       <rules/>
       <infoLinks/>
       <modifiers/>
@@ -4790,7 +4911,17 @@ lose his Frenzy"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="b62a4d58-33b1-bfe4-2e48-17a96298c956" name="(BRB) Earthing Rod" book="BRB (8th Ed)" page="504" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
-      <profiles/>
+      <profiles>
+        <profile id="7605-3067-bfad-1478" name="(BRB) Earthing Rod" hidden="false" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" profileTypeName="Arcane and Enchanted Item">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Magic Property" characteristicTypeId="4d616769632050726f706572747923232344415441232323" value="One use only. Bearer may re-roll miscast result"/>
+          </characteristics>
+        </profile>
+      </profiles>
       <rules/>
       <infoLinks/>
       <modifiers/>
@@ -4806,7 +4937,20 @@ lose his Frenzy"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="dbd4e9cf-36d8-0bc4-86e4-71f24a2e1818" name="(BRB) Enchanted Shield" page="0" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
-      <profiles/>
+      <profiles>
+        <profile id="4f20-1d54-809d-7420" name="(BRB) Enchanted Shield" hidden="false" profileTypeId="41726d6f757223232344415441232323" profileTypeName="Armour">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Saving Throw modifier" characteristicTypeId="536176696e67205468726f77206d6f64696669657223232344415441232323" value="-2"/>
+            <characteristic name="Special Rules" characteristicTypeId="5370656369616c2052756c657323232344415441232323" value="Shield. The bearer counts his armour save as being
+two points higher than normal, rather than the usual
+one point that a shield would normally grant"/>
+          </characteristics>
+        </profile>
+      </profiles>
       <rules/>
       <infoLinks/>
       <modifiers/>
@@ -4822,7 +4966,18 @@ lose his Frenzy"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="b7561353-8feb-db45-ff40-232237a24dd6" name="(BRB) Featherfoe Torc" book="BRB" page="505" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
-      <profiles/>
+      <profiles>
+        <profile id="4297-a3ca-5f95-4e9f" name="(BRB) Featherfoe Torc" hidden="false" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" profileTypeName="Arcane and Enchanted Item">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Magic Property" characteristicTypeId="4d616769632050726f706572747923232344415441232323" value="Flying creatures (and riders) must re-roll successful 
+hits against the bearer (and his unit) in close combat"/>
+          </characteristics>
+        </profile>
+      </profiles>
       <rules/>
       <infoLinks/>
       <modifiers/>
@@ -4838,7 +4993,21 @@ lose his Frenzy"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="410973a5-0d04-68df-95b3-1093487de13c" name="(BRB) Feedback Scroll" book="BRB (8th Ed)" page="504" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
-      <profiles/>
+      <profiles>
+        <profile id="a2dc-2e9d-2547-5d79" name="(BRB) Feedback Scroll" hidden="false" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" profileTypeName="Arcane and Enchanted Item">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Magic Property" characteristicTypeId="4d616769632050726f706572747923232344415441232323" value="One use only. When an enemy spell is cast, this scroll can
+be used instead of dispelling.
+Resolve spell as normal. Roll all the power dice used to
+cast. The casting wizard takes a wound for every result of
+5+ rolled, with no armour saves allowed."/>
+          </characteristics>
+        </profile>
+      </profiles>
       <rules/>
       <infoLinks/>
       <modifiers/>
@@ -4854,7 +5023,17 @@ lose his Frenzy"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="8bac118c-8fbb-807e-cb3d-9010e4b74420" name="(BRB) Fencer&apos;s Blades" page="0" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
-      <profiles/>
+      <profiles>
+        <profile id="30a4-96f2-6747-9b91" name="(BRB) Fencer&apos;s Blades" hidden="false" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" profileTypeName="Arcane and Enchanted Item">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Magic Property" characteristicTypeId="4d616769632050726f706572747923232344415441232323" value="Paired Weapons. The bearer has WS 10"/>
+          </characteristics>
+        </profile>
+      </profiles>
       <rules/>
       <infoLinks/>
       <modifiers/>
@@ -4870,7 +5049,19 @@ lose his Frenzy"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="07e677d0-7e7e-3d49-562e-981df765cc69" name="(BRB) Forbidden Rod" book="BRB (8th Ed)" page="504" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
-      <profiles/>
+      <profiles>
+        <profile id="1d53-cd70-333d-a138" name="(BRB) Forbidden Rod" hidden="false" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" profileTypeName="Arcane and Enchanted Item">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Magic Property" characteristicTypeId="4d616769632050726f706572747923232344415441232323" value="One use only. Adds +D6 dice to the power pool at the start
+of the caster&apos;s magic phase. Inflicts D3 wounds (no armour
+saves) on the bearer when used"/>
+          </characteristics>
+        </profile>
+      </profiles>
       <rules/>
       <infoLinks/>
       <modifiers/>
@@ -4886,7 +5077,19 @@ lose his Frenzy"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="a8cf3577-cd32-b14d-2323-a9697783edcd" name="(BRB) Fozzrik&apos;s Folding Fortress" book="BRB" page="505" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
-      <profiles/>
+      <profiles>
+        <profile id="2421-b8b7-2c6e-a121" name="(BRB) Fozzrik&apos;s Folding Fortress" hidden="false" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" profileTypeName="Arcane and Enchanted Item">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Magic Property" characteristicTypeId="4d616769632050726f706572747923232344415441232323" value="After deployment zone agreed, but before armies are
+deployed place a watch tower building in your
+deployment zone. This is a standard building."/>
+          </characteristics>
+        </profile>
+      </profiles>
       <rules/>
       <infoLinks/>
       <modifiers/>
@@ -4902,7 +5105,18 @@ lose his Frenzy"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="7ceed7c6-8123-5b8e-58b1-59399023b1c5" name="(BRB) Gambler&apos;s Armour" page="0" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
-      <profiles/>
+      <profiles>
+        <profile id="1308-6dc1-6419-a641" name="(BRB) Gambler&apos;s Armour" hidden="false" profileTypeId="41726d6f757223232344415441232323" profileTypeName="Armour">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Saving Throw modifier" characteristicTypeId="536176696e67205468726f77206d6f64696669657223232344415441232323" value="5"/>
+            <characteristic name="Special Rules" characteristicTypeId="5370656369616c2052756c657323232344415441232323" value="Heavy Armour. Grants the wearer a 6+ ward save"/>
+          </characteristics>
+        </profile>
+      </profiles>
       <rules/>
       <infoLinks/>
       <modifiers/>
@@ -4918,7 +5132,18 @@ lose his Frenzy"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="7b00f364-030a-cea0-6e0e-6359371d59ab" name="(BRB) Giant Blade" page="0" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
-      <profiles/>
+      <profiles>
+        <profile id="4aac-69ab-34d4-37f7" name="(BRB) Giant Blade" hidden="false" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" profileTypeName="Arcane and Enchanted Item">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Magic Property" characteristicTypeId="4d616769632050726f706572747923232344415441232323" value="Close combat attacks made with this sword are
+resolved at +3 Strength"/>
+          </characteristics>
+        </profile>
+      </profiles>
       <rules/>
       <infoLinks/>
       <modifiers/>
@@ -4934,7 +5159,17 @@ lose his Frenzy"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="11588277-5872-6afd-0920-505f91c16853" name="(BRB) Gleaming Pennant" page="0" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
-      <profiles/>
+      <profiles>
+        <profile id="ff4e-1b27-892e-afa5" name="(BRB) Gleaming Pennant" hidden="false" profileTypeId="4d61676963205374616e6461726423232344415441232323" profileTypeName="Magic Standard">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Magical Emination" characteristicTypeId="4d61676963616c20456d696e6174696f6e23232344415441232323" value="One use only. Unit may re-roll its first failed Leadership test"/>
+          </characteristics>
+        </profile>
+      </profiles>
       <rules/>
       <infoLinks/>
       <modifiers/>
@@ -4950,7 +5185,19 @@ lose his Frenzy"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="bdbde21a-a5d2-2081-fd7e-4ca7b266386d" name="(BRB) Glittering Scales" page="0" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
-      <profiles/>
+      <profiles>
+        <profile id="380f-aec1-a2f3-5573" name="(BRB) Glittering Scales" hidden="false" profileTypeId="41726d6f757223232344415441232323" profileTypeName="Armour">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Saving Throw modifier" characteristicTypeId="536176696e67205468726f77206d6f64696669657223232344415441232323" value="6"/>
+            <characteristic name="Special Rules" characteristicTypeId="5370656369616c2052756c657323232344415441232323" value="Light armour. Enemies suffer a -1 to hit penalty
+when striking the wearer in close combat."/>
+          </characteristics>
+        </profile>
+      </profiles>
       <rules/>
       <infoLinks/>
       <modifiers/>
@@ -4966,7 +5213,17 @@ lose his Frenzy"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="be5160a9-9985-13ef-59da-baae82869595" name="(BRB) Gold Sigil Sword" page="0" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
-      <profiles/>
+      <profiles>
+        <profile id="fc6a-f28c-b44b-d19e" name="(BRB) Gold Sigil Sword" hidden="false" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" profileTypeName="Arcane and Enchanted Item">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Magic Property" characteristicTypeId="4d616769632050726f706572747923232344415441232323" value="Bearer gains Initiative 10 in close combat"/>
+          </characteristics>
+        </profile>
+      </profiles>
       <rules/>
       <infoLinks/>
       <modifiers/>
@@ -4982,7 +5239,18 @@ lose his Frenzy"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="e9c5df15-852c-f447-a0cd-3bd9f12c4451" name="(BRB) Healing Potion" book="BRB" page="505" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
-      <profiles/>
+      <profiles>
+        <profile id="d523-2585-3ba9-f074" name="(BRB) Healing Potion" hidden="false" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" profileTypeName="Arcane and Enchanted Item">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Magic Property" characteristicTypeId="4d616769632050726f706572747923232344415441232323" value="One use only. May be drunk at start of controlling
+player&apos;s turn. The bearer recovers D6 wounds"/>
+          </characteristics>
+        </profile>
+      </profiles>
       <rules/>
       <infoLinks/>
       <modifiers/>
@@ -4998,7 +5266,23 @@ lose his Frenzy"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="5e6bb9de-3e16-05f5-a532-4510cc5e81be" name="(BRB) Helm of Discord" page="0" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
-      <profiles/>
+      <profiles>
+        <profile id="b51b-6c0a-0001-f1a1" name="(BRB) Helm of Discord" hidden="false" profileTypeId="41726d6f757223232344415441232323" profileTypeName="Armour">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Saving Throw modifier" characteristicTypeId="536176696e67205468726f77206d6f64696669657223232344415441232323" value="-1"/>
+            <characteristic name="Special Rules" characteristicTypeId="5370656369616c2052756c657323232344415441232323" value="The wearer counts his armour save as being one
+higher than normal. In addition, at the start of each
+CC phase, choose an enemy character in base count
+with the bearer or his unit. The character must pass a
+leadership test. If failed, the character cannot make
+any attacks that phase and is hit automatically."/>
+          </characteristics>
+        </profile>
+      </profiles>
       <rules/>
       <infoLinks/>
       <modifiers/>
@@ -5014,7 +5298,18 @@ lose his Frenzy"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="3fe7ab08-eb84-6a17-ad7b-064240f7a843" name="(BRB) Ironcurse Icon" book="BRB" page="505" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
-      <profiles/>
+      <profiles>
+        <profile id="b313-56a3-0215-3375" name="(BRB) Ironcurse Icon" hidden="false" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" profileTypeName="Arcane and Enchanted Item">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Magic Property" characteristicTypeId="4d616769632050726f706572747923232344415441232323" value="The character (and his unit) has a 6+ ward save
+against war machine weapons"/>
+          </characteristics>
+        </profile>
+      </profiles>
       <rules/>
       <infoLinks/>
       <modifiers/>
@@ -5030,7 +5325,17 @@ lose his Frenzy"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="05eefb75-4b70-c940-5041-5236548332b2" name="(BRB) Lichebone Pennant" page="0" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
-      <profiles/>
+      <profiles>
+        <profile id="563a-b9ac-8a01-9910" name="(BRB) Lichebone Pennant" hidden="false" profileTypeId="4d61676963205374616e6461726423232344415441232323" profileTypeName="Magic Standard">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Magical Emination" characteristicTypeId="4d61676963616c20456d696e6174696f6e23232344415441232323" value="Unit has Magic Resistance (1)"/>
+          </characteristics>
+        </profile>
+      </profiles>
       <rules/>
       <infoLinks/>
       <modifiers/>
@@ -5046,7 +5351,18 @@ lose his Frenzy"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="b9e715ea-3edb-2ef1-e32f-85032e71baf3" name="(BRB) Luckstone" page="0" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
-      <profiles/>
+      <profiles>
+        <profile id="e81f-f593-4bd3-6ab1" name="(BRB) Luckstone" hidden="false" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" profileTypeName="Arcane and Enchanted Item">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Magic Property" characteristicTypeId="4d616769632050726f706572747923232344415441232323" value="One use only. Bearer may re-roll a single failed
+armour save"/>
+          </characteristics>
+        </profile>
+      </profiles>
       <rules/>
       <infoLinks/>
       <modifiers/>
@@ -5062,7 +5378,17 @@ lose his Frenzy"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="1147fefe-6a51-6ac5-3280-9864b508e729" name="(BRB) Obsidian Amulet" page="0" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
-      <profiles/>
+      <profiles>
+        <profile id="8e1f-9627-2b74-026e" name="(BRB) Obsidian Amulet" hidden="false" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" profileTypeName="Arcane and Enchanted Item">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Magic Property" characteristicTypeId="4d616769632050726f706572747923232344415441232323" value="Grants the bearer Magic Resistance (2)"/>
+          </characteristics>
+        </profile>
+      </profiles>
       <rules/>
       <infoLinks/>
       <modifiers/>
@@ -5078,7 +5404,18 @@ lose his Frenzy"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="164fc306-45b8-d55c-9b31-9ec72a698602" name="(BRB) Obsidian Blade" page="0" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
-      <profiles/>
+      <profiles>
+        <profile id="5649-d689-7d09-8143" name="(BRB) Obsidian Blade" hidden="false" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" profileTypeName="Arcane and Enchanted Item">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Magic Property" characteristicTypeId="4d616769632050726f706572747923232344415441232323" value="Armour saves cannot be taken against wounds
+caused by the Obsidian Blade"/>
+          </characteristics>
+        </profile>
+      </profiles>
       <rules/>
       <infoLinks/>
       <modifiers/>
@@ -5094,7 +5431,17 @@ lose his Frenzy"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="9121f424-4fd4-7bc0-4c00-df2fceeadb79" name="(BRB) Obsidian Lodestone" page="0" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
-      <profiles/>
+      <profiles>
+        <profile id="d6df-7cc1-5c57-3118" name="(BRB) Obsidian Lodestone" hidden="false" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" profileTypeName="Arcane and Enchanted Item">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Magic Property" characteristicTypeId="4d616769632050726f706572747923232344415441232323" value="Grants the bearer Magic Resistance (3)"/>
+          </characteristics>
+        </profile>
+      </profiles>
       <rules/>
       <infoLinks/>
       <modifiers/>
@@ -5110,7 +5457,17 @@ lose his Frenzy"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="f688a022-47b7-67dd-2548-94cf08b4852c" name="(BRB) Obsidian Trinket" page="0" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
-      <profiles/>
+      <profiles>
+        <profile id="1f99-a60d-5112-8c71" name="(BRB) Obsidian Trinket" hidden="false" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" profileTypeName="Arcane and Enchanted Item">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Magic Property" characteristicTypeId="4d616769632050726f706572747923232344415441232323" value="Grants the bearer Magic Resistance (1)"/>
+          </characteristics>
+        </profile>
+      </profiles>
       <rules/>
       <infoLinks/>
       <modifiers/>
@@ -5126,7 +5483,18 @@ lose his Frenzy"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="71b57ff8-5e46-1d26-03b3-5873fbcb17c7" name="(BRB) Ogre Blade" page="0" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
-      <profiles/>
+      <profiles>
+        <profile id="1fb1-69e6-7843-13dd" name="(BRB) Ogre Blade" hidden="false" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" profileTypeName="Arcane and Enchanted Item">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Magic Property" characteristicTypeId="4d616769632050726f706572747923232344415441232323" value="Close combat attacks made with this sword are
+resolved at +2 Strength"/>
+          </characteristics>
+        </profile>
+      </profiles>
       <rules/>
       <infoLinks/>
       <modifiers/>
@@ -5142,7 +5510,18 @@ lose his Frenzy"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="4a0d4dc1-091f-38b5-cc2e-d722062b7e03" name="(BRB) Opal Amulet" page="0" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
-      <profiles/>
+      <profiles>
+        <profile id="16e1-b7e7-b1aa-d896" name="(BRB) Opal Amulet" hidden="false" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" profileTypeName="Arcane and Enchanted Item">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Magic Property" characteristicTypeId="4d616769632050726f706572747923232344415441232323" value="One use only. Grants a 4+ ward save against the first
+wound suffered"/>
+          </characteristics>
+        </profile>
+      </profiles>
       <rules/>
       <infoLinks/>
       <modifiers/>
@@ -5158,7 +5537,18 @@ lose his Frenzy"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="fd9b5e6e-9e40-cb00-4896-5431a7ce2610" name="(BRB) Pidgeon Plucker Pendant" page="0" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
-      <profiles/>
+      <profiles>
+        <profile id="68fe-f237-4c38-ab04" name="(BRB) Pidgeon Plucker Pendant" hidden="false" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" profileTypeName="Arcane and Enchanted Item">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Magic Property" characteristicTypeId="4d616769632050726f706572747923232344415441232323" value="Grants the bearer a 5+ ward save in close combat
+against models with the Fly special rule"/>
+          </characteristics>
+        </profile>
+      </profiles>
       <rules/>
       <infoLinks/>
       <modifiers/>
@@ -5174,7 +5564,20 @@ lose his Frenzy"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="4708f25b-ee17-ba68-e420-6a1c0bc1ce74" name="(BRB) Potion of Foolhardiness" book="BRB" page="505" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
-      <profiles/>
+      <profiles>
+        <profile id="2f2e-952e-a3e6-2757" name="(BRB) Potion of Foolhardiness" hidden="false" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" profileTypeName="Arcane and Enchanted Item">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Magic Property" characteristicTypeId="4d616769632050726f706572747923232344415441232323" value="One use only. May be drunk at start of any player&apos;s
+turn. Imbiber has Immune to Pyschology and
+Devastating Charge special rules until the end of the
+player turn"/>
+          </characteristics>
+        </profile>
+      </profiles>
       <rules/>
       <infoLinks/>
       <modifiers/>
@@ -5190,7 +5593,19 @@ lose his Frenzy"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="60780e48-371b-9f4d-6cf9-34f06160f666" name="(BRB) Potion of Speed" book="BRB" page="505" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
-      <profiles/>
+      <profiles>
+        <profile id="0de5-b40e-6e3c-ea95" name="(BRB) Potion of Speed" hidden="false" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" profileTypeName="Arcane and Enchanted Item">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Magic Property" characteristicTypeId="4d616769632050726f706572747923232344415441232323" value="One use only. May be drunk at start of any player&apos;s
+turn. Imbiber has +3 initiative until the end of the
+turn"/>
+          </characteristics>
+        </profile>
+      </profiles>
       <rules/>
       <infoLinks/>
       <modifiers/>
@@ -5206,7 +5621,19 @@ lose his Frenzy"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="78c223f7-d516-19ae-19e5-2f4724c5485c" name="(BRB) Potion of Strength" book="BRB" page="505" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
-      <profiles/>
+      <profiles>
+        <profile id="4742-4baf-bf6f-5326" name="(BRB) Potion of Strength" hidden="false" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" profileTypeName="Arcane and Enchanted Item">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Magic Property" characteristicTypeId="4d616769632050726f706572747923232344415441232323" value="One use only. May be drunk at start of any player&apos;s
+turn. Imbiber has +3 strength until the end of the
+turn"/>
+          </characteristics>
+        </profile>
+      </profiles>
       <rules/>
       <infoLinks/>
       <modifiers/>
@@ -5222,7 +5649,19 @@ lose his Frenzy"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="0013591c-6907-b940-0c82-845b64c4b4bb" name="(BRB) Potion of Toughness" book="BRB" page="505" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
-      <profiles/>
+      <profiles>
+        <profile id="4543-e5b7-60fd-99f5" name="(BRB) Potion of Toughness" hidden="false" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" profileTypeName="Arcane and Enchanted Item">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Magic Property" characteristicTypeId="4d616769632050726f706572747923232344415441232323" value="One use only. May be drunk at start of any player&apos;s
+turn. Imbiber has +3 toughness until the end of the
+turn"/>
+          </characteristics>
+        </profile>
+      </profiles>
       <rules/>
       <infoLinks/>
       <modifiers/>
@@ -5238,7 +5677,18 @@ lose his Frenzy"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="a45f1ace-6de4-dd52-39b8-5264f2a86cae" name="(BRB) Power Scroll" book="BRB (8th Ed)" page="504" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
-      <profiles/>
+      <profiles>
+        <profile id="31dc-e2fe-f9ae-5828" name="(BRB) Power Scroll" hidden="false" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" profileTypeName="Arcane and Enchanted Item">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Magic Property" characteristicTypeId="4d616769632050726f706572747923232344415441232323" value="One use only. During a wizard’s casting attempt, the casting
+value of the spell is halved. The spell cannot be boosted."/>
+          </characteristics>
+        </profile>
+      </profiles>
       <rules/>
       <infoLinks/>
       <modifiers/>
@@ -5254,7 +5704,19 @@ lose his Frenzy"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="ed9c0ca3-5551-de51-71d7-b95ce760cd74" name="(BRB) Power Stone" book="BRB (8th Ed)" page="504" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
-      <profiles/>
+      <profiles>
+        <profile id="db88-08ed-eeb1-c225" name="(BRB) Power Stone" hidden="false" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" profileTypeName="Arcane and Enchanted Item">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Magic Property" characteristicTypeId="4d616769632050726f706572747923232344415441232323" value="One use only. Declare use before casting a spell. Adds +2
+dice to the power dice he is going to roll (still require at
+least one power dice from the pool)"/>
+          </characteristics>
+        </profile>
+      </profiles>
       <rules/>
       <infoLinks/>
       <modifiers/>
@@ -5270,7 +5732,17 @@ lose his Frenzy"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="abe94997-3329-322c-6ae8-815a9bd045ec" name="(BRB) Rampager&apos;s Standard" page="0" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
-      <profiles/>
+      <profiles>
+        <profile id="869a-c5e5-4bfa-d712" name="(BRB) Rampager&apos;s Standard" hidden="false" profileTypeId="4d61676963205374616e6461726423232344415441232323" profileTypeName="Magic Standard">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Magical Emination" characteristicTypeId="4d61676963616c20456d696e6174696f6e23232344415441232323" value="Unit may re-roll its charge distance dice"/>
+          </characteristics>
+        </profile>
+      </profiles>
       <rules/>
       <infoLinks/>
       <modifiers/>
@@ -5286,9 +5758,26 @@ lose his Frenzy"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="b86e7440-45fc-3bcb-8077-94bebade0b89" name="(BRB) Ranger&apos;s Standard" page="0" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
-      <profiles/>
+      <profiles>
+        <profile id="45d7-9a45-77ec-5439" name="(BRB) Ranger&apos;s Standard" hidden="false" profileTypeId="4d61676963205374616e6461726423232344415441232323" profileTypeName="Magic Standard">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Magical Emination" characteristicTypeId="4d61676963616c20456d696e6174696f6e23232344415441232323" value="Unit has the Strider special rule"/>
+          </characteristics>
+        </profile>
+      </profiles>
       <rules/>
-      <infoLinks/>
+      <infoLinks>
+        <infoLink id="fbe4-b1a0-0238-8c4e" name="New InfoLink" hidden="false" targetId="f654-e9a6-2c37-91d8" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
       <modifiers/>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
@@ -5302,9 +5791,26 @@ lose his Frenzy"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="fd54941c-ca91-a3d2-3d4e-681cc07e47c7" name="(BRB) Razor Standard" page="0" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
-      <profiles/>
+      <profiles>
+        <profile id="488b-26f8-4380-69d7" name="(BRB) Razor Standard" hidden="false" profileTypeId="4d61676963205374616e6461726423232344415441232323" profileTypeName="Magic Standard">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Magical Emination" characteristicTypeId="4d61676963616c20456d696e6174696f6e23232344415441232323" value="Unit has the Armour Piercing special rule"/>
+          </characteristics>
+        </profile>
+      </profiles>
       <rules/>
-      <infoLinks/>
+      <infoLinks>
+        <infoLink id="eb62-02a9-f65e-1288" name="New InfoLink" hidden="false" targetId="4c942517-909f-599d-94b9-2de55569d2bd" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
       <modifiers/>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
@@ -8310,6 +8816,13 @@ always zero rank , no rank bonus, steadfast</description>
       <infoLinks/>
       <modifiers/>
       <description>6+ ward save</description>
+    </rule>
+    <rule id="f654-e9a6-2c37-91d8" name="Strider" book="" page="" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>Warriors with the Strider rule do not have to take Dangerous Terrain tests.</description>
     </rule>
   </sharedRules>
   <sharedProfiles>
