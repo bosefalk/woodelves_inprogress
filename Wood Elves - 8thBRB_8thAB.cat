@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="0f48c054-1399-d222-0570-b20c15442639" name="Wood Elves - Army Book (2014-5) -V8.8.0." revision="30" battleScribeVersion="2.00" authorName="Don Thorpe" authorContact="the.desperate.allies@gmail.com" authorUrl="http://battlescribedata.appspot.com/#/repo/whfb" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="0f48c054-1399-d222-0570-b20c15442639" name="Wood Elves - Army Book (2014-5) -V8.8.0." revision="31" battleScribeVersion="2.00" authorName="Don Thorpe" authorContact="the.desperate.allies@gmail.com" authorUrl="http://battlescribedata.appspot.com/#/repo/whfb" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -123,12 +123,6 @@
       <profiles/>
       <rules/>
       <infoLinks>
-        <infoLink id="09e5d806-862a-09d1-9b13-c367d673c653" hidden="false" targetId="ced68ad4-128c-8737-8659-1b01f35fe33f" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
         <infoLink id="ad4c3a8d-7136-34a4-cc4e-3d4266c60a1b" hidden="false" targetId="69139d30-b762-93fe-bf68-14daf69ee2c4" type="rule">
           <profiles/>
           <rules/>
@@ -155,11 +149,17 @@
             <modifier type="set" field="hidden" value="true">
               <repeats/>
               <conditions>
-                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ebb87caa-86ef-65af-1a5a-3861a48589f6" type="equalTo"/>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ebb87caa-86ef-65af-1a5a-3861a48589f6" type="atLeast"/>
               </conditions>
               <conditionGroups/>
             </modifier>
           </modifiers>
+        </infoLink>
+        <infoLink id="d841-f542-d5f9-2dc7" name="New InfoLink" hidden="false" targetId="7fbc8bf7-611b-a502-a8fd-7165c8e9ad62" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
         </infoLink>
       </infoLinks>
       <modifiers/>
