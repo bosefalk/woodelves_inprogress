@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="0f48c054-1399-d222-0570-b20c15442639" name="Wood Elves - Army Book (2014-5) -V8.8.0." revision="20" battleScribeVersion="2.00" authorName="Don Thorpe" authorContact="the.desperate.allies@gmail.com" authorUrl="http://battlescribedata.appspot.com/#/repo/whfb" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="0f48c054-1399-d222-0570-b20c15442639" name="Wood Elves - Army Book (2014-5) -V8.8.0." revision="21" battleScribeVersion="2.00" authorName="Don Thorpe" authorContact="the.desperate.allies@gmail.com" authorUrl="http://battlescribedata.appspot.com/#/repo/whfb" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -4458,7 +4458,18 @@ no armour saves allowed."/>
       </costs>
     </selectionEntry>
     <selectionEntry id="6b034609-cd54-4f91-7666-a120e6eaf3b4" name="(BRB) Arabyan Carpet" book="BRB" page="505" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
-      <profiles/>
+      <profiles>
+        <profile id="759f-b035-3be7-5d9e" name="(BRB) Arabyan Carpet" hidden="false" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" profileTypeName="Arcane and Enchanted Item">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Magic Property" characteristicTypeId="4d616769632050726f706572747923232344415441232323" value="Infantry and monstrous infantry only. The owner has
+Fly special rule but may not join units"/>
+          </characteristics>
+        </profile>
+      </profiles>
       <rules/>
       <infoLinks/>
       <modifiers/>
@@ -4474,7 +4485,18 @@ no armour saves allowed."/>
       </costs>
     </selectionEntry>
     <selectionEntry id="408f45e0-fd73-3dc1-5b54-e1fb1472cff7" name="(BRB) Armour of Destiny" page="0" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
-      <profiles/>
+      <profiles>
+        <profile id="6114-ced0-afbe-fb32" name="(BRB) Armour of Destiny" hidden="false" profileTypeId="41726d6f757223232344415441232323" profileTypeName="Armour">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Saving Throw modifier" characteristicTypeId="536176696e67205468726f77206d6f64696669657223232344415441232323" value="5"/>
+            <characteristic name="Special Rules" characteristicTypeId="5370656369616c2052756c657323232344415441232323" value="Heavy Armour. Grants the wearer a 4+ ward save"/>
+          </characteristics>
+        </profile>
+      </profiles>
       <rules/>
       <infoLinks/>
       <modifiers/>
@@ -4490,7 +4512,18 @@ no armour saves allowed."/>
       </costs>
     </selectionEntry>
     <selectionEntry id="e026bda7-4702-baa6-12c3-f5b0525d7a5d" name="(BRB) Armour of Fortune" page="0" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
-      <profiles/>
+      <profiles>
+        <profile id="7855-0822-71d0-a078" name="(BRB) Armour of Fortune" hidden="false" profileTypeId="41726d6f757223232344415441232323" profileTypeName="Armour">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Saving Throw modifier" characteristicTypeId="536176696e67205468726f77206d6f64696669657223232344415441232323" value="5"/>
+            <characteristic name="Special Rules" characteristicTypeId="5370656369616c2052756c657323232344415441232323" value="Heavy Armour. Grants the wearer a 5+ ward save"/>
+          </characteristics>
+        </profile>
+      </profiles>
       <rules/>
       <infoLinks/>
       <modifiers/>
@@ -4506,7 +4539,19 @@ no armour saves allowed."/>
       </costs>
     </selectionEntry>
     <selectionEntry id="83775afc-a8c3-4a3e-7ac1-5f189322cb90" name="(BRB) Armour of Silvered Steel" page="0" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
-      <profiles/>
+      <profiles>
+        <profile id="329c-8adc-0b23-917e" name="(BRB) Armour of Silvered Steel" hidden="false" profileTypeId="41726d6f757223232344415441232323" profileTypeName="Armour">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Saving Throw modifier" characteristicTypeId="536176696e67205468726f77206d6f64696669657223232344415441232323"/>
+            <characteristic name="Special Rules" characteristicTypeId="5370656369616c2052756c657323232344415441232323" value="Grants the wearer a 2+ armour save that cannot be
+improved by any means"/>
+          </characteristics>
+        </profile>
+      </profiles>
       <rules/>
       <infoLinks/>
       <modifiers/>
@@ -4522,7 +4567,17 @@ no armour saves allowed."/>
       </costs>
     </selectionEntry>
     <selectionEntry id="463c3226-0be0-cdb0-7b93-7e341fadbbd2" name="(BRB) Banner of Eternal Flame" page="0" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
-      <profiles/>
+      <profiles>
+        <profile id="0a8d-cad7-b71b-3387" name="(BRB) Banner of Eternal Flame" hidden="false" profileTypeId="4d61676963205374616e6461726423232344415441232323" profileTypeName="Magic Standard">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Magical Emination" characteristicTypeId="4d61676963616c20456d696e6174696f6e23232344415441232323" value="Models in the Unit have Flaming Attacks"/>
+          </characteristics>
+        </profile>
+      </profiles>
       <rules/>
       <infoLinks/>
       <modifiers/>
@@ -4538,7 +4593,17 @@ no armour saves allowed."/>
       </costs>
     </selectionEntry>
     <selectionEntry id="87cba427-8fc1-c31c-6014-ba00235b5a92" name="(BRB) Banner of Swiftness" page="0" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
-      <profiles/>
+      <profiles>
+        <profile id="e4fe-812b-2534-0762" name="(BRB) Banner of Swiftness" hidden="false" profileTypeId="4d61676963205374616e6461726423232344415441232323" profileTypeName="Magic Standard">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Magical Emination" characteristicTypeId="4d61676963616c20456d696e6174696f6e23232344415441232323" value="Unit has +1 Movement"/>
+          </characteristics>
+        </profile>
+      </profiles>
       <rules/>
       <infoLinks/>
       <modifiers/>
@@ -4554,7 +4619,18 @@ no armour saves allowed."/>
       </costs>
     </selectionEntry>
     <selectionEntry id="df903e9d-7284-b040-b23e-e34c0a3defb5" name="(BRB) Berserker Sword" page="0" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
-      <profiles/>
+      <profiles>
+        <profile id="7d91-9718-39d6-63e9" name="(BRB) Berserker Sword" hidden="false" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" profileTypeName="Arcane and Enchanted Item">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Magic Property" characteristicTypeId="4d616769632050726f706572747923232344415441232323" value="The bearer has the Frenzy special rule and can never
+lose his Frenzy"/>
+          </characteristics>
+        </profile>
+      </profiles>
       <rules/>
       <infoLinks/>
       <modifiers/>
