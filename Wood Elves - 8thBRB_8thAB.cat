@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="0f48c054-1399-d222-0570-b20c15442639" name="Wood Elves - Army Book (2014-5) -V8.8.0." revision="23" battleScribeVersion="2.00" authorName="Don Thorpe" authorContact="the.desperate.allies@gmail.com" authorUrl="http://battlescribedata.appspot.com/#/repo/whfb" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="0f48c054-1399-d222-0570-b20c15442639" name="Wood Elves - Army Book (2014-5) -V8.8.0." revision="24" battleScribeVersion="2.00" authorName="Don Thorpe" authorContact="the.desperate.allies@gmail.com" authorUrl="http://battlescribedata.appspot.com/#/repo/whfb" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -5744,8 +5744,7 @@ Boost to target all forests within 12&quot;, cast on 16+</description>
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Magic Property" characteristicTypeId="4d616769632050726f706572747923232344415441232323" value="Always wound on 5+, unless would wound normally
-on a lower results"/>
+            <characteristic name="Magic Property" characteristicTypeId="4d616769632050726f706572747923232344415441232323" value="Always wound on 5+, unless would wound normally on a lower results"/>
           </characteristics>
         </profile>
       </profiles>
@@ -5771,8 +5770,7 @@ on a lower results"/>
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Magic Property" characteristicTypeId="4d616769632050726f706572747923232344415441232323" value="Bound spell (Power level 3). Contains fireball (See
-the Lore of Fire)"/>
+            <characteristic name="Magic Property" characteristicTypeId="4d616769632050726f706572747923232344415441232323" value="Bound spell (Power level 3). Contains fireball (See the Lore of Fire)"/>
           </characteristics>
         </profile>
       </profiles>
@@ -5824,9 +5822,7 @@ the Lore of Fire)"/>
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Magic Property" characteristicTypeId="4d616769632050726f706572747923232344415441232323" value="One use only. Bearer can increase dispel attempt by +D6,
-after his other dispel dice have been rolled. May allow
-dispelling with irresistible force"/>
+            <characteristic name="Magic Property" characteristicTypeId="4d616769632050726f706572747923232344415441232323" value="One use only. Bearer can increase dispel attempt by +D6, after his other dispel dice have been rolled. May allow dispelling with irresistible force"/>
           </characteristics>
         </profile>
       </profiles>
@@ -5852,10 +5848,7 @@ dispelling with irresistible force"/>
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Magic Property" characteristicTypeId="4d616769632050726f706572747923232344415441232323" value="One use only. When an enemy spell is cast, this scroll can
-be used instead of dispelling.
-Power dice used by the caster are added to the dispel pool
-(cannot exceed 12 dice)"/>
+            <characteristic name="Magic Property" characteristicTypeId="4d616769632050726f706572747923232344415441232323" value="One use only. When an enemy spell is cast, this scroll can be used instead of dispelling. Power dice used by the caster are added to the dispel pool (cannot exceed 12 dice)"/>
           </characteristics>
         </profile>
       </profiles>
@@ -5881,9 +5874,7 @@ Power dice used by the caster are added to the dispel pool
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Magic Property" characteristicTypeId="4d616769632050726f706572747923232344415441232323" value="One use only. When an enemy spell is cast, this scroll can
-be used instead of dispelling. Spell target gains a 4+ ward
-save against any wounds caused by the spell"/>
+            <characteristic name="Magic Property" characteristicTypeId="4d616769632050726f706572747923232344415441232323" value="One use only. When an enemy spell is cast, this scroll can be used instead of dispelling. Spell target gains a 4+ ward save against any wounds caused by the spell"/>
           </characteristics>
         </profile>
       </profiles>
@@ -5943,8 +5934,7 @@ save against any wounds caused by the spell"/>
           <modifiers/>
           <characteristics>
             <characteristic name="Saving Throw modifier" characteristicTypeId="536176696e67205468726f77206d6f64696669657223232344415441232323" value="6"/>
-            <characteristic name="Special Rules" characteristicTypeId="5370656369616c2052756c657323232344415441232323" value="Shield. The bearer has a 1+ armour save against
-shooting attacks."/>
+            <characteristic name="Special Rules" characteristicTypeId="5370656369616c2052756c657323232344415441232323" value="Shield. The bearer has a 1+ armour save against shooting attacks."/>
           </characteristics>
         </profile>
       </profiles>
@@ -6003,14 +5993,7 @@ shooting attacks."/>
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Magic Property" characteristicTypeId="4d616769632050726f706572747923232344415441232323" value="One use only. When an enemy spell is cast, this scroll can
-be used instead of dispelling.
-Enemy wizard must roll below his magic level on a D6 or
-become a toad. Wizard can no longer channel, cast or dispel
-and his magic and mundane equipment stop working. Also
-all stats (bar wounds) become 1. Controlling player may roll
-a D6 at the start of each of his subsequent magic phases, on
-a 4+ the wizard returns to normal."/>
+            <characteristic name="Magic Property" characteristicTypeId="4d616769632050726f706572747923232344415441232323" value="One use only. When an enemy spell is cast, this scroll can be used instead of dispelling. Enemy wizard must roll below his magic level on a D6 or become a toad. Wizard can no longer channel, cast or dispel and his magic and mundane equipment stop working. Also all stats (bar wounds) become 1. Controlling player may roll a D6 at the start of each of his subsequent magic phases, on a 4+ the wizard returns to normal."/>
           </characteristics>
         </profile>
       </profiles>
@@ -6063,9 +6046,7 @@ a 4+ the wizard returns to normal."/>
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Magic Property" characteristicTypeId="4d616769632050726f706572747923232344415441232323" value="A Wizard that suffers unsaved wounds from this
-sword lose one spell (randomly) for each unsaved
-wound"/>
+            <characteristic name="Magic Property" characteristicTypeId="4d616769632050726f706572747923232344415441232323" value="A Wizard that suffers unsaved wounds from this sword lose one spell (randomly) for each unsaved wound"/>
           </characteristics>
         </profile>
       </profiles>
@@ -6117,8 +6098,7 @@ wound"/>
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Magical Emination" characteristicTypeId="4d61676963616c20456d696e6174696f6e23232344415441232323" value="Unit has +1LD, but cannot use the General&apos;s Inspiring
-Presence special rule"/>
+            <characteristic name="Magical Emination" characteristicTypeId="4d61676963616c20456d696e6174696f6e23232344415441232323" value="Unit has +1LD, but cannot use the General&apos;s Inspiring Presence special rule"/>
           </characteristics>
         </profile>
       </profiles>
@@ -6144,10 +6124,7 @@ Presence special rule"/>
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Magic Property" characteristicTypeId="4d616769632050726f706572747923232344415441232323" value="The bearer has +1 S and +1A for every enemy
-character in base contact with him or his unit. This is
-calculated at the start of each round of close combat
-and lasts until its end"/>
+            <characteristic name="Magic Property" characteristicTypeId="4d616769632050726f706572747923232344415441232323" value="The bearer has +1 S and +1A for every enemy character in base contact with him or his unit. This is calculated at the start of each round of close combat and lasts until its end"/>
           </characteristics>
         </profile>
       </profiles>
@@ -6225,8 +6202,7 @@ and lasts until its end"/>
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Magic Property" characteristicTypeId="4d616769632050726f706572747923232344415441232323" value="Close combat attacks made with this sword are
-resolved at +1 Strength"/>
+            <characteristic name="Magic Property" characteristicTypeId="4d616769632050726f706572747923232344415441232323" value="Close combat attacks made with this sword are resolved at +1 Strength"/>
           </characteristics>
         </profile>
       </profiles>
@@ -6304,8 +6280,7 @@ resolved at +1 Strength"/>
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Magic Property" characteristicTypeId="4d616769632050726f706572747923232344415441232323" value="The wielder of this sword has the &apos;Always Strikes
-First&apos; special rule"/>
+            <characteristic name="Magic Property" characteristicTypeId="4d616769632050726f706572747923232344415441232323" value="The wielder of this sword has the &apos;Always Strikes First&apos; special rule"/>
           </characteristics>
         </profile>
       </profiles>
@@ -6416,8 +6391,7 @@ First&apos; special rule"/>
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Magic Property" characteristicTypeId="4d616769632050726f706572747923232344415441232323" value="Models in base contact with the bearer (friends and
-foes) must re-roll successful ward saves"/>
+            <characteristic name="Magic Property" characteristicTypeId="4d616769632050726f706572747923232344415441232323" value="Models in base contact with the bearer (friends and foes) must re-roll successful ward saves"/>
           </characteristics>
         </profile>
       </profiles>
@@ -6443,8 +6417,7 @@ foes) must re-roll successful ward saves"/>
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Magic Property" characteristicTypeId="4d616769632050726f706572747923232344415441232323" value="Wearer causes Terror. However, other models
-cannot use his Leadership"/>
+            <characteristic name="Magic Property" characteristicTypeId="4d616769632050726f706572747923232344415441232323" value="Wearer causes Terror. However, other models cannot use his Leadership"/>
           </characteristics>
         </profile>
       </profiles>
@@ -6477,9 +6450,7 @@ cannot use his Leadership"/>
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Magic Property" characteristicTypeId="4d616769632050726f706572747923232344415441232323" value="A monster or character that suffers an unsaved
-wound from the Tormentor Sword has the Stupidity
-special rule for the rest of the game"/>
+            <characteristic name="Magic Property" characteristicTypeId="4d616769632050726f706572747923232344415441232323" value="A monster or character that suffers an unsaved wound from the Tormentor Sword has the Stupidity special rule for the rest of the game"/>
           </characteristics>
         </profile>
       </profiles>
@@ -6506,9 +6477,7 @@ special rule for the rest of the game"/>
           <modifiers/>
           <characteristics>
             <characteristic name="Saving Throw modifier" characteristicTypeId="536176696e67205468726f77206d6f64696669657223232344415441232323" value="-1"/>
-            <characteristic name="Special Rules" characteristicTypeId="5370656369616c2052756c657323232344415441232323" value="The wearer counts his armour save as being one
-point higher than normal. Any successful roll to
-wound made against the wearer must be re-rolled"/>
+            <characteristic name="Special Rules" characteristicTypeId="5370656369616c2052756c657323232344415441232323" value="The wearer counts his armour save as being one point higher than normal. Any successful roll to wound made against the wearer must be re-rolled"/>
           </characteristics>
         </profile>
       </profiles>
@@ -6534,10 +6503,7 @@ wound made against the wearer must be re-rolled"/>
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Magic Property" characteristicTypeId="4d616769632050726f706572747923232344415441232323" value="One use only. Declare use at start of one of your magic
-phase. When one of the bearer&apos;s spells is dispelled by an
-enemy wizard, roll a D6. On a 5+ that wizard take a wound
-with no armour saves allowed"/>
+            <characteristic name="Magic Property" characteristicTypeId="4d616769632050726f706572747923232344415441232323" value="One use only. Declare use at start of one of your magic phase. When one of the bearer&apos;s spells is dispelled by an enemy wizard, roll a D6. On a 5+ that wizard take a wound with no armour saves allowed"/>
           </characteristics>
         </profile>
       </profiles>
@@ -6596,9 +6562,7 @@ with no armour saves allowed"/>
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Magic Property" characteristicTypeId="4d616769632050726f706572747923232344415441232323" value="One use only. Bearer can increase a casting result by +D6,
-after other dice are rolled. This extra dice can cause
-Irresistible force and a miscast"/>
+            <characteristic name="Magic Property" characteristicTypeId="4d616769632050726f706572747923232344415441232323" value="One use only. Bearer can increase a casting result by +D6, after other dice are rolled. This extra dice can cause Irresistible force and a miscast"/>
           </characteristics>
         </profile>
       </profiles>
@@ -6650,9 +6614,7 @@ Irresistible force and a miscast"/>
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Magic Property" characteristicTypeId="4d616769632050726f706572747923232344415441232323" value="A monster or character that suffers unsaved wounds
-from Warrior Bane permentatly loses one Attack for
-each unsaved wound (to a minimum of Attacks 1)"/>
+            <characteristic name="Magic Property" characteristicTypeId="4d616769632050726f706572747923232344415441232323" value="A monster or character that suffers unsaved wounds from Warrior Bane permentatly loses one Attack for each unsaved wound (to a minimum of Attacks 1)"/>
           </characteristics>
         </profile>
       </profiles>
@@ -6678,9 +6640,7 @@ each unsaved wound (to a minimum of Attacks 1)"/>
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Magic Property" characteristicTypeId="4d616769632050726f706572747923232344415441232323" value="The wearer is treated as a Level 2 wizard, who can
-use a random battle magic lore. However, he
-has Stupidity"/>
+            <characteristic name="Magic Property" characteristicTypeId="4d616769632050726f706572747923232344415441232323" value="The wearer is treated as a Level 2 wizard, who can use a random battle magic lore. However, he has Stupidity"/>
           </characteristics>
         </profile>
       </profiles>
@@ -8490,7 +8450,14 @@ has Stupidity"/>
         <selectionEntry id="307f-ed7f-48b9-4fc8" name="Hagbane Tips" page="0" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
           <profiles/>
           <rules/>
-          <infoLinks/>
+          <infoLinks>
+            <infoLink id="1cba-8a03-507a-d689" name="New InfoLink" hidden="false" targetId="68de-6260-fca4-b956" type="profile">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
           <modifiers/>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
@@ -8505,7 +8472,14 @@ has Stupidity"/>
         <selectionEntry id="1301-0949-68e1-701e" name="Trueflight Arrows" page="0" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
           <profiles/>
           <rules/>
-          <infoLinks/>
+          <infoLinks>
+            <infoLink id="c70c-856f-3717-a203" name="New InfoLink" hidden="false" targetId="0be4-a70c-a3cc-a7a1" type="profile">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
           <modifiers/>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
@@ -8520,7 +8494,14 @@ has Stupidity"/>
         <selectionEntry id="6261-6c37-b8df-4802" name="Moonfire Shot" page="0" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
           <profiles/>
           <rules/>
-          <infoLinks/>
+          <infoLinks>
+            <infoLink id="6910-6fa4-b8b5-d2a8" name="New InfoLink" hidden="false" targetId="7056-61b2-9701-215f" type="profile">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
           <modifiers/>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
@@ -8535,7 +8516,14 @@ has Stupidity"/>
         <selectionEntry id="9118-5a0d-b608-c887" name="Starfire Shafts" page="0" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
           <profiles/>
           <rules/>
-          <infoLinks/>
+          <infoLinks>
+            <infoLink id="7373-0809-1c12-88f3" name="New InfoLink" hidden="false" targetId="99bc-eac0-132c-2194" type="profile">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
           <modifiers/>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
@@ -8550,7 +8538,14 @@ has Stupidity"/>
         <selectionEntry id="1759-adce-ae2a-71ba" name="Swiftshiver Shards" page="0" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
           <profiles/>
           <rules/>
-          <infoLinks/>
+          <infoLinks>
+            <infoLink id="7b1f-fe49-6da7-4ca0" name="New InfoLink" hidden="false" targetId="8824-5c6c-62e4-da4d" type="profile">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
           <modifiers/>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
@@ -8565,7 +8560,14 @@ has Stupidity"/>
         <selectionEntry id="8931-359e-7c04-b93f" name="Arcane Bodkins" page="0" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
           <profiles/>
           <rules/>
-          <infoLinks/>
+          <infoLinks>
+            <infoLink id="30d4-bf5e-b6e9-7e8e" name="New InfoLink" hidden="false" targetId="5476-fbb6-a95a-4ffa" type="profile">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
           <modifiers/>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
@@ -8600,7 +8602,14 @@ has Stupidity"/>
         <selectionEntry id="f0579c04-aee3-7198-1011-e7a83b63b57a" name="Hagbane Tips" page="0" hidden="false" collective="true" categoryEntryId="(No Category)" type="upgrade">
           <profiles/>
           <rules/>
-          <infoLinks/>
+          <infoLinks>
+            <infoLink id="4768-5a0e-ab4d-f060" name="New InfoLink" hidden="false" targetId="68de-6260-fca4-b956" type="profile">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
           <modifiers/>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
@@ -8615,7 +8624,14 @@ has Stupidity"/>
         <selectionEntry id="eb892704-39bb-7557-0377-2a79d064bdde" name="Trueflight Arrows" page="0" hidden="false" collective="true" categoryEntryId="(No Category)" type="upgrade">
           <profiles/>
           <rules/>
-          <infoLinks/>
+          <infoLinks>
+            <infoLink id="99a5-6bd4-5250-0761" name="New InfoLink" hidden="false" targetId="0be4-a70c-a3cc-a7a1" type="profile">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
           <modifiers/>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
@@ -8630,7 +8646,14 @@ has Stupidity"/>
         <selectionEntry id="92843d7c-b26f-ce64-9dea-c06eec6ef29c" name="Moonfire Shot" page="0" hidden="false" collective="true" categoryEntryId="(No Category)" type="upgrade">
           <profiles/>
           <rules/>
-          <infoLinks/>
+          <infoLinks>
+            <infoLink id="90ac-c56c-1e00-ea7f" name="New InfoLink" hidden="false" targetId="7056-61b2-9701-215f" type="profile">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
           <modifiers/>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
@@ -8645,7 +8668,14 @@ has Stupidity"/>
         <selectionEntry id="d69ec7b7-fded-2850-efec-e857f62b801d" name="Starfire Shafts" page="0" hidden="false" collective="true" categoryEntryId="(No Category)" type="upgrade">
           <profiles/>
           <rules/>
-          <infoLinks/>
+          <infoLinks>
+            <infoLink id="4d7e-26cf-0bda-a1b4" name="New InfoLink" hidden="false" targetId="99bc-eac0-132c-2194" type="profile">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
           <modifiers/>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
@@ -8660,7 +8690,14 @@ has Stupidity"/>
         <selectionEntry id="e8397ed6-78b6-7777-734b-a01f47c4d7c9" name="Swiftshiver Shards" page="0" hidden="false" collective="true" categoryEntryId="(No Category)" type="upgrade">
           <profiles/>
           <rules/>
-          <infoLinks/>
+          <infoLinks>
+            <infoLink id="802d-f372-c075-d59c" name="New InfoLink" hidden="false" targetId="8824-5c6c-62e4-da4d" type="profile">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
           <modifiers/>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
@@ -8675,7 +8712,14 @@ has Stupidity"/>
         <selectionEntry id="4aad3bc9-1f66-fd9f-f24f-19051eabeddf" name="Arcane Bodkins" page="0" hidden="false" collective="true" categoryEntryId="(No Category)" type="upgrade">
           <profiles/>
           <rules/>
-          <infoLinks/>
+          <infoLinks>
+            <infoLink id="f755-0927-551c-b418" name="New InfoLink" hidden="false" targetId="5476-fbb6-a95a-4ffa" type="profile">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
           <modifiers/>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
@@ -9191,67 +9235,114 @@ If a Terror-causing creature declares a charge, the target unit must immediately
     </rule>
   </sharedRules>
   <sharedProfiles>
-    <profile id="1fb2e229-1e23-28cb-b89e-ef79e3f8b22e" name="Elven Steed" page="0" hidden="false" profileTypeId="4d6f64656c23232344415441232323">
+    <profile id="3dc5-d1e4-501b-877a" name="Asrai Longbow" book="AB" page="37" hidden="false" profileTypeId="576561706f6e23232344415441232323" profileTypeName="Weapon">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="M" characteristicTypeId="4d23232344415441232323" value="9"/>
-        <characteristic name="WS" characteristicTypeId="575323232344415441232323" value="3"/>
-        <characteristic name="BS" characteristicTypeId="425323232344415441232323" value="0"/>
-        <characteristic name="S" characteristicTypeId="5323232344415441232323" value="3"/>
-        <characteristic name="T" characteristicTypeId="5423232344415441232323" value="3"/>
-        <characteristic name="W" characteristicTypeId="5723232344415441232323" value="1"/>
-        <characteristic name="I" characteristicTypeId="4923232344415441232323" value="4"/>
-        <characteristic name="A" characteristicTypeId="4123232344415441232323" value="1"/>
-        <characteristic name="LD" characteristicTypeId="4c4423232344415441232323" value="5"/>
-        <characteristic name="ArmourSave" characteristicTypeId="41726d6f75725361766523232344415441232323" value=""/>
-        <characteristic name="WardSave" characteristicTypeId="576172645361766523232344415441232323"/>
-        <characteristic name="MR" characteristicTypeId="4d5223232344415441232323"/>
-        <characteristic name="Type" characteristicTypeId="5479706523232344415441232323"/>
+        <characteristic name="Range" characteristicTypeId="52616e676523232344415441232323" value="30"/>
+        <characteristic name="Strength" characteristicTypeId="537472656e67746823232344415441232323" value="3"/>
+        <characteristic name="Special Rules" characteristicTypeId="5370656369616c2052756c657323232344415441232323" value="Armour Piercing, Volley Fire"/>
       </characteristics>
     </profile>
-    <profile id="222c2a4b-feae-174f-64b8-0ea62a8cdcd6" name="Great Eagle" page="0" hidden="false" profileTypeId="4d6f64656c23232344415441232323">
+    <profile id="8594-d4b0-1325-54f4" name="Asrai Spear (foot)" book="AB" page="37" hidden="false" profileTypeId="576561706f6e23232344415441232323" profileTypeName="Weapon">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="M" characteristicTypeId="4d23232344415441232323" value="2"/>
-        <characteristic name="WS" characteristicTypeId="575323232344415441232323" value="5"/>
-        <characteristic name="BS" characteristicTypeId="425323232344415441232323" value="0"/>
-        <characteristic name="S" characteristicTypeId="5323232344415441232323" value="4"/>
-        <characteristic name="T" characteristicTypeId="5423232344415441232323" value="4"/>
-        <characteristic name="W" characteristicTypeId="5723232344415441232323" value="3"/>
-        <characteristic name="I" characteristicTypeId="4923232344415441232323" value="4"/>
-        <characteristic name="A" characteristicTypeId="4123232344415441232323" value="2"/>
-        <characteristic name="LD" characteristicTypeId="4c4423232344415441232323" value="8"/>
-        <characteristic name="ArmourSave" characteristicTypeId="41726d6f75725361766523232344415441232323" value=""/>
-        <characteristic name="WardSave" characteristicTypeId="576172645361766523232344415441232323"/>
-        <characteristic name="MR" characteristicTypeId="4d5223232344415441232323"/>
-        <characteristic name="Type" characteristicTypeId="5479706523232344415441232323"/>
+        <characteristic name="Range" characteristicTypeId="52616e676523232344415441232323" value="Combat"/>
+        <characteristic name="Strength" characteristicTypeId="537472656e67746823232344415441232323" value="As User"/>
+        <characteristic name="Special Rules" characteristicTypeId="5370656369616c2052756c657323232344415441232323" value="Armour Piercing, Fight in Extra Rank"/>
       </characteristics>
     </profile>
-    <profile id="16e2f423-96cf-234c-e3d1-1f53f295c903" name="Unicorn" page="0" hidden="false" profileTypeId="4d6f64656c23232344415441232323">
+    <profile id="c350-274f-3e8d-bb77" name="Asrai Spear (mounted)" book="AB " page="37" hidden="false" profileTypeId="576561706f6e23232344415441232323" profileTypeName="Weapon">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="M" characteristicTypeId="4d23232344415441232323" value="10"/>
-        <characteristic name="WS" characteristicTypeId="575323232344415441232323" value="5"/>
-        <characteristic name="BS" characteristicTypeId="425323232344415441232323" value="0"/>
-        <characteristic name="S" characteristicTypeId="5323232344415441232323" value="4"/>
-        <characteristic name="T" characteristicTypeId="5423232344415441232323" value="4"/>
-        <characteristic name="W" characteristicTypeId="5723232344415441232323" value="3"/>
-        <characteristic name="I" characteristicTypeId="4923232344415441232323" value="5"/>
-        <characteristic name="A" characteristicTypeId="4123232344415441232323" value="2"/>
-        <characteristic name="LD" characteristicTypeId="4c4423232344415441232323" value="8"/>
-        <characteristic name="ArmourSave" characteristicTypeId="41726d6f75725361766523232344415441232323" value=""/>
-        <characteristic name="WardSave" characteristicTypeId="576172645361766523232344415441232323"/>
-        <characteristic name="MR" characteristicTypeId="4d5223232344415441232323" value="2"/>
-        <characteristic name="Type" characteristicTypeId="5479706523232344415441232323"/>
+        <characteristic name="Range" characteristicTypeId="52616e676523232344415441232323" value="Combat"/>
+        <characteristic name="Strength" characteristicTypeId="537472656e67746823232344415441232323" value="+1S"/>
+        <characteristic name="Special Rules" characteristicTypeId="5370656369616c2052756c657323232344415441232323" value="Armour Piercing, S bonus applies when wielder charges"/>
+      </characteristics>
+    </profile>
+    <profile id="09b4-98cc-d8dd-6e84" name="Blackbriar Javelin" book="AB" page="37" hidden="false" profileTypeId="576561706f6e23232344415441232323" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="52616e676523232344415441232323" value="12&quot;"/>
+        <characteristic name="Strength" characteristicTypeId="537472656e67746823232344415441232323" value="User"/>
+        <characteristic name="Special Rules" characteristicTypeId="5370656369616c2052756c657323232344415441232323" value="Armour Piercing, Poisoned Attacks"/>
+      </characteristics>
+    </profile>
+    <profile id="5476-fbb6-a95a-4ffa" name="Arcane Bodkins" book="AB" page="37" hidden="false" profileTypeId="576561706f6e23232344415441232323" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="52616e676523232344415441232323" value="30&quot;"/>
+        <characteristic name="Strength" characteristicTypeId="537472656e67746823232344415441232323" value="3"/>
+        <characteristic name="Special Rules" characteristicTypeId="5370656369616c2052756c657323232344415441232323" value="Volley Fire, -3 Armour Save"/>
+      </characteristics>
+    </profile>
+    <profile id="68de-6260-fca4-b956" name="Hagbane Tips" book="AB" page="37" hidden="false" profileTypeId="576561706f6e23232344415441232323" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="52616e676523232344415441232323" value="30&quot;"/>
+        <characteristic name="Strength" characteristicTypeId="537472656e67746823232344415441232323" value="3"/>
+        <characteristic name="Special Rules" characteristicTypeId="5370656369616c2052756c657323232344415441232323" value="Armour Piercing, Volley Fire, Poisoned Attacks"/>
+      </characteristics>
+    </profile>
+    <profile id="7056-61b2-9701-215f" name="Moonfire Shot" book="AB" page="37" hidden="false" profileTypeId="576561706f6e23232344415441232323" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="52616e676523232344415441232323" value="30&quot;"/>
+        <characteristic name="Strength" characteristicTypeId="537472656e67746823232344415441232323" value="3"/>
+        <characteristic name="Special Rules" characteristicTypeId="5370656369616c2052756c657323232344415441232323" value="Armour Piercing, Volley Fire, Flaming Attacks, +1 To Wound against Forces of Order"/>
+      </characteristics>
+    </profile>
+    <profile id="99bc-eac0-132c-2194" name="Starfire Shafts" book="AB" page="37" hidden="false" profileTypeId="576561706f6e23232344415441232323" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="52616e676523232344415441232323" value="30&quot;"/>
+        <characteristic name="Strength" characteristicTypeId="537472656e67746823232344415441232323" value="3"/>
+        <characteristic name="Special Rules" characteristicTypeId="5370656369616c2052756c657323232344415441232323" value="Armour Piercing, Volley Fire, Flaming Attacks, +1 To Wound against Forces of Destruction"/>
+      </characteristics>
+    </profile>
+    <profile id="8824-5c6c-62e4-da4d" name="Swiftshiver Shards" book="AB" page="37" hidden="false" profileTypeId="576561706f6e23232344415441232323" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="52616e676523232344415441232323" value="30&quot;"/>
+        <characteristic name="Strength" characteristicTypeId="537472656e67746823232344415441232323" value="3"/>
+        <characteristic name="Special Rules" characteristicTypeId="5370656369616c2052756c657323232344415441232323" value="Armour Piercing, Volley Fire, Multiple Shots (2)"/>
+      </characteristics>
+    </profile>
+    <profile id="0be4-a70c-a3cc-a7a1" name="Trueflight Arrows" book="AB" page="37" hidden="false" profileTypeId="576561706f6e23232344415441232323" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="52616e676523232344415441232323" value="30&quot;"/>
+        <characteristic name="Strength" characteristicTypeId="537472656e67746823232344415441232323" value="3"/>
+        <characteristic name="Special Rules" characteristicTypeId="5370656369616c2052756c657323232344415441232323" value="Armour Piercing, Volley Fire, ignores To Hit penalties"/>
       </characteristics>
     </profile>
   </sharedProfiles>
