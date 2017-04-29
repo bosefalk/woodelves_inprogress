@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="0f48c054-1399-d222-0570-b20c15442639" name="Wood Elves - Army Book (2014-5) -V8.8.0." revision="18" battleScribeVersion="2.00" authorName="Don Thorpe" authorContact="the.desperate.allies@gmail.com" authorUrl="http://battlescribedata.appspot.com/#/repo/whfb" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="0f48c054-1399-d222-0570-b20c15442639" name="Wood Elves - Army Book (2014-5) -V8.8.0." revision="19" battleScribeVersion="2.00" authorName="Don Thorpe" authorContact="the.desperate.allies@gmail.com" authorUrl="http://battlescribedata.appspot.com/#/repo/whfb" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -4137,7 +4137,28 @@ If miscast,  no roll on the table but 1d3 Wounds without save </description>
   <entryLinks/>
   <sharedSelectionEntries>
     <selectionEntry id="b4b2a8d2-b1f8-fd1d-9844-5b75ce784bf4" name="(AB) Acorns of the Ages" page="0" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
-      <profiles/>
+      <profiles>
+        <profile id="8fd3-3d55-bf67-ba61" name="(AB) Acorns of the Ages" hidden="false" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" profileTypeName="Arcane and Enchanted Item">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Magic Property" characteristicTypeId="4d616769632050726f706572747923232344415441232323" value="One use only. At the start of the game, after the battlefield has
+been set up, but before deployment begins, place D3 Citadel
+Woods on the battlefield. A forest can be placed anywhere
+at least 1&quot; away from another terrain feature and the edge
+of the batdefield. Once all forests have been placed, scatter
+each 2D6&quot;. If this scatter causes a forest to end up within
+1&quot; (or on top of) other terrain, or within 1&quot; of the batdefield
+edge, reduce or increase the scatter by the smallest amount
+necessary to avoid the obstruction. W hen this has been done,
+declare which type of forest you want these to be — choose
+from the types on the Mysterious Forest table. All forests
+created by the Acorn of the Ages must be of the same type."/>
+          </characteristics>
+        </profile>
+      </profiles>
       <rules/>
       <infoLinks/>
       <modifiers/>
@@ -4249,9 +4270,28 @@ If miscast,  no roll on the table but 1d3 Wounds without save </description>
       </costs>
     </selectionEntry>
     <selectionEntry id="12889a4e-b059-a91e-b59a-d5d537c91bf6" name="(AB) The Bow of Loren" page="0" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
-      <profiles/>
+      <profiles>
+        <profile id="697c-5fe0-2b18-eafd" name="(AB) The Bow of Loren" hidden="false" profileTypeId="576561706f6e23232344415441232323" profileTypeName="Weapon">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Range" characteristicTypeId="52616e676523232344415441232323" value="30"/>
+            <characteristic name="Strength" characteristicTypeId="537472656e67746823232344415441232323" value="3"/>
+            <characteristic name="Special Rules" characteristicTypeId="5370656369616c2052756c657323232344415441232323" value="Multiple Shots (A + 1), cannot fire Enchanted Arrows"/>
+          </characteristics>
+        </profile>
+      </profiles>
       <rules/>
-      <infoLinks/>
+      <infoLinks>
+        <infoLink id="972d-88ce-5f21-34b0" name="New InfoLink" hidden="false" targetId="4c942517-909f-599d-94b9-2de55569d2bd" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
       <modifiers/>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
