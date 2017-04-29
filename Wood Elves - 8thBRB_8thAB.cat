@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="0f48c054-1399-d222-0570-b20c15442639" name="Wood Elves - Army Book (2014-5) -V8.8.0." revision="37" battleScribeVersion="2.00" authorName="Don Thorpe" authorContact="the.desperate.allies@gmail.com" authorUrl="http://battlescribedata.appspot.com/#/repo/whfb" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="0f48c054-1399-d222-0570-b20c15442639" name="Wood Elves - Army Book (2014-5) -V8.8.0." revision="38" battleScribeVersion="2.00" authorName="Don Thorpe" authorContact="the.desperate.allies@gmail.com" authorUrl="http://battlescribedata.appspot.com/#/repo/whfb" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -6937,6 +6937,56 @@ Boost to target all forests within 12&quot;, cast on 16+</description>
         <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="10b0-01ff-8f46-1556" name="Arcane Bodkin" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="c12e-c2db-8067-212f" name="Arcane Bodkin" hidden="false" profileTypeId="576561706f6e23232344415441232323" profileTypeName="Weapon">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Range" characteristicTypeId="52616e676523232344415441232323" value="30"/>
+            <characteristic name="Strength" characteristicTypeId="537472656e67746823232344415441232323" value="3"/>
+            <characteristic name="Special Rules" characteristicTypeId="5370656369616c2052756c657323232344415441232323" value="bodkin"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="11a2-e302-cc07-2a67" type="max"/>
+      </constraints>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs/>
+    </selectionEntry>
+    <selectionEntry id="bbf5-752f-c6bc-9335" name="Hagbane" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="9816-aedf-08e8-d43f" name="Hagbane" hidden="false" profileTypeId="576561706f6e23232344415441232323" profileTypeName="Weapon">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Range" characteristicTypeId="52616e676523232344415441232323" value="30"/>
+            <characteristic name="Strength" characteristicTypeId="537472656e67746823232344415441232323" value="3"/>
+            <characteristic name="Special Rules" characteristicTypeId="5370656369616c2052756c657323232344415441232323" value="Hagbane"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="95cc-3b8f-cf2f-8a4d" type="max"/>
+      </constraints>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs/>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="5cadea4d-5983-c5bd-a51b-9be007b32282" name="25 Point Arcane Items" hidden="false" collective="false">
@@ -8658,7 +8708,7 @@ Boost to target all forests within 12&quot;, cast on 16+</description>
       <selectionEntryGroups/>
       <entryLinks/>
     </selectionEntryGroup>
-    <selectionEntryGroup id="a6b5e487-8cb4-5f31-8af4-e560e98410e5" name="Magic Arrows (Whole Unit)" hidden="false" collective="true">
+    <selectionEntryGroup id="a6b5e487-8cb4-5f31-8af4-e560e98410e5" name="Magic Arrows (Whole Unit)" hidden="false" collective="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -8673,142 +8723,24 @@ Boost to target all forests within 12&quot;, cast on 16+</description>
         <constraint field="points" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="minPoints" type="min"/>
         <constraint field="points" scope="parent" value="-1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxPoints" type="max"/>
       </constraints>
-      <selectionEntries>
-        <selectionEntry id="f0579c04-aee3-7198-1011-e7a83b63b57a" name="Hagbane Tips" page="0" hidden="false" collective="true" categoryEntryId="(No Category)" type="upgrade">
-          <profiles/>
-          <rules/>
-          <infoLinks>
-            <infoLink id="4768-5a0e-ab4d-f060" name="New InfoLink" hidden="false" targetId="68de-6260-fca4-b956" type="profile">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-            </infoLink>
-          </infoLinks>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-          </constraints>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name="pts" costTypeId="points" value="3.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="eb892704-39bb-7557-0377-2a79d064bdde" name="Trueflight Arrows" page="0" hidden="false" collective="true" categoryEntryId="(No Category)" type="upgrade">
-          <profiles/>
-          <rules/>
-          <infoLinks>
-            <infoLink id="99a5-6bd4-5250-0761" name="New InfoLink" hidden="false" targetId="0be4-a70c-a3cc-a7a1" type="profile">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-            </infoLink>
-          </infoLinks>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-          </constraints>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name="pts" costTypeId="points" value="3.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="92843d7c-b26f-ce64-9dea-c06eec6ef29c" name="Moonfire Shot" page="0" hidden="false" collective="true" categoryEntryId="(No Category)" type="upgrade">
-          <profiles/>
-          <rules/>
-          <infoLinks>
-            <infoLink id="90ac-c56c-1e00-ea7f" name="New InfoLink" hidden="false" targetId="7056-61b2-9701-215f" type="profile">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-            </infoLink>
-          </infoLinks>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-          </constraints>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name="pts" costTypeId="points" value="4.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="d69ec7b7-fded-2850-efec-e857f62b801d" name="Starfire Shafts" page="0" hidden="false" collective="true" categoryEntryId="(No Category)" type="upgrade">
-          <profiles/>
-          <rules/>
-          <infoLinks>
-            <infoLink id="4d7e-26cf-0bda-a1b4" name="New InfoLink" hidden="false" targetId="99bc-eac0-132c-2194" type="profile">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-            </infoLink>
-          </infoLinks>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-          </constraints>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name="pts" costTypeId="points" value="4.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="e8397ed6-78b6-7777-734b-a01f47c4d7c9" name="Swiftshiver Shards" page="0" hidden="false" collective="true" categoryEntryId="(No Category)" type="upgrade">
-          <profiles/>
-          <rules/>
-          <infoLinks>
-            <infoLink id="802d-f372-c075-d59c" name="New InfoLink" hidden="false" targetId="8824-5c6c-62e4-da4d" type="profile">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-            </infoLink>
-          </infoLinks>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-          </constraints>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name="pts" costTypeId="points" value="4.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="4aad3bc9-1f66-fd9f-f24f-19051eabeddf" name="Arcane Bodkins" page="0" hidden="false" collective="true" categoryEntryId="(No Category)" type="upgrade">
-          <profiles/>
-          <rules/>
-          <infoLinks>
-            <infoLink id="f755-0927-551c-b418" name="New InfoLink" hidden="false" targetId="5476-fbb6-a95a-4ffa" type="profile">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-            </infoLink>
-          </infoLinks>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-          </constraints>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name="pts" costTypeId="points" value="5.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
+      <selectionEntries/>
       <selectionEntryGroups/>
-      <entryLinks/>
+      <entryLinks>
+        <entryLink id="9f75-906c-739a-eea1" name="New EntryLink" hidden="false" targetId="10b0-01ff-8f46-1556" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
+        <entryLink id="1bb4-06b8-39b1-9814" name="New EntryLink" hidden="false" targetId="bbf5-752f-c6bc-9335" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
+      </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup id="4fbd716e-e2d0-1165-7e81-f19f4c586bda" name="Magic Weapons" hidden="false" collective="false">
       <profiles/>
