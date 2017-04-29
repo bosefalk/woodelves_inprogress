@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="0f48c054-1399-d222-0570-b20c15442639" name="Wood Elves - Army Book (2014-5) -V8.8.0." revision="16" battleScribeVersion="2.00" authorName="Don Thorpe" authorContact="the.desperate.allies@gmail.com" authorUrl="http://battlescribedata.appspot.com/#/repo/whfb" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="0f48c054-1399-d222-0570-b20c15442639" name="Wood Elves - Army Book (2014-5) -V8.8.0." revision="17" battleScribeVersion="2.00" authorName="Don Thorpe" authorContact="the.desperate.allies@gmail.com" authorUrl="http://battlescribedata.appspot.com/#/repo/whfb" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -824,7 +824,15 @@
               </constraints>
               <selectionEntries/>
               <selectionEntryGroups/>
-              <entryLinks/>
+              <entryLinks>
+                <entryLink id="df73-210b-4a0c-e5bb" name="New EntryLink" hidden="false" targetId="8a35-18e2-9a49-58cc" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                </entryLink>
+              </entryLinks>
               <costs>
                 <cost name="pts" costTypeId="points" value="50.0"/>
               </costs>
@@ -839,7 +847,15 @@
               </constraints>
               <selectionEntries/>
               <selectionEntryGroups/>
-              <entryLinks/>
+              <entryLinks>
+                <entryLink id="2496-0a3d-b9f7-cf92" name="New EntryLink" hidden="false" targetId="2d8c-1189-64c5-8311" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                </entryLink>
+              </entryLinks>
               <costs>
                 <cost name="pts" costTypeId="points" value="65.0"/>
               </costs>
@@ -1256,7 +1272,15 @@
               </constraints>
               <selectionEntries/>
               <selectionEntryGroups/>
-              <entryLinks/>
+              <entryLinks>
+                <entryLink id="6b87-e39e-0f6f-b7f1" name="New EntryLink" hidden="false" targetId="8a35-18e2-9a49-58cc" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                </entryLink>
+              </entryLinks>
               <costs>
                 <cost name="pts" costTypeId="points" value="50.0"/>
               </costs>
@@ -1271,7 +1295,15 @@
               </constraints>
               <selectionEntries/>
               <selectionEntryGroups/>
-              <entryLinks/>
+              <entryLinks>
+                <entryLink id="212e-3508-abb2-3fa1" name="New EntryLink" hidden="false" targetId="2d8c-1189-64c5-8311" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                </entryLink>
+              </entryLinks>
               <costs>
                 <cost name="pts" costTypeId="points" value="65.0"/>
               </costs>
@@ -1286,7 +1318,15 @@
               </constraints>
               <selectionEntries/>
               <selectionEntryGroups/>
-              <entryLinks/>
+              <entryLinks>
+                <entryLink id="0c66-3454-eea8-4d6c" name="New EntryLink" hidden="false" targetId="7006-6906-774e-74d4" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                </entryLink>
+              </entryLinks>
               <costs>
                 <cost name="pts" costTypeId="points" value="300.0"/>
               </costs>
@@ -1544,48 +1584,19 @@
       <modifiers/>
       <constraints>
         <constraint field="selections" scope="roster" value="2.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxInRoster" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="8262-1586-44db-7123" type="min"/>
       </constraints>
-      <selectionEntries>
-        <selectionEntry id="10266e28-3c94-74f2-bc40-22fcb99c6612" name="Great Eagle" page="0" hidden="false" collective="false" categoryEntryId="(No Category)" type="model">
-          <profiles>
-            <profile id="e732-2c39-aabf-1a53" name="Great Eagle" book="AB" page="95" hidden="false" profileTypeId="4d6f64656c23232344415441232323" profileTypeName="Model">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <characteristics>
-                <characteristic name="M" characteristicTypeId="4d23232344415441232323" value="2"/>
-                <characteristic name="WS" characteristicTypeId="575323232344415441232323" value="5"/>
-                <characteristic name="BS" characteristicTypeId="425323232344415441232323" value="0"/>
-                <characteristic name="S" characteristicTypeId="5323232344415441232323" value="4"/>
-                <characteristic name="T" characteristicTypeId="5423232344415441232323" value="4"/>
-                <characteristic name="W" characteristicTypeId="5723232344415441232323" value="3"/>
-                <characteristic name="I" characteristicTypeId="4923232344415441232323" value="4"/>
-                <characteristic name="A" characteristicTypeId="4123232344415441232323" value="2"/>
-                <characteristic name="LD" characteristicTypeId="4c4423232344415441232323" value="8"/>
-                <characteristic name="ArmourSave" characteristicTypeId="41726d6f75725361766523232344415441232323" value=""/>
-                <characteristic name="WardSave" characteristicTypeId="576172645361766523232344415441232323" value=""/>
-                <characteristic name="MR" characteristicTypeId="4d5223232344415441232323" value=""/>
-                <characteristic name="Type" characteristicTypeId="5479706523232344415441232323" value="Monstrous Beast"/>
-              </characteristics>
-            </profile>
-          </profiles>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="8ccf-dd8a-3c3b-6635" name="New EntryLink" hidden="false" targetId="8a35-18e2-9a49-58cc" type="selectionEntry">
+          <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
-          </constraints>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name="pts" costTypeId="points" value="50.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
-      <selectionEntryGroups/>
-      <entryLinks/>
+          <constraints/>
+        </entryLink>
+      </entryLinks>
       <costs>
         <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
@@ -2431,27 +2442,22 @@ If miscast,  no roll on the table but 1d3 Wounds without save </description>
             <selectionEntry id="940bf11f-cafe-da74-5c54-304b7f74422a" name="Great Eagle" page="0" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
               <profiles/>
               <rules/>
-              <infoLinks>
-                <infoLink id="ea46569d-8bb5-9735-db5d-d57e5aa010ca" hidden="false" targetId="222c2a4b-feae-174f-64b8-0ea62a8cdcd6" type="profile">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                </infoLink>
-                <infoLink id="1883cd94-55c5-ca8b-fea4-d596679433ed" hidden="false" targetId="3c3239b5-6dd2-7e5f-0a4f-69db2c71d233" type="rule">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                </infoLink>
-              </infoLinks>
+              <infoLinks/>
               <modifiers/>
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
               </constraints>
               <selectionEntries/>
               <selectionEntryGroups/>
-              <entryLinks/>
+              <entryLinks>
+                <entryLink id="4f3c-9071-ca5d-bc94" name="New EntryLink" hidden="false" targetId="8a35-18e2-9a49-58cc" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                </entryLink>
+              </entryLinks>
               <costs>
                 <cost name="pts" costTypeId="points" value="50.0"/>
               </costs>
@@ -2835,7 +2841,15 @@ If miscast,  no roll on the table but 1d3 Wounds without save </description>
               </constraints>
               <selectionEntries/>
               <selectionEntryGroups/>
-              <entryLinks/>
+              <entryLinks>
+                <entryLink id="16e4-639e-f890-c9dc" name="New EntryLink" hidden="false" targetId="8a35-18e2-9a49-58cc" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                </entryLink>
+              </entryLinks>
               <costs>
                 <cost name="pts" costTypeId="points" value="50.0"/>
               </costs>
@@ -5662,6 +5676,120 @@ If miscast,  no roll on the table but 1d3 Wounds without save </description>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f0b1-c6bb-8457-9adf" type="min"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d003-c4ef-d2bc-f66e" type="max"/>
+      </constraints>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="7006-6906-774e-74d4" name="Forest Dragon" book="AB" page="90" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="6878-d8ce-82dd-4f33" name="Forest Dragon" book="AB" page="90" hidden="false" profileTypeId="4d6f64656c23232344415441232323" profileTypeName="Model">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="M" characteristicTypeId="4d23232344415441232323" value="6"/>
+            <characteristic name="WS" characteristicTypeId="575323232344415441232323" value="6"/>
+            <characteristic name="BS" characteristicTypeId="425323232344415441232323" value="0"/>
+            <characteristic name="S" characteristicTypeId="5323232344415441232323" value="6"/>
+            <characteristic name="T" characteristicTypeId="5423232344415441232323" value="6"/>
+            <characteristic name="W" characteristicTypeId="5723232344415441232323" value="6"/>
+            <characteristic name="I" characteristicTypeId="4923232344415441232323" value="3"/>
+            <characteristic name="A" characteristicTypeId="4123232344415441232323" value="5"/>
+            <characteristic name="LD" characteristicTypeId="4c4423232344415441232323" value="8"/>
+            <characteristic name="ArmourSave" characteristicTypeId="41726d6f75725361766523232344415441232323" value="3"/>
+            <characteristic name="WardSave" characteristicTypeId="576172645361766523232344415441232323" value="6"/>
+            <characteristic name="MR" characteristicTypeId="4d5223232344415441232323" value=""/>
+            <characteristic name="Type" characteristicTypeId="5479706523232344415441232323" value="Monster"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ad3b-dd27-da15-a014" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c783-3a2f-3562-5923" type="max"/>
+      </constraints>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="8a35-18e2-9a49-58cc" name="Great Eagle" book="AB" page="90" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="a43a-05a6-f3fa-e7fc" name="Great Eagle" hidden="false" profileTypeId="4d6f64656c23232344415441232323" profileTypeName="Model">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="M" characteristicTypeId="4d23232344415441232323" value="2"/>
+            <characteristic name="WS" characteristicTypeId="575323232344415441232323" value="5"/>
+            <characteristic name="BS" characteristicTypeId="425323232344415441232323" value="0"/>
+            <characteristic name="S" characteristicTypeId="5323232344415441232323" value="4"/>
+            <characteristic name="T" characteristicTypeId="5423232344415441232323" value="4"/>
+            <characteristic name="W" characteristicTypeId="5723232344415441232323" value="3"/>
+            <characteristic name="I" characteristicTypeId="4923232344415441232323" value="4"/>
+            <characteristic name="A" characteristicTypeId="4123232344415441232323" value="2"/>
+            <characteristic name="LD" characteristicTypeId="4c4423232344415441232323" value="8"/>
+            <characteristic name="ArmourSave" characteristicTypeId="41726d6f75725361766523232344415441232323" value=""/>
+            <characteristic name="WardSave" characteristicTypeId="576172645361766523232344415441232323" value=""/>
+            <characteristic name="MR" characteristicTypeId="4d5223232344415441232323" value=""/>
+            <characteristic name="Type" characteristicTypeId="5479706523232344415441232323" value="Monstrous Beast"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a872-d304-1182-c14b" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4065-5af5-c5c9-dfb0" type="max"/>
+      </constraints>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="2d8c-1189-64c5-8311" name="Great Stag" book="AB" page="90" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="e1db-2772-0b9e-06a4" name="Great Stag" book="AB" page="90" hidden="false" profileTypeId="4d6f64656c23232344415441232323" profileTypeName="Model">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="M" characteristicTypeId="4d23232344415441232323" value="9"/>
+            <characteristic name="WS" characteristicTypeId="575323232344415441232323" value="5"/>
+            <characteristic name="BS" characteristicTypeId="425323232344415441232323" value="0"/>
+            <characteristic name="S" characteristicTypeId="5323232344415441232323" value="5"/>
+            <characteristic name="T" characteristicTypeId="5423232344415441232323" value="4"/>
+            <characteristic name="W" characteristicTypeId="5723232344415441232323" value="3"/>
+            <characteristic name="I" characteristicTypeId="4923232344415441232323" value="4"/>
+            <characteristic name="A" characteristicTypeId="4123232344415441232323" value="2"/>
+            <characteristic name="LD" characteristicTypeId="4c4423232344415441232323" value="7"/>
+            <characteristic name="ArmourSave" characteristicTypeId="41726d6f75725361766523232344415441232323" value=""/>
+            <characteristic name="WardSave" characteristicTypeId="576172645361766523232344415441232323" value="6"/>
+            <characteristic name="MR" characteristicTypeId="4d5223232344415441232323" value=""/>
+            <characteristic name="Type" characteristicTypeId="5479706523232344415441232323" value="Monstrous Beast"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1b65-4481-17e4-8fbc" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8c6c-f333-4e2e-333b" type="max"/>
       </constraints>
       <selectionEntries/>
       <selectionEntryGroups/>
