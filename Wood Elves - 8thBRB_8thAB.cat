@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="0f48c054-1399-d222-0570-b20c15442639" name="Wood Elves - Army Book (2014-5) -V8.8.0." revision="22" battleScribeVersion="2.00" authorName="Don Thorpe" authorContact="the.desperate.allies@gmail.com" authorUrl="http://battlescribedata.appspot.com/#/repo/whfb" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="0f48c054-1399-d222-0570-b20c15442639" name="Wood Elves - Army Book (2014-5) -V8.8.0." revision="23" battleScribeVersion="2.00" authorName="Don Thorpe" authorContact="the.desperate.allies@gmail.com" authorUrl="http://battlescribedata.appspot.com/#/repo/whfb" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -4144,18 +4144,7 @@ If miscast,  no roll on the table but 1d3 Wounds without save </description>
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Magic Property" characteristicTypeId="4d616769632050726f706572747923232344415441232323" value="One use only. At the start of the game, after the battlefield has
-been set up, but before deployment begins, place D3 Citadel
-Woods on the battlefield. A forest can be placed anywhere
-at least 1&quot; away from another terrain feature and the edge
-of the batdefield. Once all forests have been placed, scatter
-each 2D6&quot;. If this scatter causes a forest to end up within
-1&quot; (or on top of) other terrain, or within 1&quot; of the batdefield
-edge, reduce or increase the scatter by the smallest amount
-necessary to avoid the obstruction. W hen this has been done,
-declare which type of forest you want these to be — choose
-from the types on the Mysterious Forest table. All forests
-created by the Acorn of the Ages must be of the same type."/>
+            <characteristic name="Magic Property" characteristicTypeId="4d616769632050726f706572747923232344415441232323" value="One use only. At the start of the game, after the battlefield has been set up, but before deployment begins, place D3 Citadel Woods on the battlefield. A forest can be placed anywhere at least 1&quot; away from another terrain feature and the edge of the batdefield. Once all forests have been placed, scatter each 2D6&quot;. If this scatter causes a forest to end up within 1&quot; (or on top of) other terrain, or within 1&quot; of the batdefield edge, reduce or increase the scatter by the smallest amount necessary to avoid the obstruction. W hen this has been done, declare which type of forest you want these to be — choose from the types on the Mysterious Forest table. All forests created by the Acorn of the Ages must be of the same type."/>
           </characteristics>
         </profile>
       </profiles>
@@ -4219,9 +4208,7 @@ Boost to target all forests within 12&quot;, cast on 16+</description>
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Magic Property" characteristicTypeId="4d616769632050726f706572747923232344415441232323" value="All failed To Hit and To Wound rolls made with Daith’s
-Reaper must be re-rolled, as must all successful armour saves
-taken against Wounds caused by this weapon."/>
+            <characteristic name="Magic Property" characteristicTypeId="4d616769632050726f706572747923232344415441232323" value="All failed To Hit and To Wound rolls made with Daith’s Reaper must be re-rolled, as must all successful armour saves taken against Wounds caused by this weapon."/>
           </characteristics>
         </profile>
       </profiles>
@@ -4247,11 +4234,7 @@ taken against Wounds caused by this weapon."/>
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Magic Property" characteristicTypeId="4d616769632050726f706572747923232344415441232323" value="One use only. Model with Asrai longbow only. The Hail of
-Doom arrow can be used instead of making a Shooting attack
-with the bearer’s Asrai longbow. Declare that the H ail of
-Doom Arrow is being used before any dice are rolled:
-Range 30&quot;, S4, Armour Piercing, Multiple Shots (3d6)"/>
+            <characteristic name="Magic Property" characteristicTypeId="4d616769632050726f706572747923232344415441232323" value="One use only. Model with Asrai longbow only. The Hail of Doom arrow can be used instead of making a Shooting attack with the bearer’s Asrai longbow. Declare that the H ail of Doom Arrow is being used before any dice are rolled: Range 30&quot;, S4, Armour Piercing, Multiple Shots (3d6)"/>
           </characteristics>
         </profile>
       </profiles>
@@ -4277,14 +4260,7 @@ Range 30&quot;, S4, Armour Piercing, Multiple Shots (3d6)"/>
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Magic Property" characteristicTypeId="4d616769632050726f706572747923232344415441232323" value="If the bearer’s unit is wholly within a forest at the end of
-your Movement phase, and is not in close combat, it can
-forestwalk. If it does so, remove it from the battlefield and
-immediately replace it, wholly within any forest on the
-batdefield, in the same formation, but facing any direction.
-A forestwalking unit cannot be placed within 1&quot; of an enemy
-unit or impassable terrain. A unit that forestwalks counts as
-having marched in the Movement phase."/>
+            <characteristic name="Magic Property" characteristicTypeId="4d616769632050726f706572747923232344415441232323" value="If the bearer’s unit is wholly within a forest at the end of your Movement phase, and is not in close combat, it can forestwalk. If it does so, remove it from the battlefield and immediately replace it, wholly within any forest on the batdefield, in the same formation, but facing any direction. A forestwalking unit cannot be placed within 1&quot; of an enemy unit or impassable terrain. A unit that forestwalks counts as having marched in the Movement phase."/>
           </characteristics>
         </profile>
       </profiles>
@@ -4310,12 +4286,7 @@ having marched in the Movement phase."/>
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Magical Emination" characteristicTypeId="4d61676963616c20456d696e6174696f6e23232344415441232323" value="The bearer has the Magic Resistance (3) special rule. In
-addition, once per game, all models in the same unit as the
-Banner of the Eternal Queen have the Unbreakable special
-rule until the end of the turn, or until the bearer is slain
-(whichever comes first). Declare you are using this ability at
-the start of any turn."/>
+            <characteristic name="Magical Emination" characteristicTypeId="4d61676963616c20456d696e6174696f6e23232344415441232323" value="The bearer has the Magic Resistance (3) special rule. In addition, once per game, all models in the same unit as the Banner of the Eternal Queen have the Unbreakable special rule until the end of the turn, or until the bearer is slain (whichever comes first). Declare you are using this ability at the start of any turn."/>
           </characteristics>
         </profile>
       </profiles>
@@ -4341,8 +4312,7 @@ the start of any turn."/>
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Magical Emination" characteristicTypeId="4d61676963616c20456d696e6174696f6e23232344415441232323" value="All models in the same unit as the Banner of the Hunter
-King have the Vanguard deployment special rule. In addition the bearer’s unit re-roll their first failed charge of the game."/>
+            <characteristic name="Magical Emination" characteristicTypeId="4d61676963616c20456d696e6174696f6e23232344415441232323" value="All models in the same unit as the Banner of the Hunter King have the Vanguard deployment special rule. In addition the bearer’s unit re-roll their first failed charge of the game."/>
           </characteristics>
         </profile>
       </profiles>
@@ -4430,16 +4400,7 @@ King have the Vanguard deployment special rule. In addition the bearer’s unit 
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Magic Property" characteristicTypeId="4d616769632050726f706572747923232344415441232323" value="Arm our saves cannot be taken against Wounds caused by
-the Spirit Sword. Furthermore, immediately when an enemy
-character, champion or monster suffers one or more unsaved
-Wounds from the Spirit Sword, both he and the wielder must
-roll 2D6 and add their respective Leadership values.
-If the wounded model’s total is higher, or the totals are the
-same, nothing else happens.
-If the wounded model’s total is lower, it immediately suffers
-a W ound for each point by which its total was exceeded, with
-no armour saves allowed."/>
+            <characteristic name="Magic Property" characteristicTypeId="4d616769632050726f706572747923232344415441232323" value="Arm our saves cannot be taken against Wounds caused by the Spirit Sword. Furthermore, immediately when an enemy character, champion or monster suffers one or more unsaved Wounds from the Spirit Sword, both he and the wielder must roll 2D6 and add their respective Leadership values. If the wounded model’s total is higher, or the totals are the same, nothing else happens. If the wounded model’s total is lower, it immediately suffers a W ound for each point by which its total was exceeded, with no armour saves allowed."/>
           </characteristics>
         </profile>
       </profiles>
@@ -4465,8 +4426,7 @@ no armour saves allowed."/>
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Magic Property" characteristicTypeId="4d616769632050726f706572747923232344415441232323" value="Infantry and monstrous infantry only. The owner has
-Fly special rule but may not join units"/>
+            <characteristic name="Magic Property" characteristicTypeId="4d616769632050726f706572747923232344415441232323" value="Infantry and monstrous infantry only. The owner has Fly special rule but may not join units"/>
           </characteristics>
         </profile>
       </profiles>
@@ -4547,8 +4507,7 @@ Fly special rule but may not join units"/>
           <modifiers/>
           <characteristics>
             <characteristic name="Saving Throw modifier" characteristicTypeId="536176696e67205468726f77206d6f64696669657223232344415441232323"/>
-            <characteristic name="Special Rules" characteristicTypeId="5370656369616c2052756c657323232344415441232323" value="Grants the wearer a 2+ armour save that cannot be
-improved by any means"/>
+            <characteristic name="Special Rules" characteristicTypeId="5370656369616c2052756c657323232344415441232323" value="Grants the wearer a 2+ armour save that cannot be improved by any means"/>
           </characteristics>
         </profile>
       </profiles>
@@ -4626,8 +4585,7 @@ improved by any means"/>
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Magic Property" characteristicTypeId="4d616769632050726f706572747923232344415441232323" value="The bearer has the Frenzy special rule and can never
-lose his Frenzy"/>
+            <characteristic name="Magic Property" characteristicTypeId="4d616769632050726f706572747923232344415441232323" value="The bearer has the Frenzy special rule and can never lose his Frenzy"/>
           </characteristics>
         </profile>
       </profiles>
@@ -4746,8 +4704,7 @@ lose his Frenzy"/>
           <modifiers/>
           <characteristics>
             <characteristic name="Saving Throw modifier" characteristicTypeId="536176696e67205468726f77206d6f64696669657223232344415441232323" value="-1"/>
-            <characteristic name="Special Rules" characteristicTypeId="5370656369616c2052756c657323232344415441232323" value="Shield. One Use Only. The first hit suffered by the
-bearer is discounted on a 2+"/>
+            <characteristic name="Special Rules" characteristicTypeId="5370656369616c2052756c657323232344415441232323" value="Shield. One Use Only. The first hit suffered by the bearer is discounted on a 2+"/>
           </characteristics>
         </profile>
       </profiles>
@@ -4832,11 +4789,7 @@ bearer is discounted on a 2+"/>
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Magic Property" characteristicTypeId="4d616769632050726f706572747923232344415441232323" value="One use only. When an enemy spell is cast, this scroll can
-be used instead of dispelling. Automatically dispels the
-enemy spell. May not be used to stop irresistible force or
-against a remains in play spell (other than the moment the
-remains in play spell is cast)"/>
+            <characteristic name="Magic Property" characteristicTypeId="4d616769632050726f706572747923232344415441232323" value="One use only. When an enemy spell is cast, this scroll can be used instead of dispelling. Automatically dispels the enemy spell. May not be used to stop irresistible force or against a remains in play spell (other than the moment the remains in play spell is cast)"/>
           </characteristics>
         </profile>
       </profiles>
@@ -4862,8 +4815,7 @@ remains in play spell is cast)"/>
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Magic Property" characteristicTypeId="4d616769632050726f706572747923232344415441232323" value="Grants the bearer a 2+ ward save against flaming
-attacks"/>
+            <characteristic name="Magic Property" characteristicTypeId="4d616769632050726f706572747923232344415441232323" value="Grants the bearer a 2+ ward save against flaming attacks"/>
           </characteristics>
         </profile>
       </profiles>
@@ -4890,9 +4842,7 @@ attacks"/>
           <modifiers/>
           <characteristics>
             <characteristic name="Saving Throw modifier" characteristicTypeId="536176696e67205468726f77206d6f64696669657223232344415441232323" value="-1"/>
-            <characteristic name="Special Rules" characteristicTypeId="5370656369616c2052756c657323232344415441232323" value="The wearer counts his armour save as being one
-point higher than normal. The wearer has a 2+ ward
-save versus flaming attacks"/>
+            <characteristic name="Special Rules" characteristicTypeId="5370656369616c2052756c657323232344415441232323" value="The wearer counts his armour save as being one point higher than normal. The wearer has a 2+ ward save versus flaming attacks"/>
           </characteristics>
         </profile>
       </profiles>
@@ -4945,9 +4895,7 @@ save versus flaming attacks"/>
           <modifiers/>
           <characteristics>
             <characteristic name="Saving Throw modifier" characteristicTypeId="536176696e67205468726f77206d6f64696669657223232344415441232323" value="-2"/>
-            <characteristic name="Special Rules" characteristicTypeId="5370656369616c2052756c657323232344415441232323" value="Shield. The bearer counts his armour save as being
-two points higher than normal, rather than the usual
-one point that a shield would normally grant"/>
+            <characteristic name="Special Rules" characteristicTypeId="5370656369616c2052756c657323232344415441232323" value="Shield. The bearer counts his armour save as being two points higher than normal, rather than the usual one point that a shield would normally grant"/>
           </characteristics>
         </profile>
       </profiles>
@@ -4973,8 +4921,7 @@ one point that a shield would normally grant"/>
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Magic Property" characteristicTypeId="4d616769632050726f706572747923232344415441232323" value="Flying creatures (and riders) must re-roll successful 
-hits against the bearer (and his unit) in close combat"/>
+            <characteristic name="Magic Property" characteristicTypeId="4d616769632050726f706572747923232344415441232323" value="Flying creatures (and riders) must re-roll successful  hits against the bearer (and his unit) in close combat"/>
           </characteristics>
         </profile>
       </profiles>
@@ -5000,11 +4947,7 @@ hits against the bearer (and his unit) in close combat"/>
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Magic Property" characteristicTypeId="4d616769632050726f706572747923232344415441232323" value="One use only. When an enemy spell is cast, this scroll can
-be used instead of dispelling.
-Resolve spell as normal. Roll all the power dice used to
-cast. The casting wizard takes a wound for every result of
-5+ rolled, with no armour saves allowed."/>
+            <characteristic name="Magic Property" characteristicTypeId="4d616769632050726f706572747923232344415441232323" value="One use only. When an enemy spell is cast, this scroll can be used instead of dispelling. Resolve spell as normal. Roll all the power dice used to cast. The casting wizard takes a wound for every result of 5+ rolled, with no armour saves allowed."/>
           </characteristics>
         </profile>
       </profiles>
@@ -5056,9 +4999,7 @@ cast. The casting wizard takes a wound for every result of
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Magic Property" characteristicTypeId="4d616769632050726f706572747923232344415441232323" value="One use only. Adds +D6 dice to the power pool at the start
-of the caster&apos;s magic phase. Inflicts D3 wounds (no armour
-saves) on the bearer when used"/>
+            <characteristic name="Magic Property" characteristicTypeId="4d616769632050726f706572747923232344415441232323" value="One use only. Adds +D6 dice to the power pool at the start of the caster&apos;s magic phase. Inflicts D3 wounds (no armour saves) on the bearer when used"/>
           </characteristics>
         </profile>
       </profiles>
@@ -5084,9 +5025,7 @@ saves) on the bearer when used"/>
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Magic Property" characteristicTypeId="4d616769632050726f706572747923232344415441232323" value="After deployment zone agreed, but before armies are
-deployed place a watch tower building in your
-deployment zone. This is a standard building."/>
+            <characteristic name="Magic Property" characteristicTypeId="4d616769632050726f706572747923232344415441232323" value="After deployment zone agreed, but before armies are deployed place a watch tower building in your deployment zone. This is a standard building."/>
           </characteristics>
         </profile>
       </profiles>
@@ -5139,8 +5078,7 @@ deployment zone. This is a standard building."/>
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Magic Property" characteristicTypeId="4d616769632050726f706572747923232344415441232323" value="Close combat attacks made with this sword are
-resolved at +3 Strength"/>
+            <characteristic name="Magic Property" characteristicTypeId="4d616769632050726f706572747923232344415441232323" value="Close combat attacks made with this sword are resolved at +3 Strength"/>
           </characteristics>
         </profile>
       </profiles>
@@ -5193,8 +5131,7 @@ resolved at +3 Strength"/>
           <modifiers/>
           <characteristics>
             <characteristic name="Saving Throw modifier" characteristicTypeId="536176696e67205468726f77206d6f64696669657223232344415441232323" value="6"/>
-            <characteristic name="Special Rules" characteristicTypeId="5370656369616c2052756c657323232344415441232323" value="Light armour. Enemies suffer a -1 to hit penalty
-when striking the wearer in close combat."/>
+            <characteristic name="Special Rules" characteristicTypeId="5370656369616c2052756c657323232344415441232323" value="Light armour. Enemies suffer a -1 to hit penalty when striking the wearer in close combat."/>
           </characteristics>
         </profile>
       </profiles>
@@ -5246,8 +5183,7 @@ when striking the wearer in close combat."/>
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Magic Property" characteristicTypeId="4d616769632050726f706572747923232344415441232323" value="One use only. May be drunk at start of controlling
-player&apos;s turn. The bearer recovers D6 wounds"/>
+            <characteristic name="Magic Property" characteristicTypeId="4d616769632050726f706572747923232344415441232323" value="One use only. May be drunk at start of controlling player&apos;s turn. The bearer recovers D6 wounds"/>
           </characteristics>
         </profile>
       </profiles>
@@ -5274,12 +5210,7 @@ player&apos;s turn. The bearer recovers D6 wounds"/>
           <modifiers/>
           <characteristics>
             <characteristic name="Saving Throw modifier" characteristicTypeId="536176696e67205468726f77206d6f64696669657223232344415441232323" value="-1"/>
-            <characteristic name="Special Rules" characteristicTypeId="5370656369616c2052756c657323232344415441232323" value="The wearer counts his armour save as being one
-higher than normal. In addition, at the start of each
-CC phase, choose an enemy character in base count
-with the bearer or his unit. The character must pass a
-leadership test. If failed, the character cannot make
-any attacks that phase and is hit automatically."/>
+            <characteristic name="Special Rules" characteristicTypeId="5370656369616c2052756c657323232344415441232323" value="The wearer counts his armour save as being one higher than normal. In addition, at the start of each CC phase, choose an enemy character in base count with the bearer or his unit. The character must pass a leadership test. If failed, the character cannot make any attacks that phase and is hit automatically."/>
           </characteristics>
         </profile>
       </profiles>
@@ -5305,8 +5236,7 @@ any attacks that phase and is hit automatically."/>
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Magic Property" characteristicTypeId="4d616769632050726f706572747923232344415441232323" value="The character (and his unit) has a 6+ ward save
-against war machine weapons"/>
+            <characteristic name="Magic Property" characteristicTypeId="4d616769632050726f706572747923232344415441232323" value="The character (and his unit) has a 6+ ward save against war machine weapons"/>
           </characteristics>
         </profile>
       </profiles>
@@ -5358,8 +5288,7 @@ against war machine weapons"/>
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Magic Property" characteristicTypeId="4d616769632050726f706572747923232344415441232323" value="One use only. Bearer may re-roll a single failed
-armour save"/>
+            <characteristic name="Magic Property" characteristicTypeId="4d616769632050726f706572747923232344415441232323" value="One use only. Bearer may re-roll a single failed armour save"/>
           </characteristics>
         </profile>
       </profiles>
@@ -5411,8 +5340,7 @@ armour save"/>
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Magic Property" characteristicTypeId="4d616769632050726f706572747923232344415441232323" value="Armour saves cannot be taken against wounds
-caused by the Obsidian Blade"/>
+            <characteristic name="Magic Property" characteristicTypeId="4d616769632050726f706572747923232344415441232323" value="Armour saves cannot be taken against wounds caused by the Obsidian Blade"/>
           </characteristics>
         </profile>
       </profiles>
@@ -5490,8 +5418,7 @@ caused by the Obsidian Blade"/>
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Magic Property" characteristicTypeId="4d616769632050726f706572747923232344415441232323" value="Close combat attacks made with this sword are
-resolved at +2 Strength"/>
+            <characteristic name="Magic Property" characteristicTypeId="4d616769632050726f706572747923232344415441232323" value="Close combat attacks made with this sword are resolved at +2 Strength"/>
           </characteristics>
         </profile>
       </profiles>
@@ -5517,8 +5444,7 @@ resolved at +2 Strength"/>
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Magic Property" characteristicTypeId="4d616769632050726f706572747923232344415441232323" value="One use only. Grants a 4+ ward save against the first
-wound suffered"/>
+            <characteristic name="Magic Property" characteristicTypeId="4d616769632050726f706572747923232344415441232323" value="One use only. Grants a 4+ ward save against the first wound suffered"/>
           </characteristics>
         </profile>
       </profiles>
@@ -5544,8 +5470,7 @@ wound suffered"/>
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Magic Property" characteristicTypeId="4d616769632050726f706572747923232344415441232323" value="Grants the bearer a 5+ ward save in close combat
-against models with the Fly special rule"/>
+            <characteristic name="Magic Property" characteristicTypeId="4d616769632050726f706572747923232344415441232323" value="Grants the bearer a 5+ ward save in close combat against models with the Fly special rule"/>
           </characteristics>
         </profile>
       </profiles>
@@ -5571,10 +5496,7 @@ against models with the Fly special rule"/>
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Magic Property" characteristicTypeId="4d616769632050726f706572747923232344415441232323" value="One use only. May be drunk at start of any player&apos;s
-turn. Imbiber has Immune to Pyschology and
-Devastating Charge special rules until the end of the
-player turn"/>
+            <characteristic name="Magic Property" characteristicTypeId="4d616769632050726f706572747923232344415441232323" value="One use only. May be drunk at start of any player&apos;s turn. Imbiber has Immune to Pyschology and Devastating Charge special rules until the end of the player turn"/>
           </characteristics>
         </profile>
       </profiles>
@@ -5600,9 +5522,7 @@ player turn"/>
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Magic Property" characteristicTypeId="4d616769632050726f706572747923232344415441232323" value="One use only. May be drunk at start of any player&apos;s
-turn. Imbiber has +3 initiative until the end of the
-turn"/>
+            <characteristic name="Magic Property" characteristicTypeId="4d616769632050726f706572747923232344415441232323" value="One use only. May be drunk at start of any player&apos;s turn. Imbiber has +3 initiative until the end of the turn"/>
           </characteristics>
         </profile>
       </profiles>
@@ -5628,9 +5548,7 @@ turn"/>
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Magic Property" characteristicTypeId="4d616769632050726f706572747923232344415441232323" value="One use only. May be drunk at start of any player&apos;s
-turn. Imbiber has +3 strength until the end of the
-turn"/>
+            <characteristic name="Magic Property" characteristicTypeId="4d616769632050726f706572747923232344415441232323" value="One use only. May be drunk at start of any player&apos;s turn. Imbiber has +3 strength until the end of the turn"/>
           </characteristics>
         </profile>
       </profiles>
@@ -5656,9 +5574,7 @@ turn"/>
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Magic Property" characteristicTypeId="4d616769632050726f706572747923232344415441232323" value="One use only. May be drunk at start of any player&apos;s
-turn. Imbiber has +3 toughness until the end of the
-turn"/>
+            <characteristic name="Magic Property" characteristicTypeId="4d616769632050726f706572747923232344415441232323" value="One use only. May be drunk at start of any player&apos;s turn. Imbiber has +3 toughness until the end of the turn"/>
           </characteristics>
         </profile>
       </profiles>
@@ -5684,8 +5600,7 @@ turn"/>
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Magic Property" characteristicTypeId="4d616769632050726f706572747923232344415441232323" value="One use only. During a wizard’s casting attempt, the casting
-value of the spell is halved. The spell cannot be boosted."/>
+            <characteristic name="Magic Property" characteristicTypeId="4d616769632050726f706572747923232344415441232323" value="One use only. During a wizard’s casting attempt, the casting value of the spell is halved. The spell cannot be boosted."/>
           </characteristics>
         </profile>
       </profiles>
@@ -5711,9 +5626,7 @@ value of the spell is halved. The spell cannot be boosted."/>
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Magic Property" characteristicTypeId="4d616769632050726f706572747923232344415441232323" value="One use only. Declare use before casting a spell. Adds +2
-dice to the power dice he is going to roll (still require at
-least one power dice from the pool)"/>
+            <characteristic name="Magic Property" characteristicTypeId="4d616769632050726f706572747923232344415441232323" value="One use only. Declare use before casting a spell. Adds +2 dice to the power dice he is going to roll (still require at least one power dice from the pool)"/>
           </characteristics>
         </profile>
       </profiles>
@@ -5824,7 +5737,18 @@ least one power dice from the pool)"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="72d0e53c-bd8e-9850-5de0-697dc2ed0d53" name="(BRB) Relic Sword" page="0" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
-      <profiles/>
+      <profiles>
+        <profile id="c659-1f92-f166-bbac" name="(BRB) Relic Sword" hidden="false" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" profileTypeName="Arcane and Enchanted Item">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Magic Property" characteristicTypeId="4d616769632050726f706572747923232344415441232323" value="Always wound on 5+, unless would wound normally
+on a lower results"/>
+          </characteristics>
+        </profile>
+      </profiles>
       <rules/>
       <infoLinks/>
       <modifiers/>
@@ -5840,7 +5764,18 @@ least one power dice from the pool)"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="6fa0be3c-33fa-712d-0f1c-8007ac023c50" name="(BRB) Ruby Ring of Ruin" book="BRB" page="505" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
-      <profiles/>
+      <profiles>
+        <profile id="f1fc-9696-0ea9-63e7" name="(BRB) Ruby Ring of Ruin" hidden="false" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" profileTypeName="Arcane and Enchanted Item">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Magic Property" characteristicTypeId="4d616769632050726f706572747923232344415441232323" value="Bound spell (Power level 3). Contains fireball (See
+the Lore of Fire)"/>
+          </characteristics>
+        </profile>
+      </profiles>
       <rules/>
       <infoLinks/>
       <modifiers/>
@@ -5856,7 +5791,17 @@ least one power dice from the pool)"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="89043ab6-cdb6-e824-75e1-09856cb54ac9" name="(BRB) Scarecrow Banner" page="0" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
-      <profiles/>
+      <profiles>
+        <profile id="58b6-a46a-92c8-61ab" name="(BRB) Scarecrow Banner" hidden="false" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" profileTypeName="Arcane and Enchanted Item">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Magic Property" characteristicTypeId="4d616769632050726f706572747923232344415441232323" value="Unit causes Fear in models with the Fly special rule"/>
+          </characteristics>
+        </profile>
+      </profiles>
       <rules/>
       <infoLinks/>
       <modifiers/>
@@ -5872,7 +5817,19 @@ least one power dice from the pool)"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="9c27a686-b459-96f2-9d74-fa6dae90fb9a" name="(BRB) Sceptre of Stability" book="BRB (8th Ed)" page="504" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
-      <profiles/>
+      <profiles>
+        <profile id="3d96-1295-3fc1-1777" name="(BRB) Sceptre of Stability" hidden="false" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" profileTypeName="Arcane and Enchanted Item">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Magic Property" characteristicTypeId="4d616769632050726f706572747923232344415441232323" value="One use only. Bearer can increase dispel attempt by +D6,
+after his other dispel dice have been rolled. May allow
+dispelling with irresistible force"/>
+          </characteristics>
+        </profile>
+      </profiles>
       <rules/>
       <infoLinks/>
       <modifiers/>
@@ -5888,7 +5845,20 @@ least one power dice from the pool)"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="63f2f0ea-0e40-bd40-c74e-9b22370513a9" name="(BRB) Scroll of Leeching" book="BRB (8th Ed)" page="504" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
-      <profiles/>
+      <profiles>
+        <profile id="a814-b15c-2f57-2a30" name="(BRB) Scroll of Leeching" hidden="false" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" profileTypeName="Arcane and Enchanted Item">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Magic Property" characteristicTypeId="4d616769632050726f706572747923232344415441232323" value="One use only. When an enemy spell is cast, this scroll can
+be used instead of dispelling.
+Power dice used by the caster are added to the dispel pool
+(cannot exceed 12 dice)"/>
+          </characteristics>
+        </profile>
+      </profiles>
       <rules/>
       <infoLinks/>
       <modifiers/>
@@ -5904,7 +5874,19 @@ least one power dice from the pool)"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="066fd568-5b8a-a12b-1d3b-9a7af874244d" name="(BRB) Scroll of Shielding" book="BRB (8th Ed)" page="504" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
-      <profiles/>
+      <profiles>
+        <profile id="c90a-74a5-5dc7-9fd5" name="(BRB) Scroll of Shielding" hidden="false" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" profileTypeName="Arcane and Enchanted Item">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Magic Property" characteristicTypeId="4d616769632050726f706572747923232344415441232323" value="One use only. When an enemy spell is cast, this scroll can
+be used instead of dispelling. Spell target gains a 4+ ward
+save against any wounds caused by the spell"/>
+          </characteristics>
+        </profile>
+      </profiles>
       <rules/>
       <infoLinks/>
       <modifiers/>
@@ -5920,9 +5902,26 @@ least one power dice from the pool)"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="dad0c0ad-f43e-3b5d-f637-dbb5f02c19ac" name="(BRB) Seed of Rebirth" page="0" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
-      <profiles/>
+      <profiles>
+        <profile id="47e4-01fb-74f0-0fee" name="(BRB) Seed of Rebirth" hidden="false" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" profileTypeName="Arcane and Enchanted Item">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Magic Property" characteristicTypeId="4d616769632050726f706572747923232344415441232323" value="Grants the bearer the Regeneration (6+) special rule"/>
+          </characteristics>
+        </profile>
+      </profiles>
       <rules/>
-      <infoLinks/>
+      <infoLinks>
+        <infoLink id="fd23-917b-401c-be55" name="Regeneration (6)" hidden="false" targetId="2da5-7c26-724b-91a9" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
       <modifiers/>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
@@ -5936,7 +5935,19 @@ least one power dice from the pool)"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="adf60a72-27c4-0274-5e21-e0b9762eaf96" name="(BRB) Shield of Ptolos" page="0" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
-      <profiles/>
+      <profiles>
+        <profile id="b327-7d5d-c9b2-3c68" name="(BRB) Shield of Ptolos" hidden="false" profileTypeId="41726d6f757223232344415441232323" profileTypeName="Armour">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Saving Throw modifier" characteristicTypeId="536176696e67205468726f77206d6f64696669657223232344415441232323" value="6"/>
+            <characteristic name="Special Rules" characteristicTypeId="5370656369616c2052756c657323232344415441232323" value="Shield. The bearer has a 1+ armour save against
+shooting attacks."/>
+          </characteristics>
+        </profile>
+      </profiles>
       <rules/>
       <infoLinks/>
       <modifiers/>
@@ -5952,9 +5963,26 @@ least one power dice from the pool)"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="946b6a3a-3e68-2802-16e2-2c4fdae7b42b" name="(BRB) Shrieking Blade" page="0" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
-      <profiles/>
+      <profiles>
+        <profile id="a104-ed54-f78b-eb54" name="(BRB) Shrieking Blade" hidden="false" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" profileTypeName="Arcane and Enchanted Item">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Magic Property" characteristicTypeId="4d616769632050726f706572747923232344415441232323" value="The bearer causes Fear"/>
+          </characteristics>
+        </profile>
+      </profiles>
       <rules/>
-      <infoLinks/>
+      <infoLinks>
+        <infoLink id="a323-f3fd-0dc3-4639" name="New InfoLink" hidden="false" targetId="460aa5be-ed77-898a-2d54-5c6bea7bc44a" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
       <modifiers/>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
@@ -5968,7 +5996,24 @@ least one power dice from the pool)"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="fe3ff636-97ee-599a-ae4c-a09e66aef2c0" name="(BRB) Sivejir&apos;s Hex Scroll" book="BRB (8th Ed)" page="504" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
-      <profiles/>
+      <profiles>
+        <profile id="d0c2-7291-02aa-7ec6" name="(BRB) Sivejir&apos;s Hex Scroll" hidden="false" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" profileTypeName="Arcane and Enchanted Item">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Magic Property" characteristicTypeId="4d616769632050726f706572747923232344415441232323" value="One use only. When an enemy spell is cast, this scroll can
+be used instead of dispelling.
+Enemy wizard must roll below his magic level on a D6 or
+become a toad. Wizard can no longer channel, cast or dispel
+and his magic and mundane equipment stop working. Also
+all stats (bar wounds) become 1. Controlling player may roll
+a D6 at the start of each of his subsequent magic phases, on
+a 4+ the wizard returns to normal."/>
+          </characteristics>
+        </profile>
+      </profiles>
       <rules/>
       <infoLinks/>
       <modifiers/>
@@ -5984,7 +6029,18 @@ least one power dice from the pool)"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="d2f43343-73ad-bd19-7f36-431951d36341" name="(BRB) Spellshield" page="0" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
-      <profiles/>
+      <profiles>
+        <profile id="f033-cb88-f6d3-53c1" name="(BRB) Spellshield" hidden="false" profileTypeId="41726d6f757223232344415441232323" profileTypeName="Armour">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Saving Throw modifier" characteristicTypeId="536176696e67205468726f77206d6f64696669657223232344415441232323" value="6"/>
+            <characteristic name="Special Rules" characteristicTypeId="5370656369616c2052756c657323232344415441232323" value="Shield. The bearer gains Magic Resistance (1)."/>
+          </characteristics>
+        </profile>
+      </profiles>
       <rules/>
       <infoLinks/>
       <modifiers/>
@@ -6000,7 +6056,19 @@ least one power dice from the pool)"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="0bf7eca8-dab0-954e-c545-6a8af92c4249" name="(BRB) Spellthieving Sword" page="0" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
-      <profiles/>
+      <profiles>
+        <profile id="8990-7846-1aa4-64b3" name="(BRB) Spellthieving Sword" hidden="false" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" profileTypeName="Arcane and Enchanted Item">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Magic Property" characteristicTypeId="4d616769632050726f706572747923232344415441232323" value="A Wizard that suffers unsaved wounds from this
+sword lose one spell (randomly) for each unsaved
+wound"/>
+          </characteristics>
+        </profile>
+      </profiles>
       <rules/>
       <infoLinks/>
       <modifiers/>
@@ -6016,7 +6084,17 @@ least one power dice from the pool)"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="9007fbee-a7ea-3474-f203-47419b6c118b" name="(BRB) Staff of Sorcery" book="BRB FAQ" page="0" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
-      <profiles/>
+      <profiles>
+        <profile id="df89-433f-8afb-ad61" name="(BRB) Staff of Sorcery" hidden="false" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" profileTypeName="Arcane and Enchanted Item">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Magic Property" characteristicTypeId="4d616769632050726f706572747923232344415441232323" value="The bearer receives +1 bonus on dispel attempts"/>
+          </characteristics>
+        </profile>
+      </profiles>
       <rules/>
       <infoLinks/>
       <modifiers/>
@@ -6032,7 +6110,18 @@ least one power dice from the pool)"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="113c71ec-6718-9257-24cf-55b440c8d4a0" name="(BRB) Standard of Discipline" page="0" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
-      <profiles/>
+      <profiles>
+        <profile id="1e07-3d22-805e-29f4" name="(BRB) Standard of Discipline" hidden="false" profileTypeId="4d61676963205374616e6461726423232344415441232323" profileTypeName="Magic Standard">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Magical Emination" characteristicTypeId="4d61676963616c20456d696e6174696f6e23232344415441232323" value="Unit has +1LD, but cannot use the General&apos;s Inspiring
+Presence special rule"/>
+          </characteristics>
+        </profile>
+      </profiles>
       <rules/>
       <infoLinks/>
       <modifiers/>
@@ -6048,7 +6137,20 @@ least one power dice from the pool)"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="0cf21c4a-5e67-5953-81f5-fe49f982a0b3" name="(BRB) Sword of Anti-Heroes" page="0" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
-      <profiles/>
+      <profiles>
+        <profile id="81ff-9ea0-e5d2-5ab9" name="(BRB) Sword of Anti-Heroes" hidden="false" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" profileTypeName="Arcane and Enchanted Item">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Magic Property" characteristicTypeId="4d616769632050726f706572747923232344415441232323" value="The bearer has +1 S and +1A for every enemy
+character in base contact with him or his unit. This is
+calculated at the start of each round of close combat
+and lasts until its end"/>
+          </characteristics>
+        </profile>
+      </profiles>
       <rules/>
       <infoLinks/>
       <modifiers/>
@@ -6064,7 +6166,17 @@ least one power dice from the pool)"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="e857fc32-e73f-5678-0f68-2da05e03f4cb" name="(BRB) Sword of Battle" page="0" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
-      <profiles/>
+      <profiles>
+        <profile id="c236-8605-5506-4a65" name="(BRB) Sword of Battle" hidden="false" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" profileTypeName="Arcane and Enchanted Item">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Magic Property" characteristicTypeId="4d616769632050726f706572747923232344415441232323" value="The wielder has +1 Attack"/>
+          </characteristics>
+        </profile>
+      </profiles>
       <rules/>
       <infoLinks/>
       <modifiers/>
@@ -6080,7 +6192,17 @@ least one power dice from the pool)"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="a600b81b-cd60-3f4a-8286-64744d11fedd" name="(BRB) Sword of Bloodshed" page="0" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
-      <profiles/>
+      <profiles>
+        <profile id="4f61-3fa2-0864-d5ae" name="(BRB) Sword of Bloodshed" hidden="false" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" profileTypeName="Arcane and Enchanted Item">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Magic Property" characteristicTypeId="4d616769632050726f706572747923232344415441232323" value="The wielder has +3 Attacks"/>
+          </characteristics>
+        </profile>
+      </profiles>
       <rules/>
       <infoLinks/>
       <modifiers/>
@@ -6096,7 +6218,18 @@ least one power dice from the pool)"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="776027bc-fcac-3a81-37cd-56d2ab1b8bf3" name="(BRB) Sword of Might" page="0" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
-      <profiles/>
+      <profiles>
+        <profile id="27c3-aec2-7faf-9d85" name="(BRB) Sword of Might" hidden="false" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" profileTypeName="Arcane and Enchanted Item">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Magic Property" characteristicTypeId="4d616769632050726f706572747923232344415441232323" value="Close combat attacks made with this sword are
+resolved at +1 Strength"/>
+          </characteristics>
+        </profile>
+      </profiles>
       <rules/>
       <infoLinks/>
       <modifiers/>
@@ -6112,7 +6245,17 @@ least one power dice from the pool)"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="22852288-8328-3a82-ba97-2ae5e0349659" name="(BRB) Sword of Strife" page="0" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
-      <profiles/>
+      <profiles>
+        <profile id="98fa-a2b7-fcf6-4867" name="(BRB) Sword of Strife" hidden="false" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" profileTypeName="Arcane and Enchanted Item">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Magic Property" characteristicTypeId="4d616769632050726f706572747923232344415441232323" value="The wielder has +2 Attacks"/>
+          </characteristics>
+        </profile>
+      </profiles>
       <rules/>
       <infoLinks/>
       <modifiers/>
@@ -6128,7 +6271,17 @@ least one power dice from the pool)"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="c9f8b518-9aae-6098-246d-373aac03e720" name="(BRB) Sword of Striking" page="0" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
-      <profiles/>
+      <profiles>
+        <profile id="d6e3-d456-3c5c-6904" name="(BRB) Sword of Striking" hidden="false" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" profileTypeName="Arcane and Enchanted Item">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Magic Property" characteristicTypeId="4d616769632050726f706572747923232344415441232323" value="+1 to Hit in close combat"/>
+          </characteristics>
+        </profile>
+      </profiles>
       <rules/>
       <infoLinks/>
       <modifiers/>
@@ -6144,9 +6297,27 @@ least one power dice from the pool)"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="3a4d2adf-92a8-ae9c-9764-b5c56c8fd977" name="(BRB) Sword of Swift Slaying" page="0" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
-      <profiles/>
+      <profiles>
+        <profile id="51d2-e4f2-a58b-93c6" name="(BRB) Sword of Swift Slaying" hidden="false" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" profileTypeName="Arcane and Enchanted Item">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Magic Property" characteristicTypeId="4d616769632050726f706572747923232344415441232323" value="The wielder of this sword has the &apos;Always Strikes
+First&apos; special rule"/>
+          </characteristics>
+        </profile>
+      </profiles>
       <rules/>
-      <infoLinks/>
+      <infoLinks>
+        <infoLink id="0e1e-b3fc-efed-4f0f" name="New InfoLink" hidden="false" targetId="69139d30-b762-93fe-bf68-14daf69ee2c4" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
       <modifiers/>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
@@ -6160,7 +6331,17 @@ least one power dice from the pool)"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="76b694c1-9a6e-c8c5-d7f6-250b7ae6c688" name="(BRB) Talisman of Endurance" page="0" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
-      <profiles/>
+      <profiles>
+        <profile id="5c24-74d5-bf56-ae5b" name="(BRB) Talisman of Endurance" hidden="false" profileTypeId="54616c69736d616e23232344415441232323" profileTypeName="Talisman">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Protection" characteristicTypeId="50726f74656374696f6e23232344415441232323" value="Grant the bearer a 5+ ward save"/>
+          </characteristics>
+        </profile>
+      </profiles>
       <rules/>
       <infoLinks/>
       <modifiers/>
@@ -6176,7 +6357,17 @@ least one power dice from the pool)"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="5ccd16ea-047d-8f7e-d202-2a29f56b8765" name="(BRB) Talisman of Preservation" page="0" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
-      <profiles/>
+      <profiles>
+        <profile id="7815-16d2-03c8-844a" name="(BRB) Talisman of Preservation" hidden="false" profileTypeId="54616c69736d616e23232344415441232323" profileTypeName="Talisman">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Protection" characteristicTypeId="50726f74656374696f6e23232344415441232323" value="Grants the bearer a 4+ ward save"/>
+          </characteristics>
+        </profile>
+      </profiles>
       <rules/>
       <infoLinks/>
       <modifiers/>
@@ -6192,7 +6383,17 @@ least one power dice from the pool)"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="14195c49-5120-ad45-22b1-55843fcd95c5" name="(BRB) Talisman of Protection" page="0" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
-      <profiles/>
+      <profiles>
+        <profile id="24f8-4ea3-007c-45e0" name="(BRB) Talisman of Protection" hidden="false" profileTypeId="54616c69736d616e23232344415441232323" profileTypeName="Talisman">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Protection" characteristicTypeId="50726f74656374696f6e23232344415441232323" value="Grants the bearer a 6+ ward save"/>
+          </characteristics>
+        </profile>
+      </profiles>
       <rules/>
       <infoLinks/>
       <modifiers/>
@@ -6208,7 +6409,18 @@ least one power dice from the pool)"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="66716da2-c670-1f9c-7cfd-b5d85d77698a" name="(BRB) The Other Trickster&apos;s Shard" book="BRB" page="505" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
-      <profiles/>
+      <profiles>
+        <profile id="f3d0-25fa-5b45-77ca" name="(BRB) The Other Trickster&apos;s Shard" hidden="false" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" profileTypeName="Arcane and Enchanted Item">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Magic Property" characteristicTypeId="4d616769632050726f706572747923232344415441232323" value="Models in base contact with the bearer (friends and
+foes) must re-roll successful ward saves"/>
+          </characteristics>
+        </profile>
+      </profiles>
       <rules/>
       <infoLinks/>
       <modifiers/>
@@ -6224,9 +6436,27 @@ least one power dice from the pool)"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="31b085b6-06fa-8fbd-95f9-fff3f6d469ed" name="(BRB) The Terrifying Mask of Eee!" book="BRB" page="505" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
-      <profiles/>
+      <profiles>
+        <profile id="d7ed-ad48-b8d5-efa8" name="(BRB) The Terrifying Mask of Eee!" hidden="false" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" profileTypeName="Arcane and Enchanted Item">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Magic Property" characteristicTypeId="4d616769632050726f706572747923232344415441232323" value="Wearer causes Terror. However, other models
+cannot use his Leadership"/>
+          </characteristics>
+        </profile>
+      </profiles>
       <rules/>
-      <infoLinks/>
+      <infoLinks>
+        <infoLink id="20ed-7829-227b-d9ec" name="New InfoLink" hidden="false" targetId="de93-691e-0995-9ea0" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
       <modifiers/>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
@@ -6240,7 +6470,19 @@ least one power dice from the pool)"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="e9302189-7474-3409-25cc-e0ae707700f7" name="(BRB) Tormentor Sword" page="0" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
-      <profiles/>
+      <profiles>
+        <profile id="aff1-5634-9b08-87ca" name="(BRB) Tormentor Sword" hidden="false" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" profileTypeName="Arcane and Enchanted Item">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Magic Property" characteristicTypeId="4d616769632050726f706572747923232344415441232323" value="A monster or character that suffers an unsaved
+wound from the Tormentor Sword has the Stupidity
+special rule for the rest of the game"/>
+          </characteristics>
+        </profile>
+      </profiles>
       <rules/>
       <infoLinks/>
       <modifiers/>
@@ -6256,7 +6498,20 @@ least one power dice from the pool)"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="288e49e0-b8d2-13d3-c02e-43b365094a64" name="(BRB) Trickster&apos;s Helm" page="0" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
-      <profiles/>
+      <profiles>
+        <profile id="9b36-93aa-8057-6405" name="(BRB) Trickster&apos;s Helm" hidden="false" profileTypeId="41726d6f757223232344415441232323" profileTypeName="Armour">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Saving Throw modifier" characteristicTypeId="536176696e67205468726f77206d6f64696669657223232344415441232323" value="-1"/>
+            <characteristic name="Special Rules" characteristicTypeId="5370656369616c2052756c657323232344415441232323" value="The wearer counts his armour save as being one
+point higher than normal. Any successful roll to
+wound made against the wearer must be re-rolled"/>
+          </characteristics>
+        </profile>
+      </profiles>
       <rules/>
       <infoLinks/>
       <modifiers/>
@@ -6272,7 +6527,20 @@ least one power dice from the pool)"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="c2d8adba-0b5d-1aa2-b383-02a6d8538cbf" name="(BRB) Trickster&apos;s Shard" book="BRB (8th Ed)" page="504" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
-      <profiles/>
+      <profiles>
+        <profile id="2e0a-d3d2-b2ca-184d" name="(BRB) Trickster&apos;s Shard" hidden="false" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" profileTypeName="Arcane and Enchanted Item">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Magic Property" characteristicTypeId="4d616769632050726f706572747923232344415441232323" value="One use only. Declare use at start of one of your magic
+phase. When one of the bearer&apos;s spells is dispelled by an
+enemy wizard, roll a D6. On a 5+ that wizard take a wound
+with no armour saves allowed"/>
+          </characteristics>
+        </profile>
+      </profiles>
       <rules/>
       <infoLinks/>
       <modifiers/>
@@ -6288,9 +6556,26 @@ least one power dice from the pool)"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="ab7b8ab2-eb27-63fa-a2d7-ec2dbcb974a1" name="(BRB) Wailing Banner" page="0" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
-      <profiles/>
+      <profiles>
+        <profile id="b043-5ee7-5754-d0a8" name="(BRB) Wailing Banner" hidden="false" profileTypeId="4d61676963205374616e6461726423232344415441232323" profileTypeName="Magic Standard">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Magical Emination" characteristicTypeId="4d61676963616c20456d696e6174696f6e23232344415441232323" value="Unit causes Terror"/>
+          </characteristics>
+        </profile>
+      </profiles>
       <rules/>
-      <infoLinks/>
+      <infoLinks>
+        <infoLink id="f083-6763-b01f-227b" name="New InfoLink" hidden="false" targetId="de93-691e-0995-9ea0" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
       <modifiers/>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
@@ -6304,7 +6589,19 @@ least one power dice from the pool)"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="622eb7af-6d8a-f43b-72b8-deaa41a78da2" name="(BRB) Wand of Jet" book="BRB (8th Ed)" page="504" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
-      <profiles/>
+      <profiles>
+        <profile id="27c7-e6c8-933a-e103" name="(BRB) Wand of Jet" hidden="false" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" profileTypeName="Arcane and Enchanted Item">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Magic Property" characteristicTypeId="4d616769632050726f706572747923232344415441232323" value="One use only. Bearer can increase a casting result by +D6,
+after other dice are rolled. This extra dice can cause
+Irresistible force and a miscast"/>
+          </characteristics>
+        </profile>
+      </profiles>
       <rules/>
       <infoLinks/>
       <modifiers/>
@@ -6320,7 +6617,17 @@ least one power dice from the pool)"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="68cf359b-b779-5b24-a109-755a25bdc2e1" name="(BRB) War Banner" page="0" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
-      <profiles/>
+      <profiles>
+        <profile id="e4c0-ad08-3f63-f179" name="(BRB) War Banner" hidden="false" profileTypeId="4d61676963205374616e6461726423232344415441232323" profileTypeName="Magic Standard">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Magical Emination" characteristicTypeId="4d61676963616c20456d696e6174696f6e23232344415441232323" value="Unit adds +1 to combat resolution"/>
+          </characteristics>
+        </profile>
+      </profiles>
       <rules/>
       <infoLinks/>
       <modifiers/>
@@ -6336,7 +6643,19 @@ least one power dice from the pool)"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="50976440-8524-cde2-da97-52bc55cddc42" name="(BRB) Warrior Bane" page="0" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
-      <profiles/>
+      <profiles>
+        <profile id="944c-b831-4ab9-9bce" name="(BRB) Warrior Bane" hidden="false" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" profileTypeName="Arcane and Enchanted Item">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Magic Property" characteristicTypeId="4d616769632050726f706572747923232344415441232323" value="A monster or character that suffers unsaved wounds
+from Warrior Bane permentatly loses one Attack for
+each unsaved wound (to a minimum of Attacks 1)"/>
+          </characteristics>
+        </profile>
+      </profiles>
       <rules/>
       <infoLinks/>
       <modifiers/>
@@ -6352,9 +6671,28 @@ least one power dice from the pool)"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="a2005e79-649e-89c2-71be-f6a7727b74d5" name="(BRB) Wizarding Hat" book="BRB" page="505" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
-      <profiles/>
+      <profiles>
+        <profile id="9d0f-2065-08b3-8560" name="(BRB) Wizarding Hat" hidden="false" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" profileTypeName="Arcane and Enchanted Item">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Magic Property" characteristicTypeId="4d616769632050726f706572747923232344415441232323" value="The wearer is treated as a Level 2 wizard, who can
+use a random battle magic lore. However, he
+has Stupidity"/>
+          </characteristics>
+        </profile>
+      </profiles>
       <rules/>
-      <infoLinks/>
+      <infoLinks>
+        <infoLink id="634e-1336-3332-af3f" name="New InfoLink" hidden="false" targetId="81c2-4086-392e-d401" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
       <modifiers/>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
@@ -8823,6 +9161,33 @@ always zero rank , no rank bonus, steadfast</description>
       <infoLinks/>
       <modifiers/>
       <description>Warriors with the Strider rule do not have to take Dangerous Terrain tests.</description>
+    </rule>
+    <rule id="2da5-7c26-724b-91a9" name="Regeneration" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>A model with the Regeneration special rule is permitted a special regenerate saving throw after it has failed any armour save it may have, instead of taking a ward save (if it has one). If a model has both a ward save and Regeneration, you must choose which save is used.
+
+To take a regeneration save, roll a D6. On a 4+, or *+ if the unit has some other Regeneration(*), the wound is saved. 
+
+Wounds caused by Flaming Attacks cannot be regenerated, and if a unit is wounded by a Flaming Attack it loses the Regeneration rule for the remainder of the phase it can be used later in the turn, though.</description>
+    </rule>
+    <rule id="de93-691e-0995-9ea0" name="Terror" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>Models that cause Terror also cause Fear. Fear-causing models, being quite scary themselves, treat Terror-causing monsters as causing Fear, rather than Terror – this is an exception to the rule that makes Fear-causing creatures immune to Fear. Terror-causing models are themselves immune to both Fear and Terror. This includes characters riding Terror-causing mounts, which count as causing Terror themselves.
+
+If a Terror-causing creature declares a charge, the target unit must immediately take a panic test to quell their Terror. If the test is passed, all is well and the unit can declare charge reactions normally. If the test is failed, the unit must make a Flee! charge reaction. Units composed entirely of Fear- or Terror-causing models are immune to Terror and so do not take this test. Note that, if the target unit is not allowed to take any charge reaction (if, for example, the Terror-causing unit charged as a result of a pursuit or a random move), then the target does not take this test.</description>
+    </rule>
+    <rule id="81c2-4086-392e-d401" name="Stupidity" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>Models that are subject to Stupidity are also Immune to Psychology. Provided that they are not engaged in close combat, a unit that contains one or more models with the Stupidity special rule must try to overcome its Stupidity at the start of its turn by taking a Leadership test. A unit that fails its Stupidity test immediately stumbles D6&quot; directly forwards – this move is otherwise treated in exactly the same manner as a failed charge. The Stupid unit cannot take any further action that turn, so cannot declare charges or make a shooting attack. Wizards that have failed a Stupidity test cannot attempt to cast or channel power dice or dispel dice until a Stupidity test is passed</description>
     </rule>
   </sharedRules>
   <sharedProfiles>
