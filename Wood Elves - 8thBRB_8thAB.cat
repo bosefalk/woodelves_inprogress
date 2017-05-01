@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="0f48c054-1399-d222-0570-b20c15442639" name="Wood Elves - Army Book (2014-5) -V8.8.0." revision="46" battleScribeVersion="2.00" authorName="Don Thorpe" authorContact="the.desperate.allies@gmail.com" authorUrl="http://battlescribedata.appspot.com/#/repo/whfb" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="0f48c054-1399-d222-0570-b20c15442639" name="Wood Elves - Army Book (2014-5) -V8.8.0." revision="47" battleScribeVersion="2.00" authorName="Don Thorpe" authorContact="the.desperate.allies@gmail.com" authorUrl="http://battlescribedata.appspot.com/#/repo/whfb" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -1641,7 +1641,32 @@
     <selectionEntry id="85c4356a-4eae-ef73-c2e8-c401dd50a44c" name="Glade Riders" page="0" hidden="false" collective="false" categoryEntryId="436f726523232344415441232323" type="unit">
       <profiles/>
       <rules/>
-      <infoLinks/>
+      <infoLinks>
+        <infoLink id="ced3-e833-c236-d75e" name="New InfoLink" hidden="false" targetId="69139d30-b762-93fe-bf68-14daf69ee2c4" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="6df2-a95a-ca41-421b" name="New InfoLink" hidden="false" targetId="fc62ce67-8a0a-272c-2fcc-52c0708801b5" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="5382-8d4a-8799-b617" name="New InfoLink" hidden="false" targetId="7fbc8bf7-611b-a502-a8fd-7165c8e9ad62" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="71a3-7b20-f0a9-b363" name="New InfoLink" hidden="false" targetId="ce15-9ac4-ece2-5993" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
       <modifiers/>
       <constraints/>
       <selectionEntries>
@@ -1689,6 +1714,56 @@
           <costs>
             <cost name="pts" costTypeId="points" value="19.0"/>
           </costs>
+        </selectionEntry>
+        <selectionEntry id="1931-3862-1851-bc81" name="Asrai Spear" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks>
+            <infoLink id="002a-6a0a-c981-563d" name="New InfoLink" hidden="false" targetId="c350-274f-3e8d-bb77" type="profile">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="38fa-ca0d-3751-6d1a" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="df77-c6f9-9565-d568" type="max"/>
+          </constraints>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs/>
+        </selectionEntry>
+        <selectionEntry id="f9d8-7a30-a148-6a4b" name="Asrai Longbow" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks>
+            <infoLink id="eef8-3d41-49ff-5cbf" name="New InfoLink" hidden="false" targetId="3dc5-d1e4-501b-877a" type="profile">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <repeats/>
+                  <conditions>
+                    <condition field="selections" scope="85c4356a-4eae-ef73-c2e8-c401dd50a44c" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="978bf0bf-48d5-ba9a-7de3-07bc4e1a9eba" type="atLeast"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="42fb-4bfd-e7aa-0590" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6a7b-b737-2d59-1837" type="max"/>
+          </constraints>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs/>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
@@ -9453,6 +9528,13 @@ If a Terror-causing creature declares a charge, the target unit must immediately
       <infoLinks/>
       <modifiers/>
       <description>Once both sides have deployed, but before the first turn begins, check to see if the enemy General is within 36&quot; and within line of sight of at least one of your models with this special rule. If he is, he immediately suffers a single Strength 3 hit against which no armour saves can be taken. Otherwise, nothing happens.</description>
+    </rule>
+    <rule id="ce15-9ac4-ece2-5993" name="Ambushers" book="" page="" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>A unit with the Ambushers rule does not deploy at the start of the battle. Instead, from Turn 2 onwards, the controlling player rolls a dice at the start of the turn for each unit of his Ambushers that have yet to arrive. On a 1 or 2, the Ambushers have been delayed – but you’ll be able to roll for them again next turn. On a 3 or more, the unit of Ambushers arrives, and will enter the board during the Remaining Moves sub-phase. If the Ambushers do not turn up for the entire game, they are assumed to have got lost, and are treated as having fled the battle for the purposes of determining the victor. Arriving Ambushers enter the battlefield from any point on any battlefield edge, and move on using the rules for reinforcements.</description>
     </rule>
   </sharedRules>
   <sharedProfiles>
