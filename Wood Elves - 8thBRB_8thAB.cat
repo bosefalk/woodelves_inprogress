@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="0f48c054-1399-d222-0570-b20c15442639" name="Wood Elves - Army Book (2014-5) -V8.8.0." revision="42" battleScribeVersion="2.00" authorName="Don Thorpe" authorContact="the.desperate.allies@gmail.com" authorUrl="http://battlescribedata.appspot.com/#/repo/whfb" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="0f48c054-1399-d222-0570-b20c15442639" name="Wood Elves - Army Book (2014-5) -V8.8.0." revision="43" battleScribeVersion="2.00" authorName="Don Thorpe" authorContact="the.desperate.allies@gmail.com" authorUrl="http://battlescribedata.appspot.com/#/repo/whfb" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -718,10 +718,10 @@
             <characteristic name="I" characteristicTypeId="4923232344415441232323" value="7"/>
             <characteristic name="A" characteristicTypeId="4123232344415441232323" value="3"/>
             <characteristic name="LD" characteristicTypeId="4c4423232344415441232323" value="9"/>
-            <characteristic name="ArmourSave" characteristicTypeId="41726d6f75725361766523232344415441232323" value=""/>
+            <characteristic name="ArmourSave" characteristicTypeId="41726d6f75725361766523232344415441232323" value="6"/>
             <characteristic name="WardSave" characteristicTypeId="576172645361766523232344415441232323" value=""/>
             <characteristic name="MR" characteristicTypeId="4d5223232344415441232323" value=""/>
-            <characteristic name="Type" characteristicTypeId="5479706523232344415441232323" value="Infantry"/>
+            <characteristic name="Type" characteristicTypeId="5479706523232344415441232323" value="Infantry (Character)"/>
           </characteristics>
         </profile>
       </profiles>
@@ -781,7 +781,15 @@
               <profiles/>
               <rules/>
               <infoLinks/>
-              <modifiers/>
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <repeats/>
+                  <conditions>
+                    <condition field="selections" scope="18cf7737-5812-8790-dad1-2ba9826d3333" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="d061-2e85-251c-9975" type="atLeast"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
             </infoLink>
           </infoLinks>
           <modifiers/>
@@ -973,33 +981,11 @@
               <profiles/>
               <rules/>
               <infoLinks>
-                <infoLink id="6cf2-1dcf-ad32-496e" name="New InfoLink" hidden="false" targetId="8594-d4b0-1325-54f4" type="profile">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers>
-                    <modifier type="set" field="hidden" value="true">
-                      <repeats/>
-                      <conditions>
-                        <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="92bb628e-afa7-f232-4740-af955acea1df" type="atLeast"/>
-                      </conditions>
-                      <conditionGroups/>
-                    </modifier>
-                  </modifiers>
-                </infoLink>
                 <infoLink id="04cd-cbb9-7de3-f487" name="New InfoLink" hidden="false" targetId="c350-274f-3e8d-bb77" type="profile">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
-                  <modifiers>
-                    <modifier type="set" field="hidden" value="true">
-                      <repeats/>
-                      <conditions>
-                        <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="92bb628e-afa7-f232-4740-af955acea1df" type="equalTo"/>
-                      </conditions>
-                      <conditionGroups/>
-                    </modifier>
-                  </modifiers>
+                  <modifiers/>
                 </infoLink>
               </infoLinks>
               <modifiers/>
@@ -9375,12 +9361,8 @@ If a Terror-causing creature declares a charge, the target unit must immediately
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>Once both sides have deployed,
-but before the first turn begins, check to see if the enemy
-General is within 36&quot; and within line of sight of at least one
-of your models with this special rule. If he is, he immediately
-suffers a single Strength 3 hit against which no armour saves
-can be taken. Otherwise, nothing happens.</description>
+      <description>Once both sides have deployed, but before the first turn begins, check to see if the enemy
+General is within 36&quot; and within line of sight of at least one of your models with this special rule. If he is, he immediately suffers a single Strength 3 hit against which no armour saves can be taken. Otherwise, nothing happens.</description>
     </rule>
   </sharedRules>
   <sharedProfiles>
