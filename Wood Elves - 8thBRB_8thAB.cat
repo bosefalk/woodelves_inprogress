@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="0f48c054-1399-d222-0570-b20c15442639" name="Wood Elves - Army Book (2014-5) -V8.8.0." revision="47" battleScribeVersion="2.00" authorName="Don Thorpe" authorContact="the.desperate.allies@gmail.com" authorUrl="http://battlescribedata.appspot.com/#/repo/whfb" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="0f48c054-1399-d222-0570-b20c15442639" name="Wood Elves - Army Book (2014-5) -V8.8.0." revision="48" battleScribeVersion="2.00" authorName="Don Thorpe" authorContact="the.desperate.allies@gmail.com" authorUrl="http://battlescribedata.appspot.com/#/repo/whfb" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -2145,7 +2145,7 @@
             <characteristic name="ArmourSave" characteristicTypeId="41726d6f75725361766523232344415441232323" value=""/>
             <characteristic name="WardSave" characteristicTypeId="576172645361766523232344415441232323" value="6"/>
             <characteristic name="MR" characteristicTypeId="4d5223232344415441232323"/>
-            <characteristic name="Type" characteristicTypeId="5479706523232344415441232323"/>
+            <characteristic name="Type" characteristicTypeId="5479706523232344415441232323" value="Infantry (Character)"/>
           </characteristics>
         </profile>
       </profiles>
@@ -2182,6 +2182,12 @@
           <modifiers/>
         </infoLink>
         <infoLink id="067ebfde-adb9-b688-4943-ee39803f09ed" hidden="false" targetId="0cd54a55-63ca-c784-9fb2-6ea3f9310e6a" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="6f20-86d5-2e5b-419b" name="New InfoLink" hidden="false" targetId="6847-79fa-b8ec-8f24" type="profile">
           <profiles/>
           <rules/>
           <infoLinks/>
