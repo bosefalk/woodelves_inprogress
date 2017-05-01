@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="0f48c054-1399-d222-0570-b20c15442639" name="Wood Elves - Army Book (2014-5) -V8.8.0." revision="50" battleScribeVersion="2.00" authorName="Don Thorpe" authorContact="the.desperate.allies@gmail.com" authorUrl="http://battlescribedata.appspot.com/#/repo/whfb" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="0f48c054-1399-d222-0570-b20c15442639" name="Wood Elves - Army Book (2014-5) -V8.8.0." revision="52" battleScribeVersion="2.00" authorName="Don Thorpe" authorContact="the.desperate.allies@gmail.com" authorUrl="http://battlescribedata.appspot.com/#/repo/whfb" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -2863,14 +2863,40 @@ If miscast,  no roll on the table but 1d3 Wounds without save </description>
         </profile>
       </profiles>
       <rules/>
-      <infoLinks/>
+      <infoLinks>
+        <infoLink id="75bb-30fd-20b0-c84c" name="New InfoLink" hidden="false" targetId="69139d30-b762-93fe-bf68-14daf69ee2c4" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="a208-f09c-bcca-37ff" name="New InfoLink" hidden="false" targetId="7fbc8bf7-611b-a502-a8fd-7165c8e9ad62" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="2de2-1349-b6cb-f381" name="New InfoLink" hidden="false" targetId="691e38c3-3971-fccf-6307-dd1b13f8af00" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
       <modifiers/>
       <constraints/>
       <selectionEntries>
         <selectionEntry id="aa464f00-516b-1af7-1c3f-8bf924b4e83b" name="Asrai Longbow" page="0" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
           <profiles/>
           <rules/>
-          <infoLinks/>
+          <infoLinks>
+            <infoLink id="9570-a352-5fa8-29a0" name="New InfoLink" hidden="false" targetId="3dc5-d1e4-501b-877a" type="profile">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
           <modifiers/>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
@@ -3209,8 +3235,34 @@ If miscast,  no roll on the table but 1d3 Wounds without save </description>
     </selectionEntry>
     <selectionEntry id="625ae280-803e-f248-33fa-3ccf57b6e2a2" name="Tree Kin" page="0" hidden="false" collective="false" categoryEntryId="5370656369616c23232344415441232323" type="unit">
       <profiles/>
-      <rules/>
-      <infoLinks/>
+      <rules>
+        <rule id="e8ee-0965-ba22-e9ba" name="Scaly Skin (4+)" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="1db8-e0e7-07d7-3436" name="New InfoLink" hidden="false" targetId="460aa5be-ed77-898a-2d54-5c6bea7bc44a" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="b1e4-f292-8284-1ede" name="New InfoLink" hidden="false" targetId="a656-25dc-a59a-4ce5" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="8db9-4eb7-cf3d-b83f" name="New InfoLink" hidden="false" targetId="ced68ad4-128c-8737-8659-1b01f35fe33f" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
       <modifiers/>
       <constraints>
         <constraint field="selections" scope="roster" value="3.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxInRoster" type="max"/>
@@ -7134,7 +7186,7 @@ Boost to target all forests within 12&quot;, cast on 16+</description>
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="M" characteristicTypeId="4d23232344415441232323" value="20"/>
+            <characteristic name="M" characteristicTypeId="4d23232344415441232323" value="10"/>
             <characteristic name="WS" characteristicTypeId="575323232344415441232323" value="5"/>
             <characteristic name="BS" characteristicTypeId="425323232344415441232323" value="0"/>
             <characteristic name="S" characteristicTypeId="5323232344415441232323" value="4"/>
@@ -9548,6 +9600,13 @@ If a Terror-causing creature declares a charge, the target unit must immediately
       <infoLinks/>
       <modifiers/>
       <description>A unit with the Ambushers rule does not deploy at the start of the battle. Instead, from Turn 2 onwards, the controlling player rolls a dice at the start of the turn for each unit of his Ambushers that have yet to arrive. On a 1 or 2, the Ambushers have been delayed – but you’ll be able to roll for them again next turn. On a 3 or more, the unit of Ambushers arrives, and will enter the board during the Remaining Moves sub-phase. If the Ambushers do not turn up for the entire game, they are assumed to have got lost, and are treated as having fled the battle for the purposes of determining the victor. Arriving Ambushers enter the battlefield from any point on any battlefield edge, and move on using the rules for reinforcements.</description>
+    </rule>
+    <rule id="a656-25dc-a59a-4ce5" name="Flammable" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>If a model with the Flammable rule suffers one or more unsaved wounds from a Flaming Attack, each unsaved wound is doubled. So, for example, if an attack would normally cause 1 wound, the Flammable creature would take 2 wounds. If the number of wounds are randomly determined by a dice roll, double the result of the dice, rather than rolling two dice and adding the scores together.</description>
     </rule>
   </sharedRules>
   <sharedProfiles>
