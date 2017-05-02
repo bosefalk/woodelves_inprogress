@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="0f48c054-1399-d222-0570-b20c15442639" name="Wood Elves - Army Book (2014-5) -V8.8.0." revision="57" battleScribeVersion="2.00" authorName="Don Thorpe" authorContact="the.desperate.allies@gmail.com" authorUrl="http://battlescribedata.appspot.com/#/repo/whfb" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="0f48c054-1399-d222-0570-b20c15442639" name="Wood Elves - Army Book (2014-5) -V8.8.0." revision="59" battleScribeVersion="2.00" authorName="Don Thorpe" authorContact="the.desperate.allies@gmail.com" authorUrl="http://battlescribedata.appspot.com/#/repo/whfb" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -3831,7 +3831,7 @@ If miscast,  no roll on the table but 1d3 Wounds without save </description>
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="05b5a25d-edeb-1f8f-c9dc-59bc5f64a530" hidden="false" targetId="7fbc8bf7-611b-a502-a8fd-7165c8e9ad62" type="rule">
+        <infoLink id="05b5a25d-edeb-1f8f-c9dc-59bc5f64a530" name="" hidden="false" targetId="7fbc8bf7-611b-a502-a8fd-7165c8e9ad62" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -3844,6 +3844,18 @@ If miscast,  no roll on the table but 1d3 Wounds without save </description>
           <modifiers/>
         </infoLink>
         <infoLink id="c6e4e6db-3b91-e3d6-7440-08dab395c8be" hidden="false" targetId="1fc86c66-317e-1e8a-2033-9c42379c73c6" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="7c8d-4d36-6ac7-5a0a" name="New InfoLink" hidden="false" targetId="c350-274f-3e8d-bb77" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="ae05-7726-600d-3c86" name="New InfoLink" hidden="false" targetId="3dc5-d1e4-501b-877a" type="profile">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -3872,7 +3884,7 @@ If miscast,  no roll on the table but 1d3 Wounds without save </description>
                 <characteristic name="I" characteristicTypeId="4923232344415441232323" value="5"/>
                 <characteristic name="A" characteristicTypeId="4123232344415441232323" value="1"/>
                 <characteristic name="LD" characteristicTypeId="4c4423232344415441232323" value="8"/>
-                <characteristic name="ArmourSave" characteristicTypeId="41726d6f75725361766523232344415441232323" value=""/>
+                <characteristic name="ArmourSave" characteristicTypeId="41726d6f75725361766523232344415441232323" value="6"/>
                 <characteristic name="WardSave" characteristicTypeId="576172645361766523232344415441232323"/>
                 <characteristic name="MR" characteristicTypeId="4d5223232344415441232323"/>
                 <characteristic name="Type" characteristicTypeId="5479706523232344415441232323" value="Monstrous Cavalry"/>
@@ -3939,7 +3951,7 @@ If miscast,  no roll on the table but 1d3 Wounds without save </description>
                     <characteristic name="I" characteristicTypeId="4923232344415441232323" value="5"/>
                     <characteristic name="A" characteristicTypeId="4123232344415441232323" value="2"/>
                     <characteristic name="LD" characteristicTypeId="4c4423232344415441232323" value="8"/>
-                    <characteristic name="ArmourSave" characteristicTypeId="41726d6f75725361766523232344415441232323" value=""/>
+                    <characteristic name="ArmourSave" characteristicTypeId="41726d6f75725361766523232344415441232323" value="6"/>
                     <characteristic name="WardSave" characteristicTypeId="576172645361766523232344415441232323"/>
                     <characteristic name="MR" characteristicTypeId="4d5223232344415441232323"/>
                     <characteristic name="Type" characteristicTypeId="5479706523232344415441232323" value="Monstrous Cavalry"/>
@@ -3989,7 +4001,7 @@ If miscast,  no roll on the table but 1d3 Wounds without save </description>
             <characteristic name="ArmourSave" characteristicTypeId="41726d6f75725361766523232344415441232323" value=""/>
             <characteristic name="WardSave" characteristicTypeId="576172645361766523232344415441232323"/>
             <characteristic name="MR" characteristicTypeId="4d5223232344415441232323"/>
-            <characteristic name="Type" characteristicTypeId="5479706523232344415441232323"/>
+            <characteristic name="Type" characteristicTypeId="5479706523232344415441232323" value="Infantry (Character)"/>
           </characteristics>
         </profile>
       </profiles>
@@ -4020,6 +4032,18 @@ If miscast,  no roll on the table but 1d3 Wounds without save </description>
           <modifiers/>
         </infoLink>
         <infoLink id="daa79738-9296-91f6-28fe-61f590fae018" hidden="false" targetId="d55ace77-10cf-1fa4-2378-ce3df3b4d3da" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="37b9-36b6-7d25-aca7" name="New InfoLink" hidden="false" targetId="6847-79fa-b8ec-8f24" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="e18c-6662-57d4-835d" name="New InfoLink" hidden="false" targetId="3dc5-d1e4-501b-877a" type="profile">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -9640,9 +9664,7 @@ The same dance cannot be chosen for two consecutive rounds</description>
       <infoLinks/>
       <modifiers/>
       <description>Can be deployed normally or anyhwere on the field.
-in the second case they must be at 12&apos;&apos; from enemy unit and if their side start first they cannot charge
-
-if both have scout units roll , and then deploy alternatively the scout units 
+in the second case they must be at 12&apos;&apos; from enemy unit and if their side start first they cannot charge if both have scout units roll , and then deploy alternatively the scout units 
 </description>
     </rule>
     <rule id="a7ec9af5-0ef4-c4e8-a4bf-61579b5f9980" name="Skirmisher" book="BRB" page="0" hidden="false">
@@ -9662,6 +9684,9 @@ always zero rank , no rank bonus, steadfast</description>
       <rules/>
       <infoLinks/>
       <modifiers/>
+      <description>A Sniper’s shot suffers an additional -1 To Hit penalty, in addition to any other modifiers. Unless making a Stand and Shoot reaction, a model making a Sniper shot can shoot at a different target from the one chosen by his unit. A hit from a Sniper shot is not distributed in the same manner as other shooting attacks. The Sniper can shoot at any model he can see, including characters or champions within a unit and so on – the controlling player simply declares which model will be the Sniper’s target – “Look out Sir!” cannot be taken.
+
+A Sniper shot can even target a character riding on the back of a ridden monster or chariot if he wishes, or indeed a specific model where the target is usually rolled for randomly (such as a character who has joined a war machine).</description>
     </rule>
     <rule id="752544bd-09a2-fcf8-fae6-4f32b6deab44" name="Stubborn" page="0" hidden="false">
       <profiles/>
@@ -9777,8 +9802,8 @@ If a Terror-causing creature declares a charge, the target unit must immediately
       <modifiers/>
       <characteristics>
         <characteristic name="Range" characteristicTypeId="52616e676523232344415441232323" value="Combat"/>
-        <characteristic name="Strength" characteristicTypeId="537472656e67746823232344415441232323" value="+1S"/>
-        <characteristic name="Special Rules" characteristicTypeId="5370656369616c2052756c657323232344415441232323" value="Armour Piercing, S bonus applies when wielder charges"/>
+        <characteristic name="Strength" characteristicTypeId="537472656e67746823232344415441232323" value="+1"/>
+        <characteristic name="Special Rules" characteristicTypeId="5370656369616c2052756c657323232344415441232323" value="Armour Piercing, S bonus only when charging"/>
       </characteristics>
     </profile>
     <profile id="09b4-98cc-d8dd-6e84" name="Blackbriar Javelin" book="AB" page="37" hidden="false" profileTypeId="576561706f6e23232344415441232323" profileTypeName="Weapon">
