@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="0f48c054-1399-d222-0570-b20c15442639" name="Wood Elves - Army Book (2014-5) -V8.8.0." revision="61" battleScribeVersion="2.00" authorName="Don Thorpe" authorContact="the.desperate.allies@gmail.com" authorUrl="http://battlescribedata.appspot.com/#/repo/whfb" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="0f48c054-1399-d222-0570-b20c15442639" name="Wood Elves - Army Book (2014-5) -V8.8.0." revision="63" battleScribeVersion="2.00" authorName="Don Thorpe" authorContact="the.desperate.allies@gmail.com" authorUrl="http://battlescribedata.appspot.com/#/repo/whfb" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -7295,14 +7295,68 @@ Boost to target all forests within 12&quot;, cast on 16+</description>
           </characteristics>
         </profile>
       </profiles>
-      <rules/>
-      <infoLinks/>
+      <rules>
+        <rule id="5337-3d44-b2c3-cf9f" name="Scaly Skin (3+)" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="8b18-f881-0a4e-3235" name="New InfoLink" hidden="false" targetId="3c3239b5-6dd2-7e5f-0a4f-69db2c71d233" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="874b-d96a-b999-1168" name="New InfoLink" hidden="false" targetId="ced68ad4-128c-8737-8659-1b01f35fe33f" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="0305-b6e4-e123-1c20" name="New InfoLink" hidden="false" targetId="5ec1-a85b-da02-c36c" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="bb58-fa19-3e8b-1cc1" name="New InfoLink" hidden="false" targetId="de93-691e-0995-9ea0" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
       <modifiers/>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ad3b-dd27-da15-a014" type="min"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c783-3a2f-3562-5923" type="max"/>
       </constraints>
-      <selectionEntries/>
+      <selectionEntries>
+        <selectionEntry id="851c-71db-f42a-7ba1" name="Soporific Breath" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks>
+            <infoLink id="db0b-2630-7692-919a" name="New InfoLink" hidden="false" targetId="3c16-ff77-57c1-5564" type="profile">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9e64-df1e-333f-6f65" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bed4-2f21-b4d0-c59a" type="max"/>
+          </constraints>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs/>
+        </selectionEntry>
+      </selectionEntries>
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
@@ -7334,7 +7388,14 @@ Boost to target all forests within 12&quot;, cast on 16+</description>
         </profile>
       </profiles>
       <rules/>
-      <infoLinks/>
+      <infoLinks>
+        <infoLink id="cd2d-a068-2b68-c439" name="New InfoLink" hidden="false" targetId="3c3239b5-6dd2-7e5f-0a4f-69db2c71d233" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
       <modifiers/>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a872-d304-1182-c14b" type="min"/>
@@ -7371,8 +7432,29 @@ Boost to target all forests within 12&quot;, cast on 16+</description>
           </characteristics>
         </profile>
       </profiles>
-      <rules/>
-      <infoLinks/>
+      <rules>
+        <rule id="6815-e745-34c1-8df7" name="Impact Hits (d3)" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Impact Hits are only made on the turn the model charges into close combat. Impact Hits are resolved at the very beginning of the close combat, before challenges are issued and attacks of any other kind are made. They hit a unit in base contact (if in base contact with more than one enemy unit, split the hits as evenly as possible, randomising any ‘spare’ hits). If the model with Impact Hits is not in base contact with the enemy, no Impact Hits are inflicted. Impact Hits hit automatically, and roll to wound using the Strength of the model making the Impact Hits. The hits are distributed exactly as if they were shooting attacks. &quot;Look Out Sir!&quot; rolls cannot be taken against Impact Hits (see the Shooting and Characters chapters for more information). Finally, as Impact Hits are close combat attacks (albeit of an unusual type) any unsaved wounds they inflict count towards Combat Result, just as any more conventional close combat attacks would.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="4dcd-a0b3-9ee9-c8b8" name="New InfoLink" hidden="false" targetId="460aa5be-ed77-898a-2d54-5c6bea7bc44a" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="847c-931b-2adb-a45c" name="New InfoLink" hidden="false" targetId="ced68ad4-128c-8737-8659-1b01f35fe33f" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
       <modifiers/>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1b65-4481-17e4-8fbc" type="min"/>
@@ -7410,7 +7492,32 @@ Boost to target all forests within 12&quot;, cast on 16+</description>
         </profile>
       </profiles>
       <rules/>
-      <infoLinks/>
+      <infoLinks>
+        <infoLink id="cc0b-c99a-aef7-76e4" name="New InfoLink" hidden="false" targetId="460aa5be-ed77-898a-2d54-5c6bea7bc44a" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="3e36-9295-9785-91b8" name="New InfoLink" hidden="false" targetId="ced68ad4-128c-8737-8659-1b01f35fe33f" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="2fbd-42b4-bd48-50b3" name="New InfoLink" hidden="false" targetId="12162461-a875-2065-ba74-61274148b1d3" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="c169-ad0d-3183-73b2" name="New InfoLink" hidden="false" targetId="e93ba593-97a7-170a-007e-352537bfd5e0" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
       <modifiers/>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="01e9-9fea-4ef3-0ea7" type="min"/>
@@ -9697,6 +9804,7 @@ Break tests (and other Leadership tests) are taken normally </description>
       <rules/>
       <infoLinks/>
       <modifiers/>
+      <description>+2 S when charging</description>
     </rule>
     <rule id="0cd54a55-63ca-c784-9fb2-6ea3f9310e6a" name="Loec&apos;s Shadow Dance" book="AB" page="45" hidden="false">
       <profiles/>
@@ -9993,6 +10101,17 @@ If a Terror-causing creature declares a charge, the target unit must immediately
         <characteristic name="Range" characteristicTypeId="52616e676523232344415441232323" value="12"/>
         <characteristic name="Strength" characteristicTypeId="537472656e67746823232344415441232323" value="5"/>
         <characteristic name="Special Rules" characteristicTypeId="5370656369616c2052756c657323232344415441232323" value="Multiple Shots (d6+1)"/>
+      </characteristics>
+    </profile>
+    <profile id="3c16-ff77-57c1-5564" name="Soporific Breath" hidden="false" profileTypeId="576561706f6e23232344415441232323" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="52616e676523232344415441232323" value="Breath"/>
+        <characteristic name="Strength" characteristicTypeId="537472656e67746823232344415441232323" value="2"/>
+        <characteristic name="Special Rules" characteristicTypeId="5370656369616c2052756c657323232344415441232323" value="-3 Armour Save against attacks. Units which take at least one Wound suffers Stupidity for rest of game "/>
       </characteristics>
     </profile>
   </sharedProfiles>
