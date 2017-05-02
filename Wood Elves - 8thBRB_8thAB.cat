@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="0f48c054-1399-d222-0570-b20c15442639" name="Wood Elves - Army Book (2014-5) -V8.8.0." revision="60" battleScribeVersion="2.00" authorName="Don Thorpe" authorContact="the.desperate.allies@gmail.com" authorUrl="http://battlescribedata.appspot.com/#/repo/whfb" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="0f48c054-1399-d222-0570-b20c15442639" name="Wood Elves - Army Book (2014-5) -V8.8.0." revision="61" battleScribeVersion="2.00" authorName="Don Thorpe" authorContact="the.desperate.allies@gmail.com" authorUrl="http://battlescribedata.appspot.com/#/repo/whfb" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -4292,6 +4292,12 @@ If miscast,  no roll on the table but 1d3 Wounds without save </description>
           <infoLinks/>
           <modifiers/>
         </infoLink>
+        <infoLink id="206c-b23a-3ee8-e036" name="New InfoLink" hidden="false" targetId="c350-274f-3e8d-bb77" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
       </infoLinks>
       <modifiers/>
       <constraints>
@@ -4531,6 +4537,12 @@ If miscast,  no roll on the table but 1d3 Wounds without save </description>
           <infoLinks/>
           <modifiers/>
         </infoLink>
+        <infoLink id="58ed-514a-35e3-811f" name="New InfoLink" hidden="false" targetId="2528-4e4f-3e97-3098" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
       </infoLinks>
       <modifiers/>
       <constraints>
@@ -4554,7 +4566,7 @@ If miscast,  no roll on the table but 1d3 Wounds without save </description>
                 <characteristic name="I" characteristicTypeId="4923232344415441232323" value="5"/>
                 <characteristic name="A" characteristicTypeId="4123232344415441232323" value="1"/>
                 <characteristic name="LD" characteristicTypeId="4c4423232344415441232323" value="9"/>
-                <characteristic name="ArmourSave" characteristicTypeId="41726d6f75725361766523232344415441232323" value="5"/>
+                <characteristic name="ArmourSave" characteristicTypeId="41726d6f75725361766523232344415441232323" value="6"/>
                 <characteristic name="WardSave" characteristicTypeId="576172645361766523232344415441232323" value=""/>
                 <characteristic name="MR" characteristicTypeId="4d5223232344415441232323" value=""/>
                 <characteristic name="Type" characteristicTypeId="5479706523232344415441232323" value=""/>
@@ -4573,6 +4585,20 @@ If miscast,  no roll on the table but 1d3 Wounds without save </description>
           <costs>
             <cost name="pts" costTypeId="points" value="11.0"/>
           </costs>
+        </selectionEntry>
+        <selectionEntry id="cdde-d141-4298-af0b" name="Light Armour" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a75d-80a9-efbf-777a" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="38be-636a-f105-e8ff" type="max"/>
+          </constraints>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs/>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
@@ -4600,7 +4626,7 @@ If miscast,  no roll on the table but 1d3 Wounds without save </description>
                     <characteristic name="I" characteristicTypeId="4923232344415441232323" value="5"/>
                     <characteristic name="A" characteristicTypeId="4123232344415441232323" value="2"/>
                     <characteristic name="LD" characteristicTypeId="4c4423232344415441232323" value="9"/>
-                    <characteristic name="ArmourSave" characteristicTypeId="41726d6f75725361766523232344415441232323" value="5"/>
+                    <characteristic name="ArmourSave" characteristicTypeId="41726d6f75725361766523232344415441232323" value="6"/>
                     <characteristic name="WardSave" characteristicTypeId="576172645361766523232344415441232323" value=""/>
                     <characteristic name="MR" characteristicTypeId="4d5223232344415441232323" value=""/>
                     <characteristic name="Type" characteristicTypeId="5479706523232344415441232323" value=""/>
