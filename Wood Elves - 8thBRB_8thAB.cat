@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="0f48c054-1399-d222-0570-b20c15442639" name="Wood Elves - Army Book (2014-5) -V8.8.0." revision="56" battleScribeVersion="2.00" authorName="Don Thorpe" authorContact="the.desperate.allies@gmail.com" authorUrl="http://battlescribedata.appspot.com/#/repo/whfb" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="0f48c054-1399-d222-0570-b20c15442639" name="Wood Elves - Army Book (2014-5) -V8.8.0." revision="57" battleScribeVersion="2.00" authorName="Don Thorpe" authorContact="the.desperate.allies@gmail.com" authorUrl="http://battlescribedata.appspot.com/#/repo/whfb" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -3673,6 +3673,12 @@ If miscast,  no roll on the table but 1d3 Wounds without save </description>
           <infoLinks/>
           <modifiers/>
         </infoLink>
+        <infoLink id="9bcd-ffcf-0f2a-041d" name="New InfoLink" hidden="false" targetId="6847-79fa-b8ec-8f24" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
       </infoLinks>
       <modifiers/>
       <constraints>
@@ -3697,7 +3703,7 @@ If miscast,  no roll on the table but 1d3 Wounds without save </description>
                 <characteristic name="A" characteristicTypeId="4123232344415441232323" value="1"/>
                 <characteristic name="LD" characteristicTypeId="4c4423232344415441232323" value="8"/>
                 <characteristic name="ArmourSave" characteristicTypeId="41726d6f75725361766523232344415441232323" value=""/>
-                <characteristic name="WardSave" characteristicTypeId="576172645361766523232344415441232323" value=""/>
+                <characteristic name="WardSave" characteristicTypeId="576172645361766523232344415441232323" value="6"/>
                 <characteristic name="MR" characteristicTypeId="4d5223232344415441232323" value=""/>
                 <characteristic name="Type" characteristicTypeId="5479706523232344415441232323" value="Infantry"/>
               </characteristics>
@@ -3719,7 +3725,14 @@ If miscast,  no roll on the table but 1d3 Wounds without save </description>
         <selectionEntry id="db984bc8-5716-51b6-e643-8031b870b081" name="Swap for Asrai Spear (per model)" page="0" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
           <profiles/>
           <rules/>
-          <infoLinks/>
+          <infoLinks>
+            <infoLink id="c62b-b70d-93cb-e5e0" name="New InfoLink" hidden="false" targetId="8594-d4b0-1325-54f4" type="profile">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
           <modifiers/>
           <constraints/>
           <selectionEntries/>
@@ -3756,7 +3769,7 @@ If miscast,  no roll on the table but 1d3 Wounds without save </description>
                     <characteristic name="A" characteristicTypeId="4123232344415441232323" value="2"/>
                     <characteristic name="LD" characteristicTypeId="4c4423232344415441232323" value="8"/>
                     <characteristic name="ArmourSave" characteristicTypeId="41726d6f75725361766523232344415441232323" value=""/>
-                    <characteristic name="WardSave" characteristicTypeId="576172645361766523232344415441232323" value=""/>
+                    <characteristic name="WardSave" characteristicTypeId="576172645361766523232344415441232323" value="6"/>
                     <characteristic name="MR" characteristicTypeId="4d5223232344415441232323" value=""/>
                     <characteristic name="Type" characteristicTypeId="5479706523232344415441232323" value="Infantry"/>
                   </characteristics>
