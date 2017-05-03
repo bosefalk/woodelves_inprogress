@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="0f48c054-1399-d222-0570-b20c15442639" name="Wood Elves - Army Book (2014-5) -V8.8.0." revision="85" battleScribeVersion="2.00" authorName="Don Thorpe" authorContact="the.desperate.allies@gmail.com" authorUrl="http://battlescribedata.appspot.com/#/repo/whfb" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="0f48c054-1399-d222-0570-b20c15442639" name="Wood Elves - Army Book (2014-5) -V8.8.0." revision="88" battleScribeVersion="2.00" authorName="Don Thorpe" authorContact="the.desperate.allies@gmail.com" authorUrl="http://battlescribedata.appspot.com/#/repo/whfb" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules>
     <rule id="82aa-2802-1ec0-3ef7" name="Ambush from the Worldroots" hidden="false">
@@ -7,7 +7,7 @@
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>A Wood E lf army can always place an additional forest on the batdefield. This is done during deployment, before any units are deployed, and must be placed wholly in your half of the batdefield. This forest is not mysterious terrain - declare its type when you place it. If you cannot fit the forest on your half of the table, move other terrain features by the shortest distance necessary so that the forest can be placed. If you still cannot place the forest, or if the scenario means that the Wood E lf army does not have a table half in which to deploy, this additional forest is not used in this battie.</description>
+      <description>A Wood E lf army can always place an additional forest on the battlefield. This is done during deployment, before any units are deployed, and must be placed wholly in your half of the batdefield. This forest is not mysterious terrain - declare its type when you place it. If you cannot fit the forest on your half of the table, move other terrain features by the shortest distance necessary so that the forest can be placed. If you still cannot place the forest, or if the scenario means that the Wood E lf army does not have a table half in which to deploy, this additional forest is not used in this battie.</description>
     </rule>
   </rules>
   <infoLinks/>
@@ -290,7 +290,9 @@
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
@@ -804,7 +806,9 @@ At the start of the Remaining Moves sub-phase of your first turn, roll a D6 for 
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="5f59-8e93-08ea-5357" name="Asrai Spear" hidden="false" collective="false" type="upgrade">
           <profiles/>
@@ -825,7 +829,9 @@ At the start of the Remaining Moves sub-phase of your first turn, roll a D6 for 
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
@@ -2093,7 +2099,9 @@ At the start of the Remaining Moves sub-phase of your first turn, roll a D6 for 
               <constraints/>
             </entryLink>
           </entryLinks>
-          <costs/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
@@ -2200,22 +2208,59 @@ At the start of the Remaining Moves sub-phase of your first turn, roll a D6 for 
     <selectionEntry id="f1867597-084f-d669-7ed6-758b2c217b86" name="Great Eagle" page="0" hidden="false" collective="false" categoryEntryId="5261726523232344415441232323" type="unit">
       <profiles/>
       <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints>
-        <constraint field="selections" scope="roster" value="2.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxInRoster" type="max"/>
-      </constraints>
-      <selectionEntries/>
-      <selectionEntryGroups/>
-      <entryLinks>
-        <entryLink id="8ccf-dd8a-3c3b-6635" name="New EntryLink" hidden="false" targetId="8a35-18e2-9a49-58cc" type="selectionEntry">
+      <infoLinks>
+        <infoLink id="ae05-2ac2-e5f0-7a97" name="New InfoLink" hidden="false" targetId="3c3239b5-6dd2-7e5f-0a4f-69db2c71d233" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <constraints/>
-        </entryLink>
-      </entryLinks>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="roster" value="2.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxInRoster" type="max"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="2e8e-6801-88e8-bd67" name="Great Eagle" hidden="false" collective="false" type="model">
+          <profiles>
+            <profile id="6306-37f6-4fc3-49be" name="Great Eagle" hidden="false" profileTypeId="4d6f64656c23232344415441232323" profileTypeName="Model">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="M" characteristicTypeId="4d23232344415441232323" value="2"/>
+                <characteristic name="WS" characteristicTypeId="575323232344415441232323" value="5"/>
+                <characteristic name="BS" characteristicTypeId="425323232344415441232323" value="0"/>
+                <characteristic name="S" characteristicTypeId="5323232344415441232323" value="4"/>
+                <characteristic name="T" characteristicTypeId="5423232344415441232323" value="4"/>
+                <characteristic name="W" characteristicTypeId="5723232344415441232323" value="3"/>
+                <characteristic name="I" characteristicTypeId="4923232344415441232323" value="4"/>
+                <characteristic name="A" characteristicTypeId="4123232344415441232323" value="2"/>
+                <characteristic name="LD" characteristicTypeId="4c4423232344415441232323" value="8"/>
+                <characteristic name="ArmourSave" characteristicTypeId="41726d6f75725361766523232344415441232323" value=""/>
+                <characteristic name="WardSave" characteristicTypeId="576172645361766523232344415441232323" value=""/>
+                <characteristic name="MR" characteristicTypeId="4d5223232344415441232323" value=""/>
+                <characteristic name="Type" characteristicTypeId="5479706523232344415441232323" value="Monstrous Beast"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cd8a-9bf1-6857-0b50" type="min"/>
+          </constraints>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="50.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups/>
+      <entryLinks/>
       <costs>
         <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
@@ -2831,7 +2876,32 @@ If miscast,  no roll on the table but 1d3 Wounds without save </description>
               <constraints/>
             </entryLink>
           </entryLinks>
-          <costs/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="376d-925b-8aa8-b50b" name="Blackbriar Javelin" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks>
+            <infoLink id="e95f-0056-2b9c-e900" name="New InfoLink" hidden="false" targetId="09b4-98cc-d8dd-6e84" type="profile">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8e40-c95a-5442-c921" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="13d5-4744-311d-cde8" type="max"/>
+          </constraints>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
@@ -3329,7 +3399,9 @@ If miscast,  no roll on the table but 1d3 Wounds without save </description>
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
-              <costs/>
+              <costs>
+                <cost name="pts" costTypeId="points" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="b357-e4f7-7352-e33f" name="Wizard Level 2" hidden="false" collective="false" type="upgrade">
               <profiles/>
@@ -3780,7 +3852,9 @@ If miscast,  no roll on the table but 1d3 Wounds without save </description>
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
-              <costs/>
+              <costs>
+                <cost name="pts" costTypeId="points" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="5116-de33-2625-7b55" name="Wizard Level 4" hidden="false" collective="false" type="upgrade">
               <profiles/>
@@ -4329,7 +4403,9 @@ If miscast,  no roll on the table but 1d3 Wounds without save </description>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
@@ -4488,7 +4564,9 @@ If miscast,  no roll on the table but 1d3 Wounds without save </description>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="159c-600e-8cf4-8959" name="Asrai Longbow" hidden="false" collective="false" type="upgrade">
           <profiles/>
@@ -4509,7 +4587,9 @@ If miscast,  no roll on the table but 1d3 Wounds without save </description>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="3a56-28ac-eb76-e88a" name="Warhawk" hidden="false" collective="false" type="upgrade">
           <profiles/>
@@ -4531,7 +4611,9 @@ If miscast,  no roll on the table but 1d3 Wounds without save </description>
               <constraints/>
             </entryLink>
           </entryLinks>
-          <costs/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
@@ -4751,18 +4833,6 @@ If miscast,  no roll on the table but 1d3 Wounds without save </description>
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="6b56-0df1-4567-5bbe" name="New InfoLink" hidden="false" targetId="3dc5-d1e4-501b-877a" type="profile">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="bf06-5023-9912-b63b" name="New InfoLink" hidden="false" targetId="6847-79fa-b8ec-8f24" type="profile">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
       </infoLinks>
       <modifiers/>
       <constraints>
@@ -4805,6 +4875,48 @@ If miscast,  no roll on the table but 1d3 Wounds without save </description>
           <costs>
             <cost name="pts" costTypeId="points" value="20.0"/>
           </costs>
+        </selectionEntry>
+        <selectionEntry id="9327-896f-8c78-0d17" name="Asrai Longbow" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks>
+            <infoLink id="6cd3-41c0-7dfd-b77f" name="New InfoLink" hidden="false" targetId="3dc5-d1e4-501b-877a" type="profile">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f40e-ef8a-de98-30e2" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1bb5-9e6f-f708-d326" type="max"/>
+          </constraints>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs/>
+        </selectionEntry>
+        <selectionEntry id="ce2a-0b2f-068f-30c7" name="Two Hand Weapons" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks>
+            <infoLink id="1f2f-7280-ec69-0934" name="New InfoLink" hidden="false" targetId="6847-79fa-b8ec-8f24" type="profile">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dc4f-231f-c115-b9e2" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e1ab-c51e-11cb-c26b" type="min"/>
+          </constraints>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs/>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
@@ -5018,7 +5130,9 @@ If miscast,  no roll on the table but 1d3 Wounds without save </description>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="a6fe-1428-903a-1350" name="Steed of Kurnous" hidden="false" collective="false" type="upgrade">
           <profiles/>
@@ -5040,7 +5154,9 @@ If miscast,  no roll on the table but 1d3 Wounds without save </description>
               <constraints/>
             </entryLink>
           </entryLinks>
-          <costs/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
@@ -5257,7 +5373,9 @@ If miscast,  no roll on the table but 1d3 Wounds without save </description>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
@@ -8368,7 +8486,9 @@ Boost to target all forests within 12&quot;, cast on 16+</description>
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="448c-225b-30ed-c5ed" name="Warhawk" hidden="false" collective="false" type="upgrade">
       <profiles>
@@ -8425,7 +8545,9 @@ Boost to target all forests within 12&quot;, cast on 16+</description>
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="6c15-53c8-f5f6-9da6" name="Steed of Kurnous" hidden="false" collective="false" type="upgrade">
       <profiles>
@@ -8474,7 +8596,9 @@ Boost to target all forests within 12&quot;, cast on 16+</description>
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
