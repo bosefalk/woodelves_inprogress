@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="0f48c054-1399-d222-0570-b20c15442639" name="Wood Elves - Army Book (2014-5) -V8.8.0." revision="80" battleScribeVersion="2.00" authorName="Don Thorpe" authorContact="the.desperate.allies@gmail.com" authorUrl="http://battlescribedata.appspot.com/#/repo/whfb" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="0f48c054-1399-d222-0570-b20c15442639" name="Wood Elves - Army Book (2014-5) -V8.8.0." revision="85" battleScribeVersion="2.00" authorName="Don Thorpe" authorContact="the.desperate.allies@gmail.com" authorUrl="http://battlescribedata.appspot.com/#/repo/whfb" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
-  <rules/>
+  <rules>
+    <rule id="82aa-2802-1ec0-3ef7" name="Ambush from the Worldroots" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>A Wood E lf army can always place an additional forest on the batdefield. This is done during deployment, before any units are deployed, and must be placed wholly in your half of the batdefield. This forest is not mysterious terrain - declare its type when you place it. If you cannot fit the forest on your half of the table, move other terrain features by the shortest distance necessary so that the forest can be placed. If you still cannot place the forest, or if the scenario means that the Wood E lf army does not have a table half in which to deploy, this additional forest is not used in this battie.</description>
+    </rule>
+  </rules>
   <infoLinks/>
   <costTypes/>
   <profileTypes/>
@@ -198,20 +206,6 @@
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="ea3b-991a-9cc6-fd22" name="New InfoLink" hidden="false" targetId="3dc5-d1e4-501b-877a" type="profile">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers>
-            <modifier type="set" field="hidden" value="true">
-              <repeats/>
-              <conditions>
-                <condition field="selections" scope="b7bc0588-93bc-53a4-50ce-10b868c09bd0" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ebb87caa-86ef-65af-1a5a-3861a48589f6" type="atLeast"/>
-              </conditions>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
-        </infoLink>
         <infoLink id="d841-f542-d5f9-2dc7" name="New InfoLink" hidden="false" targetId="7fbc8bf7-611b-a502-a8fd-7165c8e9ad62" type="rule">
           <profiles/>
           <rules/>
@@ -268,6 +262,35 @@
           <costs>
             <cost name="pts" costTypeId="points" value="13.0"/>
           </costs>
+        </selectionEntry>
+        <selectionEntry id="c0d0-db39-bd99-6bda" name="Asrai Longbow" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks>
+            <infoLink id="fb41-9336-5101-528d" name="New InfoLink" hidden="false" targetId="3dc5-d1e4-501b-877a" type="profile">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <repeats/>
+                  <conditions>
+                    <condition field="selections" scope="b7bc0588-93bc-53a4-50ce-10b868c09bd0" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ebb87caa-86ef-65af-1a5a-3861a48589f6" type="atLeast"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4410-8e3b-e0e0-242c" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="74c2-4441-1058-87b0" type="max"/>
+          </constraints>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs/>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
@@ -2699,12 +2722,6 @@ At the start of the Remaining Moves sub-phase of your first turn, roll a D6 for 
     <selectionEntry id="fe988688-7d67-9df8-5f1c-5970edfb8900" name="Sisters of the Thorn" page="0" hidden="false" collective="false" categoryEntryId="5370656369616c23232344415441232323" type="unit">
       <profiles/>
       <rules>
-        <rule id="a33cb15f-c364-5390-e299-e3d139fd0520" name="Poisoned Attacks (riders only)" page="0" hidden="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </rule>
         <rule id="65205745-450b-0419-1d7c-b736299e018e" name="Daughters of Eternity" book="AB" page="46" hidden="false">
           <profiles/>
           <rules/>
@@ -2717,7 +2734,7 @@ At the start of the Remaining Moves sub-phase of your first turn, roll a D6 for 
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <description>Count as a Level 2 Wizard , which knows Shield of Thorns (Life) and Curse of Anraheir (Beasts).
+          <description>Unit counts as a Level 2 Wizard , which knows Shield of Thorns (Life) and Curse of Anraheir (Beasts).
 Other wizards may take those spells .
 +1 to cast for each rank of 5 past the first , up to +3
 At every casting one sister must be selected for LoS , range etc.
@@ -2731,13 +2748,13 @@ If miscast,  no roll on the table but 1d3 Wounds without save </description>
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="56c3cbeb-1ec9-c8ca-301e-703d56925bef" hidden="false" targetId="fc62ce67-8a0a-272c-2fcc-52c0708801b5" type="rule">
+        <infoLink id="737dd05a-91b7-dbfa-9c26-54b9897f0170" hidden="false" targetId="7fbc8bf7-611b-a502-a8fd-7165c8e9ad62" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="737dd05a-91b7-dbfa-9c26-54b9897f0170" hidden="false" targetId="7fbc8bf7-611b-a502-a8fd-7165c8e9ad62" type="rule">
+        <infoLink id="9986-9014-8ffa-a4e5" name="New InfoLink" hidden="false" targetId="b2ca-c82f-3cff-0b13" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -2755,7 +2772,15 @@ If miscast,  no roll on the table but 1d3 Wounds without save </description>
               <profiles/>
               <rules/>
               <infoLinks/>
-              <modifiers/>
+              <modifiers>
+                <modifier type="set" field="41726d6f75725361766523232344415441232323" value="6">
+                  <repeats/>
+                  <conditions>
+                    <condition field="selections" scope="fe988688-7d67-9df8-5f1c-5970edfb8900" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="419d-9f8b-d3dd-d8f0" type="atLeast"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
               <characteristics>
                 <characteristic name="M" characteristicTypeId="4d23232344415441232323" value="5"/>
                 <characteristic name="WS" characteristicTypeId="575323232344415441232323" value="4"/>
@@ -2772,27 +2797,6 @@ If miscast,  no roll on the table but 1d3 Wounds without save </description>
                 <characteristic name="Type" characteristicTypeId="5479706523232344415441232323" value="Cavalry"/>
               </characteristics>
             </profile>
-            <profile id="d8d8fef0-405b-b7e2-5102-9993937ec697" name="Steed of Isha" book="AB" page="46" hidden="false" profileTypeId="4d6f64656c23232344415441232323">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <characteristics>
-                <characteristic name="M" characteristicTypeId="4d23232344415441232323" value="9"/>
-                <characteristic name="WS" characteristicTypeId="575323232344415441232323" value="3"/>
-                <characteristic name="BS" characteristicTypeId="425323232344415441232323" value="0"/>
-                <characteristic name="S" characteristicTypeId="5323232344415441232323" value="4"/>
-                <characteristic name="T" characteristicTypeId="5423232344415441232323" value="3"/>
-                <characteristic name="W" characteristicTypeId="5723232344415441232323" value="1"/>
-                <characteristic name="I" characteristicTypeId="4923232344415441232323" value="4"/>
-                <characteristic name="A" characteristicTypeId="4123232344415441232323" value="1"/>
-                <characteristic name="LD" characteristicTypeId="4c4423232344415441232323" value="5"/>
-                <characteristic name="ArmourSave" characteristicTypeId="41726d6f75725361766523232344415441232323" value=""/>
-                <characteristic name="WardSave" characteristicTypeId="576172645361766523232344415441232323"/>
-                <characteristic name="MR" characteristicTypeId="4d5223232344415441232323"/>
-                <characteristic name="Type" characteristicTypeId="5479706523232344415441232323"/>
-              </characteristics>
-            </profile>
           </profiles>
           <rules/>
           <infoLinks/>
@@ -2806,6 +2810,28 @@ If miscast,  no roll on the table but 1d3 Wounds without save </description>
           <costs>
             <cost name="pts" costTypeId="points" value="26.0"/>
           </costs>
+        </selectionEntry>
+        <selectionEntry id="419d-9f8b-d3dd-d8f0" name="Steed of Isha" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4959-0c40-4922-1b87" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="924a-51fe-71cf-b57d" type="max"/>
+          </constraints>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="79da-4b8a-f58d-552b" name="New EntryLink" hidden="false" targetId="cd7f-df8a-c140-11fb" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </entryLink>
+          </entryLinks>
+          <costs/>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
@@ -2822,7 +2848,15 @@ If miscast,  no roll on the table but 1d3 Wounds without save </description>
                   <profiles/>
                   <rules/>
                   <infoLinks/>
-                  <modifiers/>
+                  <modifiers>
+                    <modifier type="set" field="41726d6f75725361766523232344415441232323" value="6">
+                      <repeats/>
+                      <conditions>
+                        <condition field="selections" scope="fe988688-7d67-9df8-5f1c-5970edfb8900" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="419d-9f8b-d3dd-d8f0" type="atLeast"/>
+                      </conditions>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
                   <characteristics>
                     <characteristic name="M" characteristicTypeId="4d23232344415441232323" value="5"/>
                     <characteristic name="WS" characteristicTypeId="575323232344415441232323" value="4"/>
@@ -4213,12 +4247,6 @@ If miscast,  no roll on the table but 1d3 Wounds without save </description>
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="9bcd-ffcf-0f2a-041d" name="New InfoLink" hidden="false" targetId="6847-79fa-b8ec-8f24" type="profile">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
       </infoLinks>
       <modifiers/>
       <constraints>
@@ -4281,6 +4309,27 @@ If miscast,  no roll on the table but 1d3 Wounds without save </description>
           <costs>
             <cost name="pts" costTypeId="points" value="1.0"/>
           </costs>
+        </selectionEntry>
+        <selectionEntry id="70e4-710c-f890-b9d2" name="Two Hand Weapons" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks>
+            <infoLink id="72e3-c3e0-eba2-0a5a" name="New InfoLink" hidden="false" targetId="6847-79fa-b8ec-8f24" type="profile">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="13da-d0df-0ec0-f35d" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7a06-8b6d-7ffe-e1be" type="max"/>
+          </constraints>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs/>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
@@ -4355,15 +4404,7 @@ If miscast,  no roll on the table but 1d3 Wounds without save </description>
     </selectionEntry>
     <selectionEntry id="e0ae6f2d-c2c2-f87f-55fe-a47dfc98ec98" name="Warhawk Riders" page="0" hidden="false" collective="false" categoryEntryId="5370656369616c23232344415441232323" type="unit">
       <profiles/>
-      <rules>
-        <rule id="af0e19b0-4579-f288-eeeb-588673bb372f" name="Predator&apos;s Descent" page="0" hidden="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <description>Warhawk only : Killing Blow on charge</description>
-        </rule>
-      </rules>
+      <rules/>
       <infoLinks>
         <infoLink id="c0dfee6d-adf4-c64f-08a1-adb08eaeac92" hidden="false" targetId="69139d30-b762-93fe-bf68-14daf69ee2c4" type="rule">
           <profiles/>
@@ -4372,30 +4413,6 @@ If miscast,  no roll on the table but 1d3 Wounds without save </description>
           <modifiers/>
         </infoLink>
         <infoLink id="05b5a25d-edeb-1f8f-c9dc-59bc5f64a530" name="" hidden="false" targetId="7fbc8bf7-611b-a502-a8fd-7165c8e9ad62" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="0f6ef6c3-1381-3eeb-47a5-df0de98af030" hidden="false" targetId="4c942517-909f-599d-94b9-2de55569d2bd" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="c6e4e6db-3b91-e3d6-7440-08dab395c8be" hidden="false" targetId="1fc86c66-317e-1e8a-2033-9c42379c73c6" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="7c8d-4d36-6ac7-5a0a" name="New InfoLink" hidden="false" targetId="c350-274f-3e8d-bb77" type="profile">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="ae05-7726-600d-3c86" name="New InfoLink" hidden="false" targetId="3dc5-d1e4-501b-877a" type="profile">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -4413,7 +4430,15 @@ If miscast,  no roll on the table but 1d3 Wounds without save </description>
               <profiles/>
               <rules/>
               <infoLinks/>
-              <modifiers/>
+              <modifiers>
+                <modifier type="set" field="41726d6f75725361766523232344415441232323" value="6">
+                  <repeats/>
+                  <conditions>
+                    <condition field="selections" scope="e0ae6f2d-c2c2-f87f-55fe-a47dfc98ec98" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3a56-28ac-eb76-e88a" type="atLeast"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
               <characteristics>
                 <characteristic name="M" characteristicTypeId="4d23232344415441232323" value="5"/>
                 <characteristic name="WS" characteristicTypeId="575323232344415441232323" value="4"/>
@@ -4424,31 +4449,10 @@ If miscast,  no roll on the table but 1d3 Wounds without save </description>
                 <characteristic name="I" characteristicTypeId="4923232344415441232323" value="5"/>
                 <characteristic name="A" characteristicTypeId="4123232344415441232323" value="1"/>
                 <characteristic name="LD" characteristicTypeId="4c4423232344415441232323" value="8"/>
-                <characteristic name="ArmourSave" characteristicTypeId="41726d6f75725361766523232344415441232323" value="6"/>
-                <characteristic name="WardSave" characteristicTypeId="576172645361766523232344415441232323"/>
-                <characteristic name="MR" characteristicTypeId="4d5223232344415441232323"/>
-                <characteristic name="Type" characteristicTypeId="5479706523232344415441232323" value="Monstrous Cavalry"/>
-              </characteristics>
-            </profile>
-            <profile id="4ab47048-b87b-c0ce-783f-bef13590ee00" name="Warhawk" page="0" hidden="false" profileTypeId="4d6f64656c23232344415441232323">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <characteristics>
-                <characteristic name="M" characteristicTypeId="4d23232344415441232323" value="1"/>
-                <characteristic name="WS" characteristicTypeId="575323232344415441232323" value="4"/>
-                <characteristic name="BS" characteristicTypeId="425323232344415441232323" value="0"/>
-                <characteristic name="S" characteristicTypeId="5323232344415441232323" value="4"/>
-                <characteristic name="T" characteristicTypeId="5423232344415441232323" value="4"/>
-                <characteristic name="W" characteristicTypeId="5723232344415441232323" value="3"/>
-                <characteristic name="I" characteristicTypeId="4923232344415441232323" value="5"/>
-                <characteristic name="A" characteristicTypeId="4123232344415441232323" value="2"/>
-                <characteristic name="LD" characteristicTypeId="4c4423232344415441232323" value="5"/>
                 <characteristic name="ArmourSave" characteristicTypeId="41726d6f75725361766523232344415441232323" value=""/>
                 <characteristic name="WardSave" characteristicTypeId="576172645361766523232344415441232323"/>
                 <characteristic name="MR" characteristicTypeId="4d5223232344415441232323"/>
-                <characteristic name="Type" characteristicTypeId="5479706523232344415441232323"/>
+                <characteristic name="Type" characteristicTypeId="5479706523232344415441232323" value="Monstrous Cavalry"/>
               </characteristics>
             </profile>
           </profiles>
@@ -4465,6 +4469,70 @@ If miscast,  no roll on the table but 1d3 Wounds without save </description>
             <cost name="pts" costTypeId="points" value="45.0"/>
           </costs>
         </selectionEntry>
+        <selectionEntry id="2c69-5abd-08c2-c278" name="Asrai Spear" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks>
+            <infoLink id="1249-f39d-4aae-a64e" name="New InfoLink" hidden="false" targetId="3dc5-d1e4-501b-877a" type="profile">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6e08-86a2-329a-3e49" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cb38-faf0-e4aa-aee1" type="max"/>
+          </constraints>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs/>
+        </selectionEntry>
+        <selectionEntry id="159c-600e-8cf4-8959" name="Asrai Longbow" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks>
+            <infoLink id="965b-130a-945f-e93f" name="New InfoLink" hidden="false" targetId="c350-274f-3e8d-bb77" type="profile">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bd53-6743-01d0-4fc7" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="91ff-8072-8f3e-9e15" type="max"/>
+          </constraints>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs/>
+        </selectionEntry>
+        <selectionEntry id="3a56-28ac-eb76-e88a" name="Warhawk" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ff43-ac68-800c-24dc" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8fad-6e78-d6df-ed63" type="max"/>
+          </constraints>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="ff67-6eff-c906-6fc3" name="New EntryLink" hidden="false" targetId="448c-225b-30ed-c5ed" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </entryLink>
+          </entryLinks>
+          <costs/>
+        </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
         <selectionEntryGroup id="7192015a-abe8-83c2-2325-082e6c0daddd" name="Command" hidden="false" collective="false">
@@ -4480,7 +4548,15 @@ If miscast,  no roll on the table but 1d3 Wounds without save </description>
                   <profiles/>
                   <rules/>
                   <infoLinks/>
-                  <modifiers/>
+                  <modifiers>
+                    <modifier type="set" field="41726d6f75725361766523232344415441232323" value="6">
+                      <repeats/>
+                      <conditions>
+                        <condition field="selections" scope="e0ae6f2d-c2c2-f87f-55fe-a47dfc98ec98" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3a56-28ac-eb76-e88a" type="atLeast"/>
+                      </conditions>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
                   <characteristics>
                     <characteristic name="M" characteristicTypeId="4d23232344415441232323" value="5"/>
                     <characteristic name="WS" characteristicTypeId="575323232344415441232323" value="4"/>
@@ -4820,19 +4896,7 @@ If miscast,  no roll on the table but 1d3 Wounds without save </description>
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="c609ab81-6ecd-e054-7117-66cf0241a6ff" hidden="false" targetId="fc62ce67-8a0a-272c-2fcc-52c0708801b5" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
         <infoLink id="bb0f6ca1-e8ed-8a49-4536-262505d35118" hidden="false" targetId="05f89eed-e552-7c4b-552c-465e9045b3f6" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="206c-b23a-3ee8-e036" name="New InfoLink" hidden="false" targetId="c350-274f-3e8d-bb77" type="profile">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -4858,6 +4922,13 @@ If miscast,  no roll on the table but 1d3 Wounds without save </description>
                   </conditions>
                   <conditionGroups/>
                 </modifier>
+                <modifier type="decrement" field="41726d6f75725361766523232344415441232323" value="1">
+                  <repeats/>
+                  <conditions>
+                    <condition field="selections" scope="63e05939-29f1-8b70-8c74-3fc5f241e9e1" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a6fe-1428-903a-1350" type="atLeast"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
               </modifiers>
               <characteristics>
                 <characteristic name="M" characteristicTypeId="4d23232344415441232323" value="5"/>
@@ -4869,31 +4940,10 @@ If miscast,  no roll on the table but 1d3 Wounds without save </description>
                 <characteristic name="I" characteristicTypeId="4923232344415441232323" value="5"/>
                 <characteristic name="A" characteristicTypeId="4123232344415441232323" value="1"/>
                 <characteristic name="LD" characteristicTypeId="4c4423232344415441232323" value="9"/>
-                <characteristic name="ArmourSave" characteristicTypeId="41726d6f75725361766523232344415441232323" value="5"/>
+                <characteristic name="ArmourSave" characteristicTypeId="41726d6f75725361766523232344415441232323" value="6"/>
                 <characteristic name="WardSave" characteristicTypeId="576172645361766523232344415441232323" value="6"/>
                 <characteristic name="MR" characteristicTypeId="4d5223232344415441232323"/>
                 <characteristic name="Type" characteristicTypeId="5479706523232344415441232323" value="Cavalry"/>
-              </characteristics>
-            </profile>
-            <profile id="9fde3cdd-902e-c4db-ec3a-9929650f09b3" name="Steed of Kurnos" page="0" hidden="false" profileTypeId="4d6f64656c23232344415441232323">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <characteristics>
-                <characteristic name="M" characteristicTypeId="4d23232344415441232323" value="9"/>
-                <characteristic name="WS" characteristicTypeId="575323232344415441232323" value="3"/>
-                <characteristic name="BS" characteristicTypeId="425323232344415441232323" value="0"/>
-                <characteristic name="S" characteristicTypeId="5323232344415441232323" value="4"/>
-                <characteristic name="T" characteristicTypeId="5423232344415441232323" value="3"/>
-                <characteristic name="W" characteristicTypeId="5723232344415441232323" value="1"/>
-                <characteristic name="I" characteristicTypeId="4923232344415441232323" value="4"/>
-                <characteristic name="A" characteristicTypeId="4123232344415441232323" value="1"/>
-                <characteristic name="LD" characteristicTypeId="4c4423232344415441232323" value="5"/>
-                <characteristic name="ArmourSave" characteristicTypeId="41726d6f75725361766523232344415441232323" value=""/>
-                <characteristic name="WardSave" characteristicTypeId="576172645361766523232344415441232323"/>
-                <characteristic name="MR" characteristicTypeId="4d5223232344415441232323"/>
-                <characteristic name="Type" characteristicTypeId="5479706523232344415441232323"/>
               </characteristics>
             </profile>
           </profiles>
@@ -4949,6 +4999,49 @@ If miscast,  no roll on the table but 1d3 Wounds without save </description>
             <cost name="pts" costTypeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
+        <selectionEntry id="448d-968d-526e-f88b" name="Asrai Spear" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks>
+            <infoLink id="df96-dd85-0a8f-57e9" name="New InfoLink" hidden="false" targetId="c350-274f-3e8d-bb77" type="profile">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="25ed-17e4-3032-1807" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="024e-2d46-2f8b-0a0d" type="min"/>
+          </constraints>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs/>
+        </selectionEntry>
+        <selectionEntry id="a6fe-1428-903a-1350" name="Steed of Kurnous" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0ec3-a36a-d376-471b" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4512-e88f-0d69-76d2" type="max"/>
+          </constraints>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="d64d-257e-7a26-a004" name="New EntryLink" hidden="false" targetId="6c15-53c8-f5f6-9da6" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </entryLink>
+          </entryLinks>
+          <costs/>
+        </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
         <selectionEntryGroup id="9645ba08-e132-73d8-2ff5-c35061b6f042" name="Command" hidden="false" collective="false">
@@ -4972,6 +5065,13 @@ If miscast,  no roll on the table but 1d3 Wounds without save </description>
                       </conditions>
                       <conditionGroups/>
                     </modifier>
+                    <modifier type="decrement" field="41726d6f75725361766523232344415441232323" value="1">
+                      <repeats/>
+                      <conditions>
+                        <condition field="selections" scope="63e05939-29f1-8b70-8c74-3fc5f241e9e1" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a6fe-1428-903a-1350" type="atLeast"/>
+                      </conditions>
+                      <conditionGroups/>
+                    </modifier>
                   </modifiers>
                   <characteristics>
                     <characteristic name="M" characteristicTypeId="4d23232344415441232323" value="5"/>
@@ -4983,10 +5083,10 @@ If miscast,  no roll on the table but 1d3 Wounds without save </description>
                     <characteristic name="I" characteristicTypeId="4923232344415441232323" value="5"/>
                     <characteristic name="A" characteristicTypeId="4123232344415441232323" value="2"/>
                     <characteristic name="LD" characteristicTypeId="4c4423232344415441232323" value="9"/>
-                    <characteristic name="ArmourSave" characteristicTypeId="41726d6f75725361766523232344415441232323" value="5"/>
+                    <characteristic name="ArmourSave" characteristicTypeId="41726d6f75725361766523232344415441232323" value="6"/>
                     <characteristic name="WardSave" characteristicTypeId="576172645361766523232344415441232323" value="6"/>
                     <characteristic name="MR" characteristicTypeId="4d5223232344415441232323"/>
-                    <characteristic name="Type" characteristicTypeId="5479706523232344415441232323"/>
+                    <characteristic name="Type" characteristicTypeId="5479706523232344415441232323" value="Cavalry"/>
                   </characteristics>
                 </profile>
               </profiles>
@@ -5079,12 +5179,6 @@ If miscast,  no roll on the table but 1d3 Wounds without save </description>
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="58ed-514a-35e3-811f" name="New InfoLink" hidden="false" targetId="2528-4e4f-3e97-3098" type="profile">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
       </infoLinks>
       <modifiers/>
       <constraints>
@@ -5143,6 +5237,27 @@ If miscast,  no roll on the table but 1d3 Wounds without save </description>
           <costs>
             <cost name="pts" costTypeId="points" value="0.0"/>
           </costs>
+        </selectionEntry>
+        <selectionEntry id="d272-2401-6949-684d" name="Great Weapon" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks>
+            <infoLink id="34c5-d0b2-0be2-d534" name="New InfoLink" hidden="false" targetId="2528-4e4f-3e97-3098" type="profile">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d4a5-7d24-ea6c-43df" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7462-3440-d1c2-f3ef" type="max"/>
+          </constraints>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs/>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
@@ -8212,6 +8327,155 @@ Boost to target all forests within 12&quot;, cast on 16+</description>
         <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="cd7f-df8a-c140-11fb" name="Steed of Isha" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="98d7-3920-58d8-0490" name="Steed of Isha" book="AB" page="46" hidden="false" profileTypeId="4d6f64656c23232344415441232323">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="M" characteristicTypeId="4d23232344415441232323" value="9"/>
+            <characteristic name="WS" characteristicTypeId="575323232344415441232323" value="3"/>
+            <characteristic name="BS" characteristicTypeId="425323232344415441232323" value="0"/>
+            <characteristic name="S" characteristicTypeId="5323232344415441232323" value="4"/>
+            <characteristic name="T" characteristicTypeId="5423232344415441232323" value="3"/>
+            <characteristic name="W" characteristicTypeId="5723232344415441232323" value="1"/>
+            <characteristic name="I" characteristicTypeId="4923232344415441232323" value="4"/>
+            <characteristic name="A" characteristicTypeId="4123232344415441232323" value="1"/>
+            <characteristic name="LD" characteristicTypeId="4c4423232344415441232323" value="5"/>
+            <characteristic name="ArmourSave" characteristicTypeId="41726d6f75725361766523232344415441232323" value=""/>
+            <characteristic name="WardSave" characteristicTypeId="576172645361766523232344415441232323"/>
+            <characteristic name="MR" characteristicTypeId="4d5223232344415441232323"/>
+            <characteristic name="Type" characteristicTypeId="5479706523232344415441232323"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="8aaf-6549-07dc-5d15" name="New InfoLink" hidden="false" targetId="fc62ce67-8a0a-272c-2fcc-52c0708801b5" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7d73-0f5b-9197-efbb" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="812e-4cdc-fc03-e96f" type="max"/>
+      </constraints>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs/>
+    </selectionEntry>
+    <selectionEntry id="448c-225b-30ed-c5ed" name="Warhawk" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="399b-0f4a-c687-4142" name="Warhawk" page="0" hidden="false" profileTypeId="4d6f64656c23232344415441232323">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="M" characteristicTypeId="4d23232344415441232323" value="1"/>
+            <characteristic name="WS" characteristicTypeId="575323232344415441232323" value="4"/>
+            <characteristic name="BS" characteristicTypeId="425323232344415441232323" value="0"/>
+            <characteristic name="S" characteristicTypeId="5323232344415441232323" value="4"/>
+            <characteristic name="T" characteristicTypeId="5423232344415441232323" value="4"/>
+            <characteristic name="W" characteristicTypeId="5723232344415441232323" value="3"/>
+            <characteristic name="I" characteristicTypeId="4923232344415441232323" value="5"/>
+            <characteristic name="A" characteristicTypeId="4123232344415441232323" value="2"/>
+            <characteristic name="LD" characteristicTypeId="4c4423232344415441232323" value="5"/>
+            <characteristic name="ArmourSave" characteristicTypeId="41726d6f75725361766523232344415441232323" value=""/>
+            <characteristic name="WardSave" characteristicTypeId="576172645361766523232344415441232323"/>
+            <characteristic name="MR" characteristicTypeId="4d5223232344415441232323"/>
+            <characteristic name="Type" characteristicTypeId="5479706523232344415441232323"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="3c13-0ef1-8365-1c33" name="Predator&apos;s Descent" page="0" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Killing Blow on charge</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="3f61-5214-4e9f-f881" name="New InfoLink" hidden="false" targetId="4c942517-909f-599d-94b9-2de55569d2bd" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="52f6-a112-eaf8-f1bb" name="New InfoLink" hidden="false" targetId="c0c9-804f-e227-70c4" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8f64-fefb-6716-bcb7" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fdbb-ec6d-9c39-22f3" type="max"/>
+      </constraints>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs/>
+    </selectionEntry>
+    <selectionEntry id="6c15-53c8-f5f6-9da6" name="Steed of Kurnous" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="05f7-be4a-f8b1-d24c" name="Steed of Kurnous" page="0" hidden="false" profileTypeId="4d6f64656c23232344415441232323">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="M" characteristicTypeId="4d23232344415441232323" value="9"/>
+            <characteristic name="WS" characteristicTypeId="575323232344415441232323" value="3"/>
+            <characteristic name="BS" characteristicTypeId="425323232344415441232323" value="0"/>
+            <characteristic name="S" characteristicTypeId="5323232344415441232323" value="4"/>
+            <characteristic name="T" characteristicTypeId="5423232344415441232323" value="3"/>
+            <characteristic name="W" characteristicTypeId="5723232344415441232323" value="1"/>
+            <characteristic name="I" characteristicTypeId="4923232344415441232323" value="4"/>
+            <characteristic name="A" characteristicTypeId="4123232344415441232323" value="1"/>
+            <characteristic name="LD" characteristicTypeId="4c4423232344415441232323" value="5"/>
+            <characteristic name="ArmourSave" characteristicTypeId="41726d6f75725361766523232344415441232323" value=""/>
+            <characteristic name="WardSave" characteristicTypeId="576172645361766523232344415441232323"/>
+            <characteristic name="MR" characteristicTypeId="4d5223232344415441232323"/>
+            <characteristic name="Type" characteristicTypeId="5479706523232344415441232323"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="5b21-e28d-0da7-ea98" name="New InfoLink" hidden="false" targetId="fc62ce67-8a0a-272c-2fcc-52c0708801b5" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="6c1a-1145-d9c7-b9f9" name="New InfoLink" hidden="false" targetId="05f89eed-e552-7c4b-552c-465e9045b3f6" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="32ce-b6aa-066c-3ce0" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2fef-dd8c-98b0-c335" type="max"/>
+      </constraints>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs/>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="5cadea4d-5983-c5bd-a51b-9be007b32282" name="25 Point Arcane Items" hidden="false" collective="false">
@@ -10422,13 +10686,6 @@ Warning :  if a character without this rule join this unit , all the models lose
 - FLEE AND PURSUE: Moves on the ground when fleeing or pursuing (but still has Swiftstride)
 - FLYING CAVALRY: Units with the Flying Cavalry special rule are treated as Fast Cavalry that can Fly</description>
     </rule>
-    <rule id="1fc86c66-317e-1e8a-2033-9c42379c73c6" name="Flying Cavalry" page="0" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <description>Has both Flying and Fast Cavalry rules</description>
-    </rule>
     <rule id="ced68ad4-128c-8737-8659-1b01f35fe33f" name="Forest Spirit" book="AB" page="36" hidden="false">
       <profiles/>
       <rules/>
@@ -10633,6 +10890,25 @@ If a Terror-causing creature declares a charge, the target unit must immediately
       <infoLinks/>
       <modifiers/>
       <description>A unit composed entirely of Unbreakable models is Immune to Psychology and passes Break tests automatically, no matter the odds.</description>
+    </rule>
+    <rule id="b2ca-c82f-3cff-0b13" name="Poisoned Attacks" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>Wounds automatically on a To-Hit roll of 6, armour save adjusted by S as normal</description>
+    </rule>
+    <rule id="c0c9-804f-e227-70c4" name="Flying Cavalry" page="0" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>All flyers have the Swiftstride and Skirmishers special rules. In addition:
+
+- MOVEMENT: Moves (glides) up to 10&quot;, can move over impassable terrain and other units, but must not end on one. When charging use 10&quot; as its M characteristic
+- MARCH: Can March as normal, 20&quot;
+- FLEE AND PURSUE: Moves on the ground when fleeing or pursuing (but still has Swiftstride)
+- FLYING CAVALRY: Units with the Flying Cavalry special rule are treated as Fast Cavalry that can Fly</description>
     </rule>
   </sharedRules>
   <sharedProfiles>
