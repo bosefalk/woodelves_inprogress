@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="0f48c054-1399-d222-0570-b20c15442639" name="Wood Elves - Army Book (2014-5) -V8.8.0." revision="70" battleScribeVersion="2.00" authorName="Don Thorpe" authorContact="the.desperate.allies@gmail.com" authorUrl="http://battlescribedata.appspot.com/#/repo/whfb" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="0f48c054-1399-d222-0570-b20c15442639" name="Wood Elves - Army Book (2014-5) -V8.8.0." revision="73" battleScribeVersion="2.00" authorName="Don Thorpe" authorContact="the.desperate.allies@gmail.com" authorUrl="http://battlescribedata.appspot.com/#/repo/whfb" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -1454,7 +1454,43 @@ At the start of the Remaining Moves sub-phase of your first turn, roll a D6 for 
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers/>
+          <modifiers>
+            <modifier type="decrement" field="41726d6f75725361766523232344415441232323" value="1">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="7601defc-c8f7-7d87-b0d9-4827d45b64d1" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f2c2dd1a-7546-1135-a4d8-df9267fbaa3f" type="atLeast"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="decrement" field="41726d6f75725361766523232344415441232323" value="1">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="7601defc-c8f7-7d87-b0d9-4827d45b64d1" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8464ec6a-b306-39c5-a3b3-f5003e7becc3" type="atLeast"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="set" field="5479706523232344415441232323" value="Monstrous Cavalry">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="7601defc-c8f7-7d87-b0d9-4827d45b64d1" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="51ee5f40-6e43-c8fd-1366-467d944db4e1" type="atLeast"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="set" field="5479706523232344415441232323" value="Cavalry">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="7601defc-c8f7-7d87-b0d9-4827d45b64d1" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8366c6bb-ca21-9b91-9399-12a0eb767958" type="atLeast"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="set" field="5479706523232344415441232323" value="Monstrous Cavalry">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="7601defc-c8f7-7d87-b0d9-4827d45b64d1" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b08604f4-7d5c-c856-d984-8dc87d9a94f9" type="atLeast"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
           <characteristics>
             <characteristic name="M" characteristicTypeId="4d23232344415441232323" value="5"/>
             <characteristic name="WS" characteristicTypeId="575323232344415441232323" value="7"/>
@@ -2289,7 +2325,7 @@ At the start of the Remaining Moves sub-phase of your first turn, roll a D6 for 
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Magic Property" characteristicTypeId="4d616769632050726f706572747923232344415441232323" value="5+ Ward Save, Magic Resistance (2). At the start of each of your turns, roll a d6, 6+ Orion regains a W"/>
+            <characteristic name="Magic Property" characteristicTypeId="4d616769632050726f706572747923232344415441232323" value="5+ Ward Save, Magic Resistance (2). At the start of each of your turns, roll a d6, 6+ Orion regains a Wound"/>
           </characteristics>
         </profile>
         <profile id="fee4-fa0c-0ef1-b0f6" name="Hawk&apos;s Talon" hidden="false" profileTypeId="576561706f6e23232344415441232323" profileTypeName="Weapon">
@@ -7555,7 +7591,7 @@ Boost to target all forests within 12&quot;, cast on 16+</description>
             <characteristic name="I" characteristicTypeId="4923232344415441232323" value="4"/>
             <characteristic name="A" characteristicTypeId="4123232344415441232323" value="1"/>
             <characteristic name="LD" characteristicTypeId="4c4423232344415441232323" value="5"/>
-            <characteristic name="ArmourSave" characteristicTypeId="41726d6f75725361766523232344415441232323" value="-1"/>
+            <characteristic name="ArmourSave" characteristicTypeId="41726d6f75725361766523232344415441232323" value=""/>
             <characteristic name="WardSave" characteristicTypeId="576172645361766523232344415441232323" value=""/>
             <characteristic name="MR" characteristicTypeId="4d5223232344415441232323" value=""/>
             <characteristic name="Type" characteristicTypeId="5479706523232344415441232323" value="War Beast"/>
