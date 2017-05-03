@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="0f48c054-1399-d222-0570-b20c15442639" name="Wood Elves - Army Book (2014-5) -V8.8.0." revision="64" battleScribeVersion="2.00" authorName="Don Thorpe" authorContact="the.desperate.allies@gmail.com" authorUrl="http://battlescribedata.appspot.com/#/repo/whfb" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="0f48c054-1399-d222-0570-b20c15442639" name="Wood Elves - Army Book (2014-5) -V8.8.0." revision="66" battleScribeVersion="2.00" authorName="Don Thorpe" authorContact="the.desperate.allies@gmail.com" authorUrl="http://battlescribedata.appspot.com/#/repo/whfb" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -498,8 +498,56 @@
           </characteristics>
         </profile>
       </profiles>
-      <rules/>
-      <infoLinks/>
+      <rules>
+        <rule id="ca8c-b48a-5268-74a5" name="Fanatical Resolve" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Each time Drycha take a Wound, she gains +2 A for the rest of the battle. If she regains a wound, she decreases A by 2.</description>
+        </rule>
+        <rule id="6375-b788-df5e-bd3e" name="Roused to Wrath" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>This rule cannot be used if there are no forests on the battlefield when it is time to deploy your army. When you deploy, you may choose D3 units wholly composed of models with the Forest Spirit special rule - these are not deployed at the start of the game, but are ‘slumbering’ somewhere on the battlefield.
+
+At the start of the Remaining Moves sub-phase of your first turn, roll a D6 for each slumbering unit. O n a roll of 1-2, nothing happens — roll again next turn. On a roll of 3-6, the unit awakens. Place it on the battlefield so that all models in the unit are wholly within a forest, and at least 1&quot; away from other units and impassable terrain. Treat units that cannot be placed as having rolled a 1-2. Any units that have not yet awoken by the time the game ends award victory points as if they had been destroyed.</description>
+        </rule>
+        <rule id="f4e8-f2fa-28f7-a3fd" name="Wizard Level 2 (Lore of Shadows)" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="1f56-8361-3ac7-0571" name="New InfoLink" hidden="false" targetId="691e38c3-3971-fccf-6307-dd1b13f8af00" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="dfad-791b-a150-3ecb" name="New InfoLink" hidden="false" targetId="460aa5be-ed77-898a-2d54-5c6bea7bc44a" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="0a3f-e66b-6509-8548" name="New InfoLink" hidden="false" targetId="ced68ad4-128c-8737-8659-1b01f35fe33f" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="4caf-57d2-87e8-082e" name="New InfoLink" hidden="false" targetId="013e8a36-c898-87ff-b8fc-95517c79066b" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
       <modifiers/>
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxInRoster" type="max"/>
@@ -528,15 +576,94 @@
             <characteristic name="I" characteristicTypeId="4923232344415441232323" value="2"/>
             <characteristic name="A" characteristicTypeId="4123232344415441232323" value="6"/>
             <characteristic name="LD" characteristicTypeId="4c4423232344415441232323" value="10"/>
-            <characteristic name="ArmourSave" characteristicTypeId="41726d6f75725361766523232344415441232323" value=""/>
-            <characteristic name="WardSave" characteristicTypeId="576172645361766523232344415441232323" value=""/>
+            <characteristic name="ArmourSave" characteristicTypeId="41726d6f75725361766523232344415441232323" value="3"/>
+            <characteristic name="WardSave" characteristicTypeId="576172645361766523232344415441232323" value="6"/>
             <characteristic name="MR" characteristicTypeId="4d5223232344415441232323" value=""/>
             <characteristic name="Type" characteristicTypeId="5479706523232344415441232323" value="Monster (Special Character)"/>
           </characteristics>
         </profile>
+        <profile id="bead-e81e-51aa-726e" name="A Lamentation of Despairs" hidden="false" profileTypeId="576561706f6e23232344415441232323" profileTypeName="Weapon">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Range" characteristicTypeId="52616e676523232344415441232323" value="12"/>
+            <characteristic name="Strength" characteristicTypeId="537472656e67746823232344415441232323" value="2"/>
+            <characteristic name="Special Rules" characteristicTypeId="5370656369616c2052756c657323232344415441232323" value="Killing Blow, Multiple Shots (2d6)"/>
+          </characteristics>
+        </profile>
       </profiles>
-      <rules/>
-      <infoLinks/>
+      <rules>
+        <rule id="69b4-5f8a-8b50-45b8" name="Wizard Level 1 (Lore of Beasts)" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </rule>
+        <rule id="d20a-c70e-d83f-1bfd" name="Scaly Skin (3+)" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="97ce-f11b-9792-ff82" name="New InfoLink" hidden="false" targetId="691e38c3-3971-fccf-6307-dd1b13f8af00" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="da70-d8ef-1d7d-9f0f" name="New InfoLink" hidden="false" targetId="a656-25dc-a59a-4ce5" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="f050-5f35-6d90-edb4" name="New InfoLink" hidden="false" targetId="ced68ad4-128c-8737-8659-1b01f35fe33f" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="3afd-448c-e9a5-31c5" name="New InfoLink" hidden="false" targetId="05f89eed-e552-7c4b-552c-465e9045b3f6" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="8146-bdb3-8dfc-492a" name="New InfoLink" hidden="false" targetId="013e8a36-c898-87ff-b8fc-95517c79066b" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="8ad2-b9bf-62c7-c09b" name="New InfoLink" hidden="false" targetId="5ec1-a85b-da02-c36c" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="b4fe-7098-9505-6c34" name="New InfoLink" hidden="false" targetId="752544bd-09a2-fcf8-fae6-4f32b6deab44" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="6c8e-4da1-a762-6535" name="New InfoLink" hidden="false" targetId="de93-691e-0995-9ea0" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="11b7-317d-c22b-691b" name="New InfoLink" hidden="false" targetId="bb7e-7441-06bb-9bad" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
       <modifiers/>
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxInRoster" type="max"/>
