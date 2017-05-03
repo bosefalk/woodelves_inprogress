@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="0f48c054-1399-d222-0570-b20c15442639" name="Wood Elves - Army Book (2014-5) -V8.8.0." revision="75" battleScribeVersion="2.00" authorName="Don Thorpe" authorContact="the.desperate.allies@gmail.com" authorUrl="http://battlescribedata.appspot.com/#/repo/whfb" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="0f48c054-1399-d222-0570-b20c15442639" name="Wood Elves - Army Book (2014-5) -V8.8.0." revision="80" battleScribeVersion="2.00" authorName="Don Thorpe" authorContact="the.desperate.allies@gmail.com" authorUrl="http://battlescribedata.appspot.com/#/repo/whfb" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -697,18 +697,6 @@ At the start of the Remaining Moves sub-phase of your first turn, roll a D6 for 
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="d05b-5d39-bd27-78b4" name="New InfoLink" hidden="false" targetId="1158-504c-9b7b-ed1c" type="profile">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="ab80-e6ab-3ed5-bd99" name="New InfoLink" hidden="false" targetId="8594-d4b0-1325-54f4" type="profile">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
       </infoLinks>
       <modifiers/>
       <constraints/>
@@ -781,6 +769,41 @@ At the start of the Remaining Moves sub-phase of your first turn, roll a D6 for 
             <cost name="pts" costTypeId="points" value="11.0"/>
           </costs>
         </selectionEntry>
+        <selectionEntry id="7d54-201c-a8fb-abf3" name="Light Armour" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1b99-24d0-d813-ec67" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="12cd-e9bc-b9e4-3ed9" type="max"/>
+          </constraints>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs/>
+        </selectionEntry>
+        <selectionEntry id="5f59-8e93-08ea-5357" name="Asrai Spear" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks>
+            <infoLink id="26ab-3a02-df47-9479" name="New InfoLink" hidden="false" targetId="8594-d4b0-1325-54f4" type="profile">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e163-1074-de4f-e8f9" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c826-558f-5932-90ba" type="max"/>
+          </constraints>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs/>
+        </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
         <selectionEntryGroup id="4ccc4821-5656-b749-321c-fbf3848cfe5e" name="Command" hidden="false" collective="false">
@@ -813,7 +836,7 @@ At the start of the Remaining Moves sub-phase of your first turn, roll a D6 for 
                     <characteristic name="T" characteristicTypeId="5423232344415441232323" value="3"/>
                     <characteristic name="W" characteristicTypeId="5723232344415441232323" value="1"/>
                     <characteristic name="I" characteristicTypeId="4923232344415441232323" value="5"/>
-                    <characteristic name="A" characteristicTypeId="4123232344415441232323" value="1"/>
+                    <characteristic name="A" characteristicTypeId="4123232344415441232323" value="2"/>
                     <characteristic name="LD" characteristicTypeId="4c4423232344415441232323" value="9"/>
                     <characteristic name="ArmourSave" characteristicTypeId="41726d6f75725361766523232344415441232323" value="6"/>
                     <characteristic name="WardSave" characteristicTypeId="576172645361766523232344415441232323" value=""/>
@@ -889,7 +912,43 @@ At the start of the Remaining Moves sub-phase of your first turn, roll a D6 for 
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers/>
+          <modifiers>
+            <modifier type="decrement" field="41726d6f75725361766523232344415441232323" value="1">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="18cf7737-5812-8790-dad1-2ba9826d3333" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2e9ec587-28d0-8fb0-3c8b-d35fef456995" type="atLeast"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="set" field="5479706523232344415441232323" value="Cavalry">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="18cf7737-5812-8790-dad1-2ba9826d3333" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ddf3439e-a05b-4b55-fd86-ad05457899b8" type="atLeast"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="set" field="5479706523232344415441232323" value="Monstrous Cavalry">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="18cf7737-5812-8790-dad1-2ba9826d3333" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="0d8c008c-401d-37b3-6ebf-4d1980a19f74" type="atLeast"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="set" field="5479706523232344415441232323" value="Monstrous Cavalry">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="18cf7737-5812-8790-dad1-2ba9826d3333" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c8c52d70-1784-bd4d-035d-56c5365a693f" type="atLeast"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="decrement" field="41726d6f75725361766523232344415441232323" value="1">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="18cf7737-5812-8790-dad1-2ba9826d3333" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="92bb628e-afa7-f232-4740-af955acea1df" type="atLeast"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
           <characteristics>
             <characteristic name="M" characteristicTypeId="4d23232344415441232323" value="5"/>
             <characteristic name="WS" characteristicTypeId="575323232344415441232323" value="6"/>
@@ -1868,12 +1927,6 @@ At the start of the Remaining Moves sub-phase of your first turn, roll a D6 for 
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="6df2-a95a-ca41-421b" name="New InfoLink" hidden="false" targetId="fc62ce67-8a0a-272c-2fcc-52c0708801b5" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
         <infoLink id="5382-8d4a-8799-b617" name="New InfoLink" hidden="false" targetId="7fbc8bf7-611b-a502-a8fd-7165c8e9ad62" type="rule">
           <profiles/>
           <rules/>
@@ -1896,7 +1949,15 @@ At the start of the Remaining Moves sub-phase of your first turn, roll a D6 for 
               <profiles/>
               <rules/>
               <infoLinks/>
-              <modifiers/>
+              <modifiers>
+                <modifier type="set" field="41726d6f75725361766523232344415441232323" value="6">
+                  <repeats/>
+                  <conditions>
+                    <condition field="selections" scope="85c4356a-4eae-ef73-c2e8-c401dd50a44c" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="5826-5f46-ab85-3ac0" type="atLeast"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
               <characteristics>
                 <characteristic name="M" characteristicTypeId="4d23232344415441232323" value="5"/>
                 <characteristic name="WS" characteristicTypeId="575323232344415441232323" value="4"/>
@@ -1989,6 +2050,28 @@ At the start of the Remaining Moves sub-phase of your first turn, roll a D6 for 
             <cost name="pts" costTypeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
+        <selectionEntry id="5826-5f46-ab85-3ac0" name="Elven Steed" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="833b-f2de-2f1b-5d82" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8568-cd91-6cf9-8693" type="max"/>
+          </constraints>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="cf16-29b9-3fff-e22c" name="New EntryLink" hidden="false" targetId="599b-edf4-1b5b-d348" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </entryLink>
+          </entryLinks>
+          <costs/>
+        </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
         <selectionEntryGroup id="c817794b-1fcb-5c43-cb99-daae1ea6513d" name="Command" hidden="false" collective="false">
@@ -2004,7 +2087,15 @@ At the start of the Remaining Moves sub-phase of your first turn, roll a D6 for 
                   <profiles/>
                   <rules/>
                   <infoLinks/>
-                  <modifiers/>
+                  <modifiers>
+                    <modifier type="set" field="41726d6f75725361766523232344415441232323" value="6">
+                      <repeats/>
+                      <conditions>
+                        <condition field="selections" scope="85c4356a-4eae-ef73-c2e8-c401dd50a44c" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="5826-5f46-ab85-3ac0" type="atLeast"/>
+                      </conditions>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
                   <characteristics>
                     <characteristic name="M" characteristicTypeId="4d23232344415441232323" value="5"/>
                     <characteristic name="WS" characteristicTypeId="575323232344415441232323" value="4"/>
@@ -2078,15 +2169,7 @@ At the start of the Remaining Moves sub-phase of your first turn, roll a D6 for 
           <entryLinks/>
         </selectionEntryGroup>
       </selectionEntryGroups>
-      <entryLinks>
-        <entryLink id="d0ae-7235-8a71-8886" name="New EntryLink" hidden="false" targetId="599b-edf4-1b5b-d348" type="selectionEntry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </entryLink>
-      </entryLinks>
+      <entryLinks/>
       <costs>
         <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
@@ -2824,7 +2907,36 @@ If miscast,  no roll on the table but 1d3 Wounds without save </description>
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers/>
+          <modifiers>
+            <modifier type="set" field="41726d6f75725361766523232344415441232323" value="6">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="811f5c1a-cea9-997b-cde2-d9437909be22" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="e4ab8ed5-b942-b2ab-6dda-dced777df97c" type="atLeast"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="set" field="5479706523232344415441232323" value="Monstrous Cavalry">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="811f5c1a-cea9-997b-cde2-d9437909be22" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="940bf11f-cafe-da74-5c54-304b7f74422a" type="atLeast"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="set" field="5479706523232344415441232323" value="Monstrous Cavalry">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="811f5c1a-cea9-997b-cde2-d9437909be22" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="af789290-271b-9c8c-1a1e-2f19bfb2df88" type="atLeast"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="set" field="5479706523232344415441232323" value="Cavalry">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="811f5c1a-cea9-997b-cde2-d9437909be22" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="73240474-26b9-42a6-00ab-7f672792ef5c" type="atLeast"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
           <characteristics>
             <characteristic name="M" characteristicTypeId="4d23232344415441232323" value="5"/>
             <characteristic name="WS" characteristicTypeId="575323232344415441232323" value="4"/>
@@ -2838,7 +2950,7 @@ If miscast,  no roll on the table but 1d3 Wounds without save </description>
             <characteristic name="ArmourSave" characteristicTypeId="41726d6f75725361766523232344415441232323" value=""/>
             <characteristic name="WardSave" characteristicTypeId="576172645361766523232344415441232323"/>
             <characteristic name="MR" characteristicTypeId="4d5223232344415441232323"/>
-            <characteristic name="Type" characteristicTypeId="5479706523232344415441232323"/>
+            <characteristic name="Type" characteristicTypeId="5479706523232344415441232323" value="Infantry (Character)"/>
           </characteristics>
         </profile>
       </profiles>
@@ -2886,21 +2998,6 @@ If miscast,  no roll on the table but 1d3 Wounds without save </description>
           <entryLinks/>
           <costs>
             <cost name="pts" costTypeId="points" value="5.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="48cdc070-3b29-e974-737a-34f831d65abb" name="Level 2" page="0" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-          </constraints>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name="pts" costTypeId="points" value="35.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -3176,6 +3273,48 @@ If miscast,  no roll on the table but 1d3 Wounds without save </description>
               <constraints/>
             </entryLink>
           </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="805c-5671-e508-0d1b" name="Level" hidden="false" collective="false" defaultSelectionEntryId="440d-7c89-99d3-3437">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="03c5-b353-58fa-ab16" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1830-cbbd-5107-f74a" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="440d-7c89-99d3-3437" name="Wizard Level 1" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="466b-05c1-e8e6-4d71" type="max"/>
+              </constraints>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs/>
+            </selectionEntry>
+            <selectionEntry id="b357-e4f7-7352-e33f" name="Wizard Level 2" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ea9c-a717-9222-1770" type="max"/>
+              </constraints>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="pts" costTypeId="points" value="35.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <selectionEntryGroups/>
+          <entryLinks/>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks/>
@@ -10297,7 +10436,7 @@ Warning :  if a character without this rule join this unit , all the models lose
       <modifiers/>
       <description>- Forest Strider 
 - close combat and shooting attacks are magical
-- if not a mount : save 6+ and Immune to psicology</description>
+- if not a mount : save 6+ and Immune to Psychology</description>
     </rule>
     <rule id="7fbc8bf7-611b-a502-a8fd-7165c8e9ad62" name="Forest Stalker" book="AB" page="36" hidden="false">
       <profiles/>
