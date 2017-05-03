@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="0f48c054-1399-d222-0570-b20c15442639" name="Wood Elves - Army Book (2014-5) -V8.8.0." revision="66" battleScribeVersion="2.00" authorName="Don Thorpe" authorContact="the.desperate.allies@gmail.com" authorUrl="http://battlescribedata.appspot.com/#/repo/whfb" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="0f48c054-1399-d222-0570-b20c15442639" name="Wood Elves - Army Book (2014-5) -V8.8.0." revision="70" battleScribeVersion="2.00" authorName="Don Thorpe" authorContact="the.desperate.allies@gmail.com" authorUrl="http://battlescribedata.appspot.com/#/repo/whfb" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -2086,7 +2086,7 @@ At the start of the Remaining Moves sub-phase of your first turn, roll a D6 for 
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="M" characteristicTypeId="4d23232344415441232323" value="M"/>
+            <characteristic name="M" characteristicTypeId="4d23232344415441232323" value="5"/>
             <characteristic name="WS" characteristicTypeId="575323232344415441232323" value="6"/>
             <characteristic name="BS" characteristicTypeId="425323232344415441232323" value="6"/>
             <characteristic name="S" characteristicTypeId="5323232344415441232323" value="4"/>
@@ -2122,9 +2122,59 @@ At the start of the Remaining Moves sub-phase of your first turn, roll a D6 for 
             <characteristic name="Type" characteristicTypeId="5479706523232344415441232323" value="Infantry (Special Character)"/>
           </characteristics>
         </profile>
+        <profile id="4af2-f840-0f56-bdb1" name="Talon of Dawn" hidden="false" profileTypeId="576561706f6e23232344415441232323" profileTypeName="Weapon">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Range" characteristicTypeId="52616e676523232344415441232323" value="30"/>
+            <characteristic name="Strength" characteristicTypeId="537472656e67746823232344415441232323" value="5"/>
+            <characteristic name="Special Rules" characteristicTypeId="5370656369616c2052756c657323232344415441232323" value="Armour Piercing, Flaming Attacks, Multiple Wounds (d6), if causing at least one unsaved Wound, Naestra&apos;s mount regains one W"/>
+          </characteristics>
+        </profile>
+        <profile id="8715-d1db-8722-d1a8" name="Talon of Dusk" hidden="false" profileTypeId="576561706f6e23232344415441232323" profileTypeName="Weapon">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Range" characteristicTypeId="52616e676523232344415441232323" value="30"/>
+            <characteristic name="Strength" characteristicTypeId="537472656e67746823232344415441232323" value="1"/>
+            <characteristic name="Special Rules" characteristicTypeId="5370656369616c2052756c657323232344415441232323" value="Armour Piercing, Multiple Shots (2d6), Poisoned Attacks"/>
+          </characteristics>
+        </profile>
       </profiles>
-      <rules/>
-      <infoLinks/>
+      <rules>
+        <rule id="e7d0-1520-9bc9-eba2" name="Conjoined Destiny" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>If either Arahan or Naestra is slain, do not remove the model from play unless the other sister is killed in the same phase. If at least one sister has at least one Wound remaining at the end of a phase, both are restored to their starting number of Wounds - otherwise, remove both models as casualties. If either Naestra or Arahan issues or accepts a challenge, the other can attack (and be attacked) as part of the challenge. Should their mount be slain, the sisters automatically form a unit. They can join other units, but if one of the twins joins a unit, so must the other. If one twin cannot join the unit, neither can the other.</description>
+        </rule>
+        <rule id="181f-c6a5-9361-f24f" name="Sisters of Twilight" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Naestra’s close combat attacks receive a +1 bonus To Wound against models from the Forces of Destruction. Arahan’s close combat attacks receive a +1 bonus To Wound against models from the Forces of Order.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="326a-7235-de30-7c20" name="New InfoLink" hidden="false" targetId="69139d30-b762-93fe-bf68-14daf69ee2c4" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="386c-4ea5-66fa-3e0a" name="New InfoLink" hidden="false" targetId="7fbc8bf7-611b-a502-a8fd-7165c8e9ad62" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
       <modifiers/>
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxInRoster" type="max"/>
@@ -2142,64 +2192,28 @@ At the start of the Remaining Moves sub-phase of your first turn, roll a D6 for 
           </constraints>
           <selectionEntries>
             <selectionEntry id="858b5cb5-2675-9760-4f67-f1663896ee7b" name="Gwindalor (Great Eagle)" page="0" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
-              <profiles>
-                <profile id="849d-7ff8-47fa-01a5" name="Gwindalor" book="AB" page="89" hidden="false" profileTypeId="4d6f64656c23232344415441232323" profileTypeName="Model">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                  <characteristics>
-                    <characteristic name="M" characteristicTypeId="4d23232344415441232323" value="2"/>
-                    <characteristic name="WS" characteristicTypeId="575323232344415441232323" value="5"/>
-                    <characteristic name="BS" characteristicTypeId="425323232344415441232323" value="0"/>
-                    <characteristic name="S" characteristicTypeId="5323232344415441232323" value=""/>
-                    <characteristic name="T" characteristicTypeId="5423232344415441232323" value=""/>
-                    <characteristic name="W" characteristicTypeId="5723232344415441232323" value="3"/>
-                    <characteristic name="I" characteristicTypeId="4923232344415441232323" value="4"/>
-                    <characteristic name="A" characteristicTypeId="4123232344415441232323" value="2"/>
-                    <characteristic name="LD" characteristicTypeId="4c4423232344415441232323" value="8"/>
-                    <characteristic name="ArmourSave" characteristicTypeId="41726d6f75725361766523232344415441232323"/>
-                    <characteristic name="WardSave" characteristicTypeId="576172645361766523232344415441232323"/>
-                    <characteristic name="MR" characteristicTypeId="4d5223232344415441232323"/>
-                    <characteristic name="Type" characteristicTypeId="5479706523232344415441232323" value="Monstrous Beast"/>
-                  </characteristics>
-                </profile>
-              </profiles>
+              <profiles/>
               <rules/>
               <infoLinks/>
               <modifiers/>
               <constraints/>
               <selectionEntries/>
               <selectionEntryGroups/>
-              <entryLinks/>
+              <entryLinks>
+                <entryLink id="5c01-da53-520b-59ac" name="New EntryLink" hidden="false" targetId="e224-7ac0-e9bb-a876" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                </entryLink>
+              </entryLinks>
               <costs>
                 <cost name="pts" costTypeId="points" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="21f86a59-47df-dce0-22bd-d5a4ddd301c4" name="Ceithin-Har (Forest Dragon)" page="0" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
-              <profiles>
-                <profile id="d333-c901-4f6e-4f3b" name="Ceithin-Har" book="AB" page="89" hidden="false" profileTypeId="4d6f64656c23232344415441232323" profileTypeName="Model">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                  <characteristics>
-                    <characteristic name="M" characteristicTypeId="4d23232344415441232323" value="6"/>
-                    <characteristic name="WS" characteristicTypeId="575323232344415441232323" value="6"/>
-                    <characteristic name="BS" characteristicTypeId="425323232344415441232323" value="0"/>
-                    <characteristic name="S" characteristicTypeId="5323232344415441232323" value="6"/>
-                    <characteristic name="T" characteristicTypeId="5423232344415441232323" value="6"/>
-                    <characteristic name="W" characteristicTypeId="5723232344415441232323" value="6"/>
-                    <characteristic name="I" characteristicTypeId="4923232344415441232323" value="3"/>
-                    <characteristic name="A" characteristicTypeId="4123232344415441232323" value="5"/>
-                    <characteristic name="LD" characteristicTypeId="4c4423232344415441232323" value="8"/>
-                    <characteristic name="ArmourSave" characteristicTypeId="41726d6f75725361766523232344415441232323"/>
-                    <characteristic name="WardSave" characteristicTypeId="576172645361766523232344415441232323"/>
-                    <characteristic name="MR" characteristicTypeId="4d5223232344415441232323"/>
-                    <characteristic name="Type" characteristicTypeId="5479706523232344415441232323" value="Monster"/>
-                  </characteristics>
-                </profile>
-              </profiles>
+              <profiles/>
               <rules/>
               <infoLinks/>
               <modifiers/>
@@ -2208,7 +2222,15 @@ At the start of the Remaining Moves sub-phase of your first turn, roll a D6 for 
               </constraints>
               <selectionEntries/>
               <selectionEntryGroups/>
-              <entryLinks/>
+              <entryLinks>
+                <entryLink id="1b85-aeca-d9d8-797b" name="New EntryLink" hidden="false" targetId="42d3-80bf-dd8f-6f4b" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                </entryLink>
+              </entryLinks>
               <costs>
                 <cost name="pts" costTypeId="points" value="220.0"/>
               </costs>
@@ -2261,9 +2283,88 @@ At the start of the Remaining Moves sub-phase of your first turn, roll a D6 for 
             <characteristic name="Type" characteristicTypeId="5479706523232344415441232323" value="Monster (Special Character)"/>
           </characteristics>
         </profile>
+        <profile id="e164-92e3-0dc6-21eb" name="Cloak of Isha" hidden="false" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" profileTypeName="Arcane and Enchanted Item">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Magic Property" characteristicTypeId="4d616769632050726f706572747923232344415441232323" value="5+ Ward Save, Magic Resistance (2). At the start of each of your turns, roll a d6, 6+ Orion regains a W"/>
+          </characteristics>
+        </profile>
+        <profile id="fee4-fa0c-0ef1-b0f6" name="Hawk&apos;s Talon" hidden="false" profileTypeId="576561706f6e23232344415441232323" profileTypeName="Weapon">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Range" characteristicTypeId="52616e676523232344415441232323" value="30"/>
+            <characteristic name="Strength" characteristicTypeId="537472656e67746823232344415441232323" value="5"/>
+            <characteristic name="Special Rules" characteristicTypeId="5370656369616c2052756c657323232344415441232323" value="Multiple Shots (6)"/>
+          </characteristics>
+        </profile>
+        <profile id="0dac-4fcd-b5e7-e32d" name="Spear of kurnous" hidden="false" profileTypeId="576561706f6e23232344415441232323" profileTypeName="Weapon">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Range" characteristicTypeId="52616e676523232344415441232323" value="18"/>
+            <characteristic name="Strength" characteristicTypeId="537472656e67746823232344415441232323" value="7"/>
+            <characteristic name="Special Rules" characteristicTypeId="5370656369616c2052756c657323232344415441232323" value="Attacks like Bolt Thrower, can be used if Orion moved (but not marched). Multiple Wounds (d3), no Armour Saves allowed"/>
+          </characteristics>
+        </profile>
+        <profile id="739e-17e7-3414-5c21" name="Horn of the Wild Hunt" hidden="false" profileTypeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" profileTypeName="Arcane and Enchanted Item">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Magic Property" characteristicTypeId="4d616769632050726f706572747923232344415441232323" value="Confers Devestating Charge to Orion, his unit and all friendly Wood Elf units within 6&quot; until end of that turn"/>
+          </characteristics>
+        </profile>
       </profiles>
-      <rules/>
-      <infoLinks/>
+      <rules>
+        <rule id="c090-9bba-3c5c-cf95" name="Orion&apos;s Equerries" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>If Orion is accompanied by Hounds of Orion, they m ust be deployed as a unit (even though as a monster, Orion is not normally permitted to join units). Orion cannot leave this unit, and cannot join other units.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="a9ab-8b3d-682e-4a3f" name="New InfoLink" hidden="false" targetId="69139d30-b762-93fe-bf68-14daf69ee2c4" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="904c-6d31-357e-68b0" name="New InfoLink" hidden="false" targetId="7fbc8bf7-611b-a502-a8fd-7165c8e9ad62" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="9fa5-8cde-baa0-62bc" name="New InfoLink" hidden="false" targetId="05f89eed-e552-7c4b-552c-465e9045b3f6" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="7b54-a412-e086-b48c" name="New InfoLink" hidden="false" targetId="de93-691e-0995-9ea0" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="13a1-540b-6ad2-b959" name="New InfoLink" hidden="false" targetId="a249-5295-1e2f-5c6d" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
       <modifiers/>
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxInRoster" type="max"/>
@@ -2287,14 +2388,33 @@ At the start of the Remaining Moves sub-phase of your first turn, roll a D6 for 
                 <characteristic name="A" characteristicTypeId="4123232344415441232323" value="1"/>
                 <characteristic name="LD" characteristicTypeId="4c4423232344415441232323" value="6"/>
                 <characteristic name="ArmourSave" characteristicTypeId="41726d6f75725361766523232344415441232323"/>
-                <characteristic name="WardSave" characteristicTypeId="576172645361766523232344415441232323"/>
+                <characteristic name="WardSave" characteristicTypeId="576172645361766523232344415441232323" value="6"/>
                 <characteristic name="MR" characteristicTypeId="4d5223232344415441232323"/>
                 <characteristic name="Type" characteristicTypeId="5479706523232344415441232323" value="War Beast"/>
               </characteristics>
             </profile>
           </profiles>
           <rules/>
-          <infoLinks/>
+          <infoLinks>
+            <infoLink id="ff5d-755d-8c54-05dc" name="New InfoLink" hidden="false" targetId="ced68ad4-128c-8737-8659-1b01f35fe33f" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+            <infoLink id="f1d0-dee5-ea60-0252" name="New InfoLink" hidden="false" targetId="05f89eed-e552-7c4b-552c-465e9045b3f6" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+            <infoLink id="fc59-3905-d432-010d" name="New InfoLink" hidden="false" targetId="a249-5295-1e2f-5c6d" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
           <modifiers/>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
@@ -7724,6 +7844,142 @@ Boost to target all forests within 12&quot;, cast on 16+</description>
         <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="42d3-80bf-dd8f-6f4b" name="Ceithin-Har (Forest Dragon)" page="0" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+      <profiles>
+        <profile id="6ab5-d934-90b5-aa85" name="Ceithin-Har" book="AB" page="89" hidden="false" profileTypeId="4d6f64656c23232344415441232323" profileTypeName="Model">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="M" characteristicTypeId="4d23232344415441232323" value="6"/>
+            <characteristic name="WS" characteristicTypeId="575323232344415441232323" value="6"/>
+            <characteristic name="BS" characteristicTypeId="425323232344415441232323" value="0"/>
+            <characteristic name="S" characteristicTypeId="5323232344415441232323" value="6"/>
+            <characteristic name="T" characteristicTypeId="5423232344415441232323" value="6"/>
+            <characteristic name="W" characteristicTypeId="5723232344415441232323" value="6"/>
+            <characteristic name="I" characteristicTypeId="4923232344415441232323" value="3"/>
+            <characteristic name="A" characteristicTypeId="4123232344415441232323" value="5"/>
+            <characteristic name="LD" characteristicTypeId="4c4423232344415441232323" value="8"/>
+            <characteristic name="ArmourSave" characteristicTypeId="41726d6f75725361766523232344415441232323" value="3"/>
+            <characteristic name="WardSave" characteristicTypeId="576172645361766523232344415441232323" value="6"/>
+            <characteristic name="MR" characteristicTypeId="4d5223232344415441232323"/>
+            <characteristic name="Type" characteristicTypeId="5479706523232344415441232323" value="Monster"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="cae4-3e6e-cb87-4a6c" name="Scaly Skin (3+)" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </rule>
+        <rule id="91ed-b6c0-5172-ab78" name="Impetuous" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>If Ceithin-Har can declare a Charge during the Charge sub-phase, he must do so unless he passes a Leadership test (which can be taken on Naestra or Arahan’s Leadership, if they are still alive).</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="8252-f490-6b41-933d" name="New InfoLink" hidden="false" targetId="3c3239b5-6dd2-7e5f-0a4f-69db2c71d233" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="b2d0-13b2-06fd-ee4e" name="New InfoLink" hidden="false" targetId="ced68ad4-128c-8737-8659-1b01f35fe33f" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="7bc6-ed8a-4cf0-f13b" name="New InfoLink" hidden="false" targetId="5ec1-a85b-da02-c36c" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="54eb-a2e2-f819-e1ef" name="New InfoLink" hidden="false" targetId="de93-691e-0995-9ea0" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="71db-4c2e-957c-b9e1" name="New InfoLink" hidden="false" targetId="3c16-ff77-57c1-5564" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="1beb-6934-77c2-074d" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8294-cae7-dc13-a0f5" type="min"/>
+      </constraints>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="220.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e224-7ac0-e9bb-a876" name="Gwindalor (Great Eagle)" page="0" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+      <profiles>
+        <profile id="8df3-ef7b-5112-6169" name="Gwindalor" book="AB" page="89" hidden="false" profileTypeId="4d6f64656c23232344415441232323" profileTypeName="Model">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="M" characteristicTypeId="4d23232344415441232323" value="2"/>
+            <characteristic name="WS" characteristicTypeId="575323232344415441232323" value="5"/>
+            <characteristic name="BS" characteristicTypeId="425323232344415441232323" value="0"/>
+            <characteristic name="S" characteristicTypeId="5323232344415441232323" value=""/>
+            <characteristic name="T" characteristicTypeId="5423232344415441232323" value=""/>
+            <characteristic name="W" characteristicTypeId="5723232344415441232323" value="3"/>
+            <characteristic name="I" characteristicTypeId="4923232344415441232323" value="4"/>
+            <characteristic name="A" characteristicTypeId="4123232344415441232323" value="2"/>
+            <characteristic name="LD" characteristicTypeId="4c4423232344415441232323" value="8"/>
+            <characteristic name="ArmourSave" characteristicTypeId="41726d6f75725361766523232344415441232323"/>
+            <characteristic name="WardSave" characteristicTypeId="576172645361766523232344415441232323"/>
+            <characteristic name="MR" characteristicTypeId="4d5223232344415441232323"/>
+            <characteristic name="Type" characteristicTypeId="5479706523232344415441232323" value="Monstrous Beast"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="1271-a360-d3ed-cd48" name="Hunter&apos;s Mount" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Naestra and Arahan re-roll failed To Hit rolls when making shooting attacks</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="44e1-856b-f174-a3ad" name="New InfoLink" hidden="false" targetId="3c3239b5-6dd2-7e5f-0a4f-69db2c71d233" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="03e6-d144-ff7c-29fa" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ed7b-9e5d-c6d4-7ff9" type="max"/>
+      </constraints>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="5cadea4d-5983-c5bd-a51b-9be007b32282" name="25 Point Arcane Items" hidden="false" collective="false">
@@ -10131,6 +10387,13 @@ If a Terror-causing creature declares a charge, the target unit must immediately
       <infoLinks/>
       <modifiers/>
       <description>A model with this special rule can choose to make a single Tree W hack in place of making his normal close combat attacks. If a model is making a Tree Whack, it must be declared before rolling To Hit. To resolve a Tree Whack, nominate an enemy model in base contact. That model must pass an Initiative test or suffer D6 Wounds with no armour saves allowed. A character with this special rule may make a Tree Whack in a challenge.</description>
+    </rule>
+    <rule id="a249-5295-1e2f-5c6d" name="Unbreakable" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>A unit composed entirely of Unbreakable models is Immune to Psychology and passes Break tests automatically, no matter the odds.</description>
     </rule>
   </sharedRules>
   <sharedProfiles>
