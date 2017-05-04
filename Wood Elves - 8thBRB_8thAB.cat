@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="0f48c054-1399-d222-0570-b20c15442639" name="Wood Elves - Army Book (2014-5) -V8.8.0." revision="88" battleScribeVersion="2.00" authorName="Don Thorpe" authorContact="the.desperate.allies@gmail.com" authorUrl="http://battlescribedata.appspot.com/#/repo/whfb" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="0f48c054-1399-d222-0570-b20c15442639" name="Wood Elves - Army Book (2014-5) -V8.8.0." revision="90" battleScribeVersion="2.00" authorName="Don Thorpe" authorContact="the.desperate.allies@gmail.com" authorUrl="http://battlescribedata.appspot.com/#/repo/whfb" gameSystemId="be4eb679-97dc-4876-b582-19ff87fae0fd" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules>
     <rule id="82aa-2802-1ec0-3ef7" name="Ambush from the Worldroots" hidden="false">
@@ -7,7 +7,7 @@
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>A Wood E lf army can always place an additional forest on the battlefield. This is done during deployment, before any units are deployed, and must be placed wholly in your half of the batdefield. This forest is not mysterious terrain - declare its type when you place it. If you cannot fit the forest on your half of the table, move other terrain features by the shortest distance necessary so that the forest can be placed. If you still cannot place the forest, or if the scenario means that the Wood E lf army does not have a table half in which to deploy, this additional forest is not used in this battie.</description>
+      <description>A Wood Elf army can always place an additional forest on the battlefield. This is done during deployment, before any units are deployed, and must be placed wholly in your half of the batdefield. This forest is not mysterious terrain - declare its type when you place it. If you cannot fit the forest on your half of the table, move other terrain features by the shortest distance necessary so that the forest can be placed. If you still cannot place the forest, or if the scenario means that the Wood Elf army does not have a table half in which to deploy, this additional forest is not used in this battie.</description>
     </rule>
   </rules>
   <infoLinks/>
@@ -2272,7 +2272,7 @@ At the start of the Remaining Moves sub-phase of your first turn, roll a D6 for 
           <rules/>
           <infoLinks/>
           <modifiers>
-            <modifier type="set" field="41726d6f75725361766523232344415441232323" value="6">
+            <modifier type="decrement" field="41726d6f75725361766523232344415441232323" value="1">
               <repeats/>
               <conditions>
                 <condition field="selections" scope="42ab23ba-2b4b-fdc0-17b2-d7658d795b3e" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2896dc5a-8716-83cd-4b58-25035047cd07" type="atLeast"/>
@@ -2290,7 +2290,7 @@ At the start of the Remaining Moves sub-phase of your first turn, roll a D6 for 
             <characteristic name="I" characteristicTypeId="4923232344415441232323" value="7"/>
             <characteristic name="A" characteristicTypeId="4123232344415441232323" value="3"/>
             <characteristic name="LD" characteristicTypeId="4c4423232344415441232323" value="9"/>
-            <characteristic name="ArmourSave" characteristicTypeId="41726d6f75725361766523232344415441232323"/>
+            <characteristic name="ArmourSave" characteristicTypeId="41726d6f75725361766523232344415441232323" value="6"/>
             <characteristic name="WardSave" characteristicTypeId="576172645361766523232344415441232323"/>
             <characteristic name="MR" characteristicTypeId="4d5223232344415441232323"/>
             <characteristic name="Type" characteristicTypeId="5479706523232344415441232323" value="Infantry (Special Character)"/>
@@ -2301,7 +2301,7 @@ At the start of the Remaining Moves sub-phase of your first turn, roll a D6 for 
           <rules/>
           <infoLinks/>
           <modifiers>
-            <modifier type="set" field="41726d6f75725361766523232344415441232323" value="6">
+            <modifier type="decrement" field="41726d6f75725361766523232344415441232323" value="1">
               <repeats/>
               <conditions>
                 <condition field="selections" scope="42ab23ba-2b4b-fdc0-17b2-d7658d795b3e" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2896dc5a-8716-83cd-4b58-25035047cd07" type="atLeast"/>
@@ -2319,7 +2319,7 @@ At the start of the Remaining Moves sub-phase of your first turn, roll a D6 for 
             <characteristic name="I" characteristicTypeId="4923232344415441232323" value="7"/>
             <characteristic name="A" characteristicTypeId="4123232344415441232323" value="3"/>
             <characteristic name="LD" characteristicTypeId="4c4423232344415441232323" value="9"/>
-            <characteristic name="ArmourSave" characteristicTypeId="41726d6f75725361766523232344415441232323"/>
+            <characteristic name="ArmourSave" characteristicTypeId="41726d6f75725361766523232344415441232323" value="6"/>
             <characteristic name="WardSave" characteristicTypeId="576172645361766523232344415441232323"/>
             <characteristic name="MR" characteristicTypeId="4d5223232344415441232323"/>
             <characteristic name="Type" characteristicTypeId="5479706523232344415441232323" value="Infantry (Special Character)"/>
@@ -2382,7 +2382,22 @@ At the start of the Remaining Moves sub-phase of your first turn, roll a D6 for 
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxInRoster" type="max"/>
       </constraints>
-      <selectionEntries/>
+      <selectionEntries>
+        <selectionEntry id="0ade-bff9-d1f5-b3b4" name="Light Armour" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4bfc-fb5f-004c-86c1" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fcf7-a43c-92b0-3e2e" type="max"/>
+          </constraints>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs/>
+        </selectionEntry>
+      </selectionEntries>
       <selectionEntryGroups>
         <selectionEntryGroup id="2896dc5a-8716-83cd-4b58-25035047cd07" name="Mount" hidden="false" collective="false" defaultSelectionEntryId="858b5cb5-2675-9760-4f67-f1663896ee7b">
           <profiles/>
@@ -4895,7 +4910,9 @@ If miscast,  no roll on the table but 1d3 Wounds without save </description>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="ce2a-0b2f-068f-30c7" name="Two Hand Weapons" hidden="false" collective="false" type="upgrade">
           <profiles/>
@@ -4916,7 +4933,9 @@ If miscast,  no roll on the table but 1d3 Wounds without save </description>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
@@ -8403,8 +8422,8 @@ Boost to target all forests within 12&quot;, cast on 16+</description>
             <characteristic name="M" characteristicTypeId="4d23232344415441232323" value="2"/>
             <characteristic name="WS" characteristicTypeId="575323232344415441232323" value="5"/>
             <characteristic name="BS" characteristicTypeId="425323232344415441232323" value="0"/>
-            <characteristic name="S" characteristicTypeId="5323232344415441232323" value=""/>
-            <characteristic name="T" characteristicTypeId="5423232344415441232323" value=""/>
+            <characteristic name="S" characteristicTypeId="5323232344415441232323" value="4"/>
+            <characteristic name="T" characteristicTypeId="5423232344415441232323" value="4"/>
             <characteristic name="W" characteristicTypeId="5723232344415441232323" value="3"/>
             <characteristic name="I" characteristicTypeId="4923232344415441232323" value="4"/>
             <characteristic name="A" characteristicTypeId="4123232344415441232323" value="2"/>
